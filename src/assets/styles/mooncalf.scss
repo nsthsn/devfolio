@@ -1,0 +1,134 @@
+$m: 7px;
+$m0: 17px;
+$m1: 31px;
+$m2: 47px;
+$m3: 61px;
+$m4: 127px;
+$m45: 181px;
+$m5: 257px;
+$m6: 367px;
+$m7: 509px;
+
+$primaryFont : '';
+$secondaryFont : 'Lato';
+$secondaryFontBlack : 'Lato Black';
+
+body {
+    font-size: 100%;
+}
+.h1 {
+    font-size: 6rem;
+    font-weight: 200;
+    letter-spacing: -1.5;
+    line-height: 7rem;
+}
+.h2 {
+    font-family: 'Roboto Slab';
+    font-size: 3.75rem;
+    font-weight:200;
+    letter-spacing: -0.5;
+    line-height: 4.5rem;
+}
+.h3 {
+    font-family: 'Lato';
+    font-size: 2.935rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 3.5rem;
+}
+.h4 {
+    font-family: 'Lato';
+    font-size: 2.125rem;
+    font-weight: normal;
+    letter-spacing: 0.25;
+    line-height: 2.5rem;
+}
+.h5 {
+    font-family: 'Lato';
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.75rem;
+    letter-spacing: 0;
+}
+.h6 {
+    font-family: 'Lato';
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    letter-spacing: 0.15;
+}
+.subtitle-1 {
+    font-family: 'Lato';
+    font-size: 1.14rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    letter-spacing: 0.15;
+}
+.body-1 {
+    font-family: 'Lato';
+    font-size: 1.0625rem;
+    line-height:1.25rem;
+    font-weight: normal;
+    letter-spacing: 0.25;
+    text-align: left;
+}
+.body-2 {
+    font-family: 'Lato';
+    font-size: .875rem;
+    line-height:1.25rem;
+    font-weight: normal;
+    letter-spacing: 0.25;
+}
+.overline {
+    font-family: 'Lato';
+    font-size: 10px;
+    letter-spacing: 1.5;
+    text-transform: uppercase;
+}
+
+.no-padding {
+    padding:0;
+}
+.medium-emphasis {
+    opacity: 0.6;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+a, u {
+  text-decoration: none;
+}
+
+// .xs-display, .sm-display {
+//     .h4 {
+//         font-family: 'Lato';
+//         font-size: 1.25rem;
+//         font-weight: normal;
+//         letter-spacing: 0.25;
+//         line-height: 2.5rem;
+//     }
+//     .h5 {
+//         font-family: 'Lato';
+//         font-size: 1rem;
+//         font-weight: normal;
+//         line-height: 1.75rem;
+//         letter-spacing: 0;
+//     }
+//     .h6 {
+//         font-family: 'Lato';
+//         font-size: .67rem;
+//         font-weight: normal;
+//         line-height: 1.75rem;
+//         letter-spacing: 0;
+//     }
+// }
+
+
