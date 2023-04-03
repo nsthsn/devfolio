@@ -10,25 +10,33 @@ Vue.use(VueRouter)
     name: 'Home',
     component: Home
   },
-  // {
-  //   path: '/gallery/:gallery',
-  //   name: 'Gallery',
-  //   props: true,
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../components/Gallery.vue')
-  // },
-  // {
-  //   path: '/gallery/:gallery/detail/:detail',
-  //   name: 'Detail',
-  //   props: true,
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () => import(/* webpackChunkName: "about" */ '../components/Detail.vue')
-  // },
- 
+  {
+    path: '/Flyover/',
+    name: 'Flyover',
+    props: true,
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../components/Flyover.vue')
+  },
+  {
+    path: '/LudumDare/',
+    name: 'LudumDare',
+    props: true,
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../components/LudumDare.vue')
+  },
+  {
+    path: '/IdentityAutomation/',
+    name: 'IdentityAutomation',
+    props: true,
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../components/IdentityAutomation.vue')
+  }, 
 ]
 
 const router = new VueRouter({

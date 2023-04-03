@@ -1,16 +1,31 @@
 <template>
   <v-app v-bind:class="[{'md-display' : $vuetify.breakpoint.mdAndUp}, {'sm-display' : $vuetify.breakpoint.sm}, {'xs-display' : $vuetify.breakpoint.xs}]">
     <!-- <NavigationBarTop/> -->
-    <router-view/>
+    <v-container class="app-container">
+      <div class="content-container">
+        <v-row>
+          <v-col cols="3" class="">
+            <SideBar></SideBar>
+          </v-col>
+          <v-col cols="9" class="pa-0">
+            <!-- <div class="content-container"> -->
+              <router-view/>
+            <!-- </div> -->
+          </v-col>
+        </v-row>
+      </div>
+    </v-container>
   </v-app>
 </template>
 
 <script>
 // @ is an alias to /src
+import SideBar from '@/components/SideBar.vue'
 
 export default {
   name: 'App',
   components : {
+    SideBar
   },
   data: () => ({
   }),
@@ -27,7 +42,7 @@ export default {
 @import "assets/styles/mooncalf.scss";
 
 #app {
-  // font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -46,9 +61,19 @@ export default {
     }
   }
 }
-.content-container {
-  margin: auto;
-  width: 1201px;
-  max-width:  1201px;
+.app-container {
+  margin: 0 auto 0 auto;
+
 }
+.container {
+  // max-width:none !important;
+  width: none !important;
+}
+
+.content-container {
+  width: 61.68vw;
+  min-width:960px;
+  margin: auto;
+}
+
 </style>
