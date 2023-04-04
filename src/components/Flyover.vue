@@ -9,8 +9,11 @@
     ></StudyBanner>
     <TextBlock
       title="The Challenge"
-      text="The state of Kansas had recently implemented parity laws. This meant insurance had to reimburse online counseling at the same rate as in person counseling. This opened an opportunity to create an online only agency.
-            This also opened up the problem - build it and they will come only gets you a field of dreams. We needed a digital presence."
+      text="The state of Kansas had recently implemented parity laws.
+        This meant insurance had to reimburse online counseling at the same rate as in person counseling.
+        This was great news. Suddenly, an online agency was viable. Furthermore, there was no competition.
+        <br><br>
+        This also opened up the problem - an online agency needed customers and presence tuned to convert and service customers. Who they were and what they needed - I had no idea. But that was okay because knowing wasn't necessary."
     ></TextBlock>
     <PullQuote
       text='"What I found - was unicorns."'

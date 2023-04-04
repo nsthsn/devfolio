@@ -1,6 +1,6 @@
 <template>
   <v-row class="study-banner">
-    <v-col cols="3" class="pa-0">
+    <v-col cols="3" class="">
       <v-img 
         class="banner-image"
         :src=img
@@ -39,6 +39,8 @@
 @import "@/assets/styles/mooncalf.scss";
 
   .study-banner {
+    background-color:black;
+    color: white;
     .text-container{
       padding-left: $m1;
     }

@@ -1,11 +1,9 @@
 <template>
-  <v-row class="text-block pa-0">
-    <v-col cols="12" align="left" class="h3 pa-0 title">
+  <v-row class="text-block">
+    <v-col cols="12" align="left" class="h3 title">
       {{ title }}
     </v-col>
-    <v-col cols="12" align="left" class="pa-0">
-      {{ text }}
-    </v-col>
+    <v-col cols="12" align="left"><div v-html="text"></div></v-col>
   </v-row>
 </template>
 
@@ -27,6 +25,6 @@
 <style scoped lang="scss">
 @import "@/assets/styles/mooncalf.scss";
   .text-block {
-
+    background-color: white;
   }
 </style>

@@ -6,10 +6,10 @@ import Vuex from 'vuex';
 // import cloudinary from 'cloudinary-core';
 //import VueAnalytics from 'vue-analytics'
 
-import 'material-design-icons-iconfont/dist/material-design-icons.css'
+import 'material-design-icons-iconfont/dist/material-design-icons.css';
 
 // import Vue from 'vue'
-import VueMasonry from 'vue-masonry-css'
+import VueMasonry from 'vue-masonry-css';
  
 Vue.use(VueMasonry);
 

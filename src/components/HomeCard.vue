@@ -12,9 +12,9 @@
                 ></v-img>
             <!-- </div> -->
           </v-col>
-          <v-col cols="7">
+          <v-col cols="9">
             <v-row class="home-card-text">
-              <v-col cols="12">
+              <v-col cols="12" class="header-one font-weight-black">
                 {{ title }}
               </v-col>
               <v-col cols="12">
@@ -66,9 +66,9 @@ export default {
     right: 0;
     left: 0;
     /* fill parent */
-    background-color: deepskyblue;
+    background-color: white;
     /* let's see it! */
-    color: white;
+    color: rgba(0,0,0,86%);
     
     .content-wrapper {
       height:100%; 

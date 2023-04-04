@@ -1,5 +1,5 @@
 <template>
-  <div class="image-box">ImageBox
+  <div class="image-box">
     <v-row>
     <v-col class="images"
       v-for="image in images"

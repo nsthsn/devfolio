@@ -1,5 +1,5 @@
 <template>
-  <v-row class="d-flex">
+  <v-row class="d-flex header-two">
     <v-col cols=9>
       <router-link to="/">
         <v-img 
@@ -11,7 +11,7 @@
       <v-spacer></v-spacer>
     </v-col>
 
-    <v-col cols="12" class="text-left">
+    <!-- <v-col cols="12" class="text-left">
       Portfolio
     </v-col>
     <v-col cols="12" class="text-left">
@@ -19,7 +19,7 @@
     </v-col>
     <v-col cols="12" class="text-left">
       Contact
-    </v-col>
+    </v-col> -->
     
 </v-row>
 </template>
@@ -32,7 +32,7 @@ export default {
   name: "SideBar",
   data() {
     return {
-      logo : cloudinaryCore.url('https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680472207/nathanWalkerPortfolio/NN_gi1ass.png')
+      logo : cloudinaryCore.url('https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680548615/nathanWalkerPortfolio/NN_bglix1.png')
     }
   }
 }
