@@ -18,25 +18,7 @@ $bodyFont : "'Source Sans Pro', sans-serif";
 $captionFont : "Anonymous Pro";
 $serifFont : 'Lora';
 
-.html {
-  font-size: 16px;
-}
-
-.md-display, .lg-display, .xl-display {
-  body {
-    font-size: 24px;
-    background-color: #abb8c3;
-  }
-}
-
-.xs-display, .sm-display {
-  body {
-    font-size: 12px;
-  }
-}
-
 body {
-    // font-size: 24px;
     background-color: #abb8c3;
 }
 
@@ -45,10 +27,8 @@ body {
 }
 
 .body-one {
-  font-size: 1rem
+  font-size: 1rem;
 }
-
-
 
 .h1 {
     font-size: 6rem;

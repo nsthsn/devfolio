@@ -48,6 +48,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   background-color: #abb8c3;
+  font-size: 24px;
 }
 
 #nav {
@@ -68,12 +69,12 @@ export default {
 }
 .container {
   // max-width:none !important;
-  width: none !important;
+  // width: none !important;
 }
 
 .content-container {
-  width: 61.68vw;
-  min-width:960px;
+  // width: 61.68vw;
+  // min-width:960px;
   margin: auto;
   
 }

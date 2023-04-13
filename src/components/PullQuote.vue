@@ -1,9 +1,11 @@
 <template>
-  <div class="pull-quote">
-    <hr/>
-    {{ text }}
-    <hr/>
-  </div>
+  <v-row class="pull-quote ">
+    <v-col cols="12">
+      <hr/>
+        {{ text }}
+      <hr/>
+    </v-col>
+  </v-row>
 </template>
 
 <script>
@@ -21,6 +23,9 @@ export default {
 @import "@/assets/styles/mooncalf.scss";
   .pull-quote {
     font-family: $serifFont;
+    background-color: white;
+    color: red;
+
     hr {
       display: block;
       height: 1px;

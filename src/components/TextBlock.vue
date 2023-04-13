@@ -3,7 +3,7 @@
     <v-col cols="12" align="left" class="h3 title">
       {{ title }}
     </v-col>
-    <v-col cols="12" align="left"><div v-html="text"></div></v-col>
+    <v-col cols="12" align="left" class="pr-10 pl-10"><div v-html="text"></div></v-col>
   </v-row>
 </template>
 

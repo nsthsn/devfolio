@@ -11,10 +11,10 @@
       <v-spacer></v-spacer>
     </v-col>
 
-    <!-- <v-col cols="12" class="text-left">
-      Portfolio
-    </v-col>
     <v-col cols="12" class="text-left">
+      Generalist in General
+    </v-col>
+    <!-- <v-col cols="12" class="text-left">
       About
     </v-col>
     <v-col cols="12" class="text-left">

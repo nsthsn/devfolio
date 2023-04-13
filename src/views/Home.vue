@@ -4,27 +4,27 @@
       <v-col cols=12>
         <HomeCard 
           route="Flyover" 
-          image='https://res.cloudinary.com/mooncalf/image/upload/v1651780301/nathanWalkerPhotography/prints/web_gallery_wides-4_nex7rf.jpg'
+          image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680638406/nathanWalkerPortfolio/betterTogether_square_iim2f0.png'
           title='FLYOVER COUNSELING'
           text ='Iterating from MVP to thriving practice.'
         ></HomeCard>
         <HomeCard
           route="Tangram" 
-          image='https://res.cloudinary.com/mooncalf/image/upload/v1651780301/nathanWalkerPhotography/prints/web_gallery_wides-4_nex7rf.jpg'
+          image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680638625/nathanWalkerPortfolio/gameIcon_v18_512_zjtilp.png'
           title="OMG TANGRAM"
           text="A leak in the conversion pipeline won't stay fixed."
         ></HomeCard>
         <HomeCard 
           route="IdentityAutomation" 
-          image='https://res.cloudinary.com/mooncalf/image/upload/v1651780301/nathanWalkerPhotography/prints/web_gallery_wides-4_nex7rf.jpg'
+          image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680639720/nathanWalkerPortfolio/dceba86f-5d6c-426a-bbfb-4ca5e47736c7_opiq0w.png'
           title="IDENTITY AUTOMATION"
           text="Analytics saves the day, User Personas pave the way."
         ></HomeCard>
         <HomeCard 
           route="LudumDare" 
-          image='https://res.cloudinary.com/mooncalf/image/upload/v1680582372/nathanWalkerPortfolio/resetData_nqqgbb.png'
+          image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680638157/nathanWalkerPortfolio/communityIcon_wnbpyy6bixk31_rkqput.png'
           title="LUDUM DARE"
-          text="A three-day product cycle."
+          text="Three-day product cycles for fun and no profit."
         ></HomeCard>
       </v-col>
     </v-row>

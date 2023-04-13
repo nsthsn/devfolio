@@ -1,6 +1,6 @@
 <template>
-  <div class="image-box">
-    <v-row>
+  <v-row class="image-box">
+    <!-- <v-row> -->
     <v-col class="images"
       v-for="image in images"
       :key="image"
@@ -11,11 +11,13 @@
       ></v-img>
     </v-col>
 
-    </v-row>
-    <div class="image-caption">
+    <!-- </v-row> -->
+    <v-row class="image-caption">
+      <v-col cols="12">
       {{ caption }}
-    </div>
-  </div>
+      </v-col>
+    </v-row>
+  </v-row>
 </template>
 
 <script>
@@ -30,12 +32,12 @@ export default {
     }, this.images);
   },
   name: "ImageBox",
-  props: ['images', 'caption'],
+  props: ['images', 'caption', 'columns'],
   data() {
     return {
       imageCount: this.images.length,
       // this is blindly trusting the data passed in
-      columns: 12 / this.images.length,
+      // columns: 12 / this.images.length,
       cloudinaryImages: {
 
       }
@@ -47,6 +49,6 @@ export default {
 <style scoped lang="scss">
 @import "@/assets/styles/mooncalf.scss";
   .image-box {
-
+    background-color:white;
   }
 </style>

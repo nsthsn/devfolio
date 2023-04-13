@@ -1,0 +1,42 @@
+<template>
+  <v-row class="note-card-container">
+    <v-col
+      v-for="card in cards"
+      :key="card"
+      :cols=columns
+    >
+    <v-row class="note-card ma-2">
+      <v-col cols=12>
+        {{ card.title }}
+      </v-col>
+      <v-col cols=12>
+        {{ card.text }}
+      </v-col>
+    </v-row>
+    </v-col>
+  </v-row>
+</template>
+
+<script>
+
+export default {
+  data () {
+    return {
+      columns : 12 / this.cards.length // assume good input - im in a hurry! what could possibly go wrong!
+    }
+  },
+  name: 'NoteCard',
+  props: ["cards"],
+}
+</script>
+
+<style scoped lang="scss">
+@import "../assets/styles/mooncalf.scss";
+  .note-card-container {
+    background-color:white;
+  }
+  .note-card {
+    background-color:yellow;
+    box-shadow: 10px 10px lightblue;
+  }
+</style>

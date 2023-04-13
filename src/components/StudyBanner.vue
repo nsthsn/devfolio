@@ -1,6 +1,6 @@
 <template>
   <v-row class="study-banner">
-    <v-col cols="3" class="">
+    <v-col cols="3" class="pa-0">
       <v-img 
         class="banner-image"
         :src=img
