@@ -1,5 +1,5 @@
 <template>
-  <v-row class="note-card-container">
+  <v-row class="note-card-container pr-16 pl-16">
     <v-col
       v-for="card in cards"
       :key="card"

@@ -21,10 +21,18 @@
         But that was okay because knowing isn't always necessary.
       "
     ></TextBlock>
+    <TextBlock
+      title="My Role"
+      text="
+        My role encompassed everything but the counseling itself. 
+        This included market research, marketing, design, and programming. 
+        Because my job was to do anything left undone, I also found myself in the role of sales coach, portrait photographer and retoucher, and most importantly - Chief Belief Officer.
+      "
+    />
 
     <!-- ESTABLISH THE PROCESS -->
     <PullQuote
-      text='"Do it, then do it again."'
+      text='Do it. Then do it again.'
     ></PullQuote>
     <!-- ESTABLISH SUCCESS METRICS -->
     <TextBlock
@@ -38,53 +46,42 @@
         Without a measurable goal, we risk being busy and accomplishing nothing.
         <br><br>
         With this in mind I established two measurable goals - one quantitative, one qualitative.
-        The quantitative goal : we had a set amount of hours to sell, were they sold?
-        The qualitative goal : the counselor had a preferred clientele, were these the customers finding them?
-        <br><br>
-        For each of these major goals I established a minor goal. 
-        Before I sold forty hours a week of counseling, I needed to sell ONE hour of counseling.
-        Before the counselor had a caseload of ideal clients, I needed to find ONE ideal client.
       '
     ></TextBlock>
     <NoteCard
       :cards="[
         {
-          title: 'Qualifiable Goal',
+          title: 'Qualifiable  Major Goal',
           text: 'Attract ideal clientele.'
         },
         {
-          title: 'Quantifiable Goal',
-          text: 'Sell all available counseling hours.'
+          title: 'Quantifiable Major Goal',
+          text: 'Sell all available counseling hours at market rate.'
         }
       ]"
     ></NoteCard>
+    <PullQuote
+      text='What I found - were unicorns.'
+    ></PullQuote>
     <TextBlock
       title="My Process"
       text='
         Educate, Execute, Evaluate. Repeat. Do it, then do it again.
         <br><br>
         Educating myself for this project was a relatively simple task.
-        I would investigate exactly as I imagined my users would - by using an online search engine. 
-        This investigation would natural double as market research. 
+        I investigated exactly as most eventual customers users would - by using an online search engine. 
+        This investigation naturally doubled as market research. 
         I was not making a new market, I was entering an existing one.
         <br><br>
-        Execution followed from education. Whatever the competition had - I needed to make as well.
-        <br><br>
-        Measurement would take several forms. 
-        While my ultimate goal was converting customers, there would be several metrics I would want to pay attention to on that path.
-        Ad analytics, website analytics, counselor and customer feedback would provide these.
-        <br><br>
         I knew what I had to accomplish. Other than that, I knew nothing.
-        So I did what every one of our future customers would end up doing. I googled "mental health counseling near me".
+        I googled "mental health counseling near me".
         I expected were local brick and mortar private practices, but what I found - were unicorns.
         And where there are unicorns there is highly optimized assets sparkling from polish by VC financed geniuses.
         <br><br>
       '
     ></TextBlock>
     <!-- ESTABLISH THE PROCESS -->
-    <PullQuote
-      text='"What I found - were unicorns."'
-    ></PullQuote>
+
 
     <!-- Display the unicorns -->
     <ImageBox
@@ -105,6 +102,8 @@
         The customers the competition was capturing were the very same customers I wanted to capture.
         Furthermore, I had high confidence the assets they created were doing a great job.
         The initial consultation, the final step of the conversion pipeline, was harder to copy. 
+        I could schedule consultations with various therapists and I initially intended to.
+        I discovered most counselors had full consultation schedules - I was not actually in the market and wasting a professionals time is not professional.
         I could put myself in the client seat for these scenarios but an in person sale demands personal style.
       '
     ></TextBlock>

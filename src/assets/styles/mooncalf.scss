@@ -16,19 +16,24 @@ $secondaryFontBlack : 'Lato Black';
 $headerFont : '';
 $bodyFont : "'Source Sans Pro', sans-serif";
 $captionFont : "Anonymous Pro";
-$serifFont : 'Lora';
+$serifFont : 'PT Serif';
 
 body {
     background-color: #abb8c3;
 }
 
 .header-one {
+  font-size: 4.236rem;
+}
+
+.header-two {
   font-size: 2.618rem;
 }
 
 .body-one {
   font-size: 1rem;
 }
+
 
 .h1 {
     font-size: 6rem;

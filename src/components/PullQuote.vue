@@ -1,8 +1,8 @@
 <template>
-  <v-row class="pull-quote ">
+  <v-row class="pull-quote header-two">
     <v-col cols="12">
       <hr/>
-        {{ text }}
+      “{{ text }}”
       <hr/>
     </v-col>
   </v-row>

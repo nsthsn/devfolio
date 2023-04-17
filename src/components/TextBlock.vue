@@ -1,9 +1,9 @@
 <template>
-  <v-row class="text-block">
+  <v-row class="text-block pr-12 pl-12">
     <v-col cols="12" align="left" class="h3 title">
       {{ title }}
     </v-col>
-    <v-col cols="12" align="left" class="pr-10 pl-10"><div v-html="text"></div></v-col>
+    <v-col cols="12" align="left" class="body-one"><div v-html="text"></div></v-col>
   </v-row>
 </template>
 
@@ -24,6 +24,9 @@
 
 <style scoped lang="scss">
 @import "@/assets/styles/mooncalf.scss";
+  .title {
+    text-transform: uppercase;
+  }
   .text-block {
     background-color: white;
   }
