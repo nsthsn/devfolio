@@ -1,16 +1,17 @@
 <template>
-  <v-row class="note-card-container pr-16 pl-16">
+  <v-row class="note-card-container pr-16 pl-16 text-left">
     <v-col
       v-for="card in cards"
       :key="card"
       :cols=columns
     >
     <v-row class="note-card ma-2">
-      <v-col cols=12>
+      <v-col v-if="card.title" cols=12>
         {{ card.title }}
       </v-col>
-      <v-col cols=12>
-        {{ card.text }}
+      <v-col v-if="card.text" cols=12>
+        <div v-html="card.text"></div>
+        <!-- {{ card.text }} -->
       </v-col>
     </v-row>
     </v-col>

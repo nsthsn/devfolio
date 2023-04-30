@@ -3,7 +3,7 @@
     <v-col cols="12" align="left" class="h3 title">
       {{ title }}
     </v-col>
-    <v-col cols="12" align="left" class="body-one"><div v-html="text"></div></v-col>
+    <v-col cols="12" align="left" class="body-one text-block-text"><div v-html="text"></div></v-col>
   </v-row>
 </template>
 
@@ -29,5 +29,9 @@
   }
   .text-block {
     background-color: white;
+
+  }
+  .text-block-text {
+    line-height: 1.5;
   }
 </style>

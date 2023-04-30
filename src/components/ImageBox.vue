@@ -12,7 +12,7 @@
     </v-col>
 
     <!-- </v-row> -->
-    <v-row class="image-caption">
+    <v-row class="image-caption text-left">
       <v-col cols="12">
       {{ caption }}
       </v-col>
