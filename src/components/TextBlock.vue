@@ -13,7 +13,7 @@
 
   export default {
     name: "TextBlock",
-    props: ['title', 'text'],
+    props: ['title', 'text', 'subtitle'],
     data() {
       return {
         img : cloudinaryCore.url(this.image)

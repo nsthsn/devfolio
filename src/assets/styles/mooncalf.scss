@@ -30,8 +30,13 @@ body {
   font-size: 2.618rem;
 }
 
-.body-one {
-  font-size: 1rem;
+// .body-one {
+//   font-size: 1rem;
+// }
+
+.caption {
+  font-size: .5rem;
+  font-family: $captionFont;
 }
 
 
@@ -87,7 +92,7 @@ body {
 .body-one {
     //font-family: 'Lato';
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.0625rem;
+    font-size: 1.25rem;
     line-height:1.25rem;
     font-weight: normal;
     letter-spacing: 0.25;

@@ -10,9 +10,7 @@
         :src=image
       ></v-img>
     </v-col>
-
-    <!-- </v-row> -->
-    <v-row class="image-caption text-left">
+    <v-row class="image-caption caption text-left pr-4 pl-4">
       <v-col cols="12">
       {{ caption }}
       </v-col>
@@ -32,7 +30,7 @@ export default {
     }, this.images);
   },
   name: "ImageBox",
-  props: ['images', 'caption', 'columns'],
+  props: ['images', 'caption', 'columns', 'outline'],
   data() {
     return {
       imageCount: this.images.length,

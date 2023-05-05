@@ -11,22 +11,32 @@
     <TextBlock
       title="The Challenge"
       text="
-        The state of Kansas had recently implemented parity laws for online counseling.
+        Full disclosure : this started as a lifestyle business. The counselor mentioned at the beginning of this story was and quite fortunately remains my wife.
+        Starting a business with your spouse is not for the faint of heart. As the study progresses the counselor begins to refer to the group of counselors.
+        And sometimes our office manager. I now have many masters!
+        <br><br>
+        Anyhow, this story begins on a morning like most others in the year 2016 - I was code monkeying away in my pajamas - my wife was preparing for a 45 minute commute.
+        She quite mournfully remarked, 'I chose the wrong profession, I want to work in my pajamas.' My response, 'Well, why not?'
+        <br><br>
+        There were some why nots but as luck would have it they were no longer relevant. The state of Kansas had recently implemented parity laws for online counseling.
         This meant insurance had to reimburse online counseling at the same rate as in person counseling.
-        This was great news. Suddenly, an online agency was viable. 
-        Furthermore, there was no competition. Yet.
+        <br><br>
+        Can you do online counseling in pajamas? You sure can! Or at least pajama bottoms. As it turns out, full pajamas is quite unprofessional. Or dress shirts are quite unpajama - either reality is definitely true.
+        <br><br>
+        This was great news. Suddenly, an online half-pajamas agency was viable. 
+        Furthermore, there was no competition. Yet. The law had just gone into effect.
         <br><br>
         This also opened up the problem - an online agency needed customers and presence tuned to convert and service customers. 
-        Who they were and what they needed - I had no idea. 
-        But that was okay because knowing isn't always necessary.
+        Who they were and what they needed - I had no idea.
+        But that was okay because knowing wasn't necessary.
       "
     ></TextBlock>
     <TextBlock
       title="My Role"
       text="
-        My role encompassed everything but the counseling itself. 
-        This included market research, marketing, design, and programming. 
-        Because my job was to do anything left undone, I also found myself in the role of sales coach, portrait photographer and retoucher, and most importantly - Chief Belief Officer.
+        I was in charge of the digital Customer Experience - everything but the counseling itself. 
+        Initially I thought this was just market research, marketing, design, and programming. 
+        But I also found myself in the role of sales coach, portrait photographer and retoucher, and most importantly - Chief Belief Officer in Chief.
       "
     />
 
@@ -156,9 +166,9 @@
           As an iterative designer, I had little expectation of hitting a home run, I just needed a starting point.
           <br><br>
           I still had plenty of time to make mistakes. For example, for my image choice I focused on the keyword 'upward progress'.
-          This was a misevaluation from my research. The correct keyword turned out to be 'human connection'.
+          This was a misevaluation from my research. Later I determined the correct keyword was 'human connection'.
           <br><br>
-          A lot went right here also. The technology stack I chose is still in place and has provided no reason to replace it.
+          While the content all got replaced in short order - the technology stack had staying power. It remains in place to this day.
           I still use the vue framework - I like it's focus on single file pages.
           I publish from my main branch on github. 
           Netlify detects changes and automatically publishes them.
@@ -190,51 +200,114 @@
         Some copy was clearly irrelevant - the counselor had no interest in '24/7 availability' or 'Text your counselor day or night'.
         <br><br>
         I copied keywords liberally from my competitor's using SpyFu. These had no protection.
-        My most performant keyword, however, was a response to 
+        My most performant keyword, however, was a response to the research phase. While religious counseling was widespread, 'secular' as a keyword is almost non-existent.
         <br><br>
         Using these ads as reference I brainstormed new copy and combed stock photography for ads.
         I created a text-based campaign for google ads and a display campaign for Facebook.
-
+        <br><br>
       "
     ></TextBlock>
     <ImageBox
       :images=failedAdsImages
       :columns="4"
-      caption="These ads failed for multiple reasons. 
-        I did a cringe job with overlay text layout and font choice.
-        Site metrics revealed the users pulled in were a bad match for our landing content.
-        While curious, I never discovered the root cause - a different ad platform gave me more customers than we could handle.
+      caption="These Facebook ads were total failures.
+        Was it the outbound nature of Facebook ads? 
+        Or was it the cringe font choice and overlay design.
+        I will never know. Other marketing channels performed so well it simply made sense to drop the lowest performer.
       "
     ></ImageBox>
     <!-- Previous two sections are about copying -->
     <TextBlock
         title="Best Check Yourself"
         text="
-          The stage was set. It was time to measure. I gathered metrics from several sources.
-          Activity on the website itself was done with Google Analytics.
-          Ad measurement was built into the Google Ads.
-          Two critical pieces of information were obtained in the initial consultation.
-          First, where did the customer come from. Web metrics for our business can never accurately report this.
-          Second, the consultation to conversion rate. 
-          <br><br>
-          It was time to look for trouble.
+          The stage was set. It was time to look for trouble.
           I didn't have to look for long - the bounce rate was 96%.
-          Customer conversions were non-existent. Perfect.
-          It stood to reason that improving my bounce rate would improve customer conversions.
-          This was a hypothesis I could work with.
+          Customer conversions were non-existent. Perfect! This was a hole I could dig myself out of.
           <br><br>
-          There was one way forward - better design, better content. It was Figma time.
+          Towards this end, I gathered metrics from several sources.
+          I evaluated ad performance, directory performance, website performance, and most difficultly - the consultation.
+          <br><br>
+          Ad and directory performance had metrics built into the tool itself.
+          Directories must prove their efficacy. They know this. Point this out and get 6 months to a year of free membership.
+          My written ads were responsive. I could assume that heavily shown phrases performed well and seldom shown phrases poorly.
+          Keyword performance feedback was also front and center. A daily task was seeing what phrases brought customers to the site and tuning keywords appropriately.
+          <br><br>
+          To fine tune the website and the consultation, however, I would need to build my own measurements.
+          <br><br>
+          Default website metrics helped to evaluate ads and directories as well. 
+          I could segment behaviour by channel and see how users from that channel performed.
+          The consultation also provided a key piece of evaluation.
+          I had the counselors ask the customer, 'How did you find us?'.
+          <br><br>
+          These information sources let me fine tune the marketing portion of my product equation.
+          However, it was quite impossible to ever see the complete puzzle.
+          Customers often respond to market presence after being exposed several times.
+          Some customers engaged in non-trackable behaviour - for example, they hand dialed the number directly from the google search result.
+          The only metric this would engage is the ad display count metric. 
+          Other customers would contact us through a directory listing that they directly googled after being served and ad and perusing the website.
+          <br><br>
+          The initial message was clear though. I needed more page content, better design and a analytics strategy that would allow me to iterate effectively.
         "
+    ></TextBlock>
+    <TextBlock
+      title="Perfecting the Consultation"
+      text="
+        
+      "
     ></TextBlock>
     <ImageBox
       :images=figmaSketchImage
       columns="12"
       caption="
-        On solo projects, I use Figma to sketch. Then I finalize the design in code.
-        Originally my plan was a multi-page site. No identified competitor had a single page site.
-        Iterating goal-to-goal revealed more than one page was superfluous for this project.
+        On solo projects, I use Figma to sketch.
+        This was my stopping point before I hopped into coding.
       "
     ></ImageBox>
+    <TextBlock
+      title="Moving away from minimum"
+      subtitle="Graphic Design"
+      text="
+        I was dissapointed my MVP's success was so lacklustre. I had made a mistake.
+        The mistake was carrying an assumption into the project and never challenging it.
+        I assumed the art direction should imply progress. No. I had missed the competitor's overwhelming pattern.
+        That pattern was - human connection. This mirrors the core of effective therapy - unconditional positive regard.
+        <br><br>
+        So I built a small studio in my garage. I learned about portrait lighting and posing and took a million selfies.
+        Then I invited the counselors into my studio.
+        <br><br>
+        I love photography. Portraiture was new to me - but I love learning!
+        <br><br>
+        
+      "
+    ></TextBlock>
+    <TextBlock
+      title="Iteration"
+      text="
+        While building from my Figma sketch I deployed constantly. Every feature I felt was an improvement went live immediately.
+        <br><br>
+        The bounce rate quickly fell very close to zero. I needed another metric. I needed metrics I could A/B test with.
+        Conversion events such as email clicked, phone clicked, and schedule clicked were obvious candidates but fell short of complete measurement.
+        Many clients would simply dial the number, type or copy pasta the email. I needed to know more.
+        <br><br>
+        I implement a coarse grained event to measure page scroll at 25, 50, 75, and 100 percent.
+        Consumption of the page scroll would also serve as a conversion type event.
+        <br><br>
+        I added 
+      "
+    ></TextBlock>
+    <TextBlock
+      title="Sticking the landing"
+      text="In this section talk about A/B testing using Google Optimize."
+    ></TextBlock>
+    <ImageBox
+      :images=splashProgressImages
+      columns="4"
+      caption="
+        Iterations on Splash pages as it moved from a solo-practice to a multi-counselor practice.
+        The theme of 'human connection' is maintained through all.
+        Each iteration performed better than the last.
+      "
+      ></ImageBox>
     <!-- How to copy Marketing -->
   </div>
 </template>
@@ -243,8 +316,8 @@
 import StudyBanner from '@/components/StudyBanner.vue';
 import TextBlock from '@/components/TextBlock.vue';
 import PullQuote from '@/components/PullQuote.vue';
-import ImageBox from '@/components/ImageBox.vue'
-import NoteCard from '@/components/NoteCard.vue'
+import ImageBox from '@/components/ImageBox.vue';
+import NoteCard from '@/components/NoteCard.vue';
 
 export default {
   name: "Flyover",
@@ -279,6 +352,11 @@ export default {
       ],
       figmaSketchImage: [
         'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1682813981/nathanWalkerPortfolio/figmaSketch_tlsruz.png'
+      ],
+      splashProgressImages: [
+        'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1682909918/nathanWalkerPortfolio/cassieSplash_lx1ze8.jpg',
+        'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1682909918/nathanWalkerPortfolio/cassieSplashDark_noAlpha_k4rwxy.png',
+        'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1682909918/nathanWalkerPortfolio/betterTogether_dxg7ie_khzaac.jpg'
       ]
     }
   }
