@@ -11,35 +11,48 @@
     <TextBlock
       title="The Challenge"
       text="
-        Full disclosure : this started as a lifestyle business. The counselor mentioned at the beginning of this story was and quite fortunately remains my wife.
-        Starting a business with your spouse is not for the faint of heart. As the study progresses the counselor begins to refer to the group of counselors.
-        And sometimes our office manager. I now have many masters!
+        This started as a lifestyle business. In the beginning, the counselor mentioned at in this story is my wife.
+        As the study progresses the counselor begins to refer to the group of counselors.
+        And sometimes the office manager.
         <br><br>
-        Anyhow, this story begins on a morning like most others in the year 2016 - I was code monkeying away in my pajamas - my wife was preparing for a 45 minute commute.
-        She quite mournfully remarked, 'I chose the wrong profession, I want to work in my pajamas.' My response, 'Well, why not?'
+        It was a 2016 morning. I was code monkeying away in my pajamas - my wife was preparing for a 45 minute commute.
+        She lamented her choice of profession - mental health counseling - 'I want to work in my pajamas.'<br>
+        <br>
+        Well, why not? Why not work in pajamas?
         <br><br>
-        There were some why nots but as luck would have it they were no longer relevant. The state of Kansas had recently implemented parity laws for online counseling.
+        There were some why nots. The biggest, however, was recently irrelevant. The state of Kansas implemented parity laws for online counseling.
         This meant insurance had to reimburse online counseling at the same rate as in person counseling.
         <br><br>
-        Can you do online counseling in pajamas? You sure can! Or at least pajama bottoms. As it turns out, full pajamas is quite unprofessional. Or dress shirts are quite unpajama - either reality is definitely true.
+        Can you do online counseling in pajamas? No, you cannot. Pajama bottoms only. Slippers yes. Barefoot yes. Pajama shirts? No. Fancy shirts are required. Pajamas are not fancy.
         <br><br>
-        This was great news. Suddenly, an online half-pajamas agency was viable. 
-        Furthermore, there was no competition. Yet. The law had just gone into effect.
+        I regret to tell you this is not a happy story.
         <br><br>
-        This also opened up the problem - an online agency needed customers and presence tuned to convert and service customers. 
-        Who they were and what they needed - I had no idea.
-        But that was okay because knowing wasn't necessary.
+        Half-pajamas were the best we could do.
+        
+        <br><br>
+        There was little competition in our state. Yet.
+        It was time to get going. We needed market presence.
+        We didn't want to invest a whole lot before we started seeing a return.
+        <br><br>
+        We needed customers. As soon as possible.
+        Who they were and what they where - I had no idea.
+        That was okay - knowing wasn't necessary.
       "
     ></TextBlock>
+    <ImageBox
+      caption="Tools Depended On"
+      :images=toolsImages
+      columns="2"
+    ></ImageBox>
     <TextBlock
       title="My Role"
       text="
-        I was in charge of the digital Customer Experience - everything but the counseling itself. 
-        Initially I thought this was just market research, marketing, design, and programming. 
-        But I also found myself in the role of sales coach, portrait photographer and retoucher, and most importantly - Chief Belief Officer in Chief.
+        My product was Customer Experience - everything but the counseling.
+        Market research, marketing, design, and programming. And whatever else.
+        <br><br>
+        This was entrepreneurship.
       "
     />
-
     <!-- ESTABLISH THE PROCESS -->
     <PullQuote
       text='Do it. Then do it again.'
@@ -109,21 +122,21 @@
     <TextBlock
       title="The Art of Prior Art"
       text='
-        Our competitiors took many forms.
+        THe competition took many forms.
         I found SaaS-style corporations, lifestyle businesses, and traditional agencies moving into the online space.
-        This was great. Rather than exercise creativity, I identified and copied their successful assets.
+        This was great. The market was real. Rather than exercise creativity, I could identifty and copy their successful assets.
         <br><br>
-        What I copied fell into two categories : advertisements and web presence. Advertisements I copied from SaaS companies.
-        I could trust their budgets and expertise to have found effective ad combinations. 
-        This work would have to wait though - first I needed a web presence for the ads to direct to.
+        I copied marketing and web presence. What they did - I did. But worse! I am not a venture capital funded company. I identified and copied from successful companies across the market.
+        I could trust their budgets and expertise to have found effective ad combinations.
+        The statements that worked told me what the customers I wanted were worried about.
         <br><br>
-        Web presence would require a dual-pronged approach. I would need to pick and choose from the entire competitive gamut to establish quality targets.
-        I chose BetterHelp and TalkSpace as my copy targets from the SaaS domain because their marketing showed up everywhere.
+        I could trust their web design. The elements they emphasized I should emphasize.
+        I chose BetterHelp and TalkSpace as quality targets from the SaSS domain.
         As venture capital-backed companies, I had faith in their UX and marketing teams.
         <br><br>
         Evaluating agency websites was more difficult. I could certainly be judgemental of their websites.
         But I wanted to back them up with something more substantial than my own opinion.
-        I was able to make a quantifiable assessment by attempting to schedule - if a practice had immediate availability, something was wrong.
+        I was able to make a quantifiable assessment by attempting to schedule - if a practice had immediate availability, they were new or something was wrong.
         <br><br>
         My evaluation yielded three commonalities.
         These became the basis for my requirements.
@@ -252,7 +265,17 @@
     <TextBlock
       title="Perfecting the Consultation"
       text="
-        
+        Initial consultation conversions were terrible.
+        For any other industry, I would want to record the interview and dissect the video.
+        For counseling, this is an ethical no-no. Asking for permission could circumvent that was the wrong start to a therapeutic relationship.
+        <br><br>
+        To solve this I initiated a post-mortem immediately following every consultation. Immediately after the session - we would talk about it.
+        I identified a pattern where the counselor started the consultation by attempting to justify the pain points were okay for the consumer.
+        For instance, attempting to prove the efficacy of online counseling versus in-person counseling or making sure the cost was okay.
+        <br><br>
+        I advocated for not bring these subjects up unless the customer did. 
+        As an action item, I determined to make all of this information front and center on the website.
+        For the first counselor, this made all the difference. They quickly
       "
     ></TextBlock>
     <ImageBox
@@ -308,6 +331,35 @@
         Each iteration performed better than the last.
       "
       ></ImageBox>
+      <TextBlock
+        title="The End Result"
+      ></TextBlock>
+      <ImageBox
+        :images=splashImage
+        caption="
+          The top-bar contains everything a returning or direct customer needs. The splash evokes human connection between the duo framed in the composition by nature and architecture.
+          A slogan and an invitation to a new customer to schedule their free consult. Included again is the number and email address - all the resources the new client need.
+          The same thing restated twice - even the buttons do exactly the same thing.
+        "
+      ></ImageBox>
+      <ImageBox
+        :images=foldImage
+        caption="
+          The fold drops all of our keywords. Some are marketing, some are industry lingo. Educated customers - and most are - know exactly who we are.
+          <br><br>
+          I gently indicate to them that the service is online only. An early time waster was customers that wanted in person only.
+          Constantly repeating some version of 'online only' in this and later copy deterrs most of these customers.
+        "
+      ></ImageBox>
+      <ImageBox
+        :images=conditionsImage
+        caption="
+          The fold drops all of our keywords. Some are marketing, some are industry lingo. Educated customers - and most are - know exactly who we are.
+          <br><br>
+            Hello customer! Let us make absolutely sure you are in the right place. These are the types of issues you might talk about.
+            A unicorn will have pages and pages of this stuff for SEO porpoises.
+        "
+      ></ImageBox>
     <!-- How to copy Marketing -->
   </div>
 </template>
@@ -357,7 +409,16 @@ export default {
         'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1682909918/nathanWalkerPortfolio/cassieSplash_lx1ze8.jpg',
         'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1682909918/nathanWalkerPortfolio/cassieSplashDark_noAlpha_k4rwxy.png',
         'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1682909918/nathanWalkerPortfolio/betterTogether_dxg7ie_khzaac.jpg'
-      ]
+      ],
+      ToolImages: [
+        '',
+        '',
+      ],
+      splashImage: [
+        'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1683694417/nathanWalkerPortfolio/splash-2_pskdwa.png'
+      ],
+      foldImage: ['https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1683694514/nathanWalkerPortfolio/Fold_rrmii2.png'],
+      conditionsImage: ['https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1683694307/nathanWalkerPortfolio/conditions-treated_k9bnuw.png'],
     }
   }
 }
