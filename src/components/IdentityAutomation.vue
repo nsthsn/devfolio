@@ -3,8 +3,15 @@
     <StudyBanner
       image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680035062/nathanWalkerPortfolio/betterTogether_ftnrpx.jpg'
       title="Identity Automation"
-      text="The goal was an online counseling agency. In 2018, Flyover was just getting started. The company had zero clients and zero footprint.
-            To get from here to there the company needed a digital presence - the materials required to pull customers in as well as the tools the counselors needed to do their work.
+      text="
+        RapidIdentity, Identity Automation's core offering, was undergoing a total frontend rewrite and redesign. It had to.
+        It was written in Flash and Flash was being deprecated by everyone.  Flash was no longer a viable technology.
+        <br><br>
+        The backend was planning on changing minimally.
+        They planned to use the time to incorporate new features from a recent corporate acquisition.
+        <br><br>
+        The company was growing. Revenue was up dramatically. 
+        A first round of venture capital funding was going towards scaling.
       "
     ></StudyBanner>
     <TextBlock

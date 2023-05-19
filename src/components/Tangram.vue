@@ -1,6 +1,12 @@
 <template>
   <div>
-    Trakakak
+    <StudyBanner
+      image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680035062/nathanWalkerPortfolio/betterTogether_ftnrpx.jpg'
+      title="OMG Tangram"
+      text="
+        A mobile tangram game.
+      "
+    ></StudyBanner>
     <ImageBox
       :images=mainMenuVideo
       :columns="12"
@@ -27,7 +33,7 @@
 
 <script>
 
-// import StudyBanner from '@/components/StudyBanner.vue';
+import StudyBanner from '@/components/StudyBanner.vue';
 // import TextBlock from '@/components/TextBlock.vue';
 // import PullQuote from '@/components/PullQuote.vue';
 import ImageBox from '@/components/ImageBox.vue';
@@ -38,7 +44,7 @@ import ImageBox from '@/components/ImageBox.vue';
 export default {
   name: "Tangram",
   components : {
-    // StudyBanner,
+    StudyBanner,
     // TextBlock,
     // PullQuote,
     ImageBox,

@@ -13,7 +13,9 @@
           {{ title }}
         </v-col>
         <v-col cols="12" align="left" class="body-one">
-          {{ text }}
+          <div v-html="text">
+            {{ text }}
+          </div>
         </v-col>
       </v-row>
     </v-col>
