@@ -18,8 +18,10 @@ $bodyFont : "'Source Sans Pro', sans-serif";
 $captionFont : "Anonymous Pro";
 $serifFont : 'PT Serif';
 
+$backgroundColor: #abb8c3;
+
 body {
-    background-color: #abb8c3;
+    background-color: $backgroundColor;
 }
 
 .header-one {

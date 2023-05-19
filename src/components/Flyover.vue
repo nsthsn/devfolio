@@ -1,74 +1,68 @@
 <template>
   <div class="flyover">
     <StudyBanner
-      image='https://res.cloudinary.com/mooncalf/image/upload/v1651780301/nathanWalkerPhotography/prints/web_gallery_wides-4_nex7rf.jpg'
+      image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680035062/nathanWalkerPortfolio/betterTogether_ftnrpx.jpg'
       title="Flyover Counseling"
       text="The goal was an online counseling agency. In 2018, Flyover was just getting started. The company had zero clients and zero footprint.
             To get from here to there the company needed a digital presence - the materials required to pull customers in as well as the tools the counselors needed to do their work.
       "
     ></StudyBanner>
+    <!-- <v-row>
+      <v-col cols=12>
+        <HomeCard
+          image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680035062/nathanWalkerPortfolio/betterTogether_ftnrpx.jpg'
+          title="OMG TANGRAM"
+          text="A leak in the conversion pipeline won't stay fixed."
+        ></HomeCard>
+      </v-col>
+    </v-row> -->
     <!-- ESTABLISH THE PROBLEM -->
     <TextBlock
-      title="The Challenge"
+      title="Origin Story"
       text="
-        This started as a lifestyle business. In the beginning, the counselor mentioned at in this story is my wife.
-        As the study progresses the counselor begins to refer to the group of counselors.
-        And sometimes the office manager.
-        <br><br>
-        It was a 2016 morning. I was code monkeying away in my pajamas - my wife was preparing for a 45 minute commute.
-        She lamented her choice of profession - mental health counseling - 'I want to work in my pajamas.'<br>
+        It was a 2016. I was code monkeying away in my pajamas - my wife was preparing for a 45 minute commute.
+        She lamented her choice of profession - mental health counseling. SHE wanted to work in pajamas.<br>
         <br>
         Well, why not? Why not work in pajamas?
         <br><br>
-        There were some why nots. The biggest, however, was recently irrelevant. The state of Kansas implemented parity laws for online counseling.
+        There were some why nots. The biggest, however, was recently made irrelevant. The state of Kansas implemented parity laws for online counseling.
         This meant insurance had to reimburse online counseling at the same rate as in person counseling.
         <br><br>
-        Can you do online counseling in pajamas? No, you cannot. Pajama bottoms only. Slippers yes. Barefoot yes. Pajama shirts? No. Fancy shirts are required. Pajamas are not fancy.
+        Can you do online counseling in pajamas?
         <br><br>
-        I regret to tell you this is not a happy story.
+        No, you cannot. Slippers yes. Barefoot yes. Pajama tops - no. Pajama bottoms yes.
         <br><br>
-        Half-pajamas were the best we could do.
-        
-        <br><br>
-        There was little competition in our state. Yet.
-        It was time to get going. We needed market presence.
-        We didn't want to invest a whole lot before we started seeing a return.
-        <br><br>
-        We needed customers. As soon as possible.
-        Who they were and what they where - I had no idea.
-        That was okay - knowing wasn't necessary.
+        Half-pajamas was the best we could do. Half-pajamas was halfway there. Halfway there was good enough.
       "
     ></TextBlock>
-    <ImageBox
-      caption="Tools Depended On"
-      :images=toolsImages
-      columns="2"
-    ></ImageBox>
-    <TextBlock
-      title="My Role"
-      text="
-        My product was Customer Experience - everything but the counseling.
-        Market research, marketing, design, and programming. And whatever else.
-        <br><br>
-        This was entrepreneurship.
-      "
-    />
-    <!-- ESTABLISH THE PROCESS -->
     <PullQuote
       text='Do it. Then do it again.'
     ></PullQuote>
+    <TextBlock
+      title="My Role"
+      text="
+        My product was digital Customer Experience - everything but the counseling.
+        Market research, marketing, design, and programming. And whatever else.
+        <br><br>
+        I measured and I made.
+      "
+    />
+    <!-- <ImageBox
+      caption="Tools Depended On"
+      :tools=tools
+    ></ImageBox> -->
+    <ToolBox
+      tools="['photoshop', 'figma', 'vscode', 'vuejs']"
+    ></ToolBox>
+    <!-- ESTABLISH THE PROCESS -->
+
     <!-- ESTABLISH SUCCESS METRICS -->
     <TextBlock
       title="Metrics That Matter"
       text='
         Knowing where the finish line is is as important as knowing what the problem is.
-        Measurable goals protect against many common mistakes.
-        It is a shield against perfectionism and a sword to cut away extraneous work. 
-        It is both offense and defense. 
-        At anytime we can ask - how can this work raise my metrics?
-        Without a measurable goal, we risk being busy and accomplishing nothing.
-        <br><br>
-        With this in mind I established two measurable goals - one quantitative, one qualitative.
+        I established two measurable goals - one quantitative, one qualitative.
+        Achieving these was the finish line. Without a measurable goal, we risk being busy and accomplishing nothing.
       '
     ></TextBlock>
     <NoteCard
@@ -91,19 +85,17 @@
       text='
         Educate, Execute, Evaluate. Repeat. Do it, then do it again.
         <br><br>
-        Educating myself for this project was a relatively simple task.
-        I investigated exactly as most eventual customers users would - by using an online search engine. 
-        This investigation naturally doubled as market research. 
-        I was not making a new market, I was entering an existing one.
+        I educated myself as most eventual customers users would - by using an online search engine. 
+        This investigation naturally doubled as market research. Any agency I saw was a competitor.
+        I was not making a new market, I was entering an existing one. A client aquired by us is a client lost for someone else.
         <br><br>
         I knew what I had to accomplish. Other than that, I knew nothing.
         I googled "mental health counseling near me".
         I expected were local brick and mortar private practices, but what I found - were unicorns.
         And where there are unicorns there is highly optimized assets sparkling from polish by VC financed geniuses.
         <br><br>
-        My research uncovered another important player in the space - directory services. The biggest of these was Psychology Today.
-        My investigation revealed niche players as well. 
-        Services such as the Secular Therapy project explicitly helped pair non-religious clients and counselors.
+        Top results uncovered another important player in the space - directory services. The biggest of these was Psychology Today.
+        Investigation revealed niche players as well.
         <br><br>
 
       '
@@ -241,9 +233,11 @@
           I evaluated ad performance, directory performance, website performance, and most difficultly - the consultation.
           <br><br>
           Ad and directory performance had metrics built into the tool itself.
-          Directories must prove their efficacy. They know this. Point this out and get 6 months to a year of free membership.
+          Directories must prove their efficacy. Proving their usefulness is part of the business model.
+          <br><br>
           My written ads were responsive. I could assume that heavily shown phrases performed well and seldom shown phrases poorly.
           Keyword performance feedback was also front and center. A daily task was seeing what phrases brought customers to the site and tuning keywords appropriately.
+          Price per click and price per conversion were also useful. An efficient ad can see orders of magnitude less cost for orders of magnitude better results.
           <br><br>
           To fine tune the website and the consultation, however, I would need to build my own measurements.
           <br><br>
@@ -273,9 +267,14 @@
         I identified a pattern where the counselor started the consultation by attempting to justify the pain points were okay for the consumer.
         For instance, attempting to prove the efficacy of online counseling versus in-person counseling or making sure the cost was okay.
         <br><br>
-        I advocated for not bring these subjects up unless the customer did. 
-        As an action item, I determined to make all of this information front and center on the website.
-        For the first counselor, this made all the difference. They quickly
+        We iterated constantly. What worked was not bringing these subjects unless the customer did.
+        We learned to not negotiate against ourselves, this meant saving hard conversations for last - or not at all.
+        One counselor started converting at 100% but others were still floundering. A second intervention was required.
+        <br><br>
+        I held a training session where I had the counselors conduct a mock consultation with me as the client.
+        We recorded this then reviewed it together. Someone - not me - had an aha! moment.
+        The unsuccessful counselors were focused on clinical assessment. The successful counselor was focused on relationship building.
+        After this realization, all counselors convert at nearly 100%.
       "
     ></TextBlock>
     <ImageBox
@@ -298,11 +297,9 @@
         So I built a small studio in my garage. I learned about portrait lighting and posing and took a million selfies.
         Then I invited the counselors into my studio.
         <br><br>
-        I love photography. Portraiture was new to me - but I love learning!
-        <br><br>
-        
       "
     ></TextBlock>
+
     <TextBlock
       title="Iteration"
       text="
@@ -316,6 +313,13 @@
         Consumption of the page scroll would also serve as a conversion type event.
         <br><br>
         I added 
+      "
+    ></TextBlock>
+    <TextBlock
+      title="A/B No Go"
+      text="
+          Early in this project I used Google tags with Google Optimize to optimize assets. Our volume was too low even early on.
+
       "
     ></TextBlock>
     <TextBlock
@@ -365,20 +369,24 @@
 </template>
 
 <script>
-import StudyBanner from '@/components/StudyBanner.vue';
+// import StudyBanner from '@/components/StudyBanner.vue';
 import TextBlock from '@/components/TextBlock.vue';
 import PullQuote from '@/components/PullQuote.vue';
 import ImageBox from '@/components/ImageBox.vue';
 import NoteCard from '@/components/NoteCard.vue';
+import ToolBox from '@/components/ToolBox.vue';
+import StudyBanner from '@/components/StudyBanner.vue';
 
 export default {
   name: "Flyover",
   components : {
-    StudyBanner,
+    // StudyBanner,
     TextBlock,
     PullQuote,
     ImageBox,
-    NoteCard
+    NoteCard,
+    ToolBox,
+    StudyBanner
   },
   data() {
     return {
@@ -419,6 +427,10 @@ export default {
       ],
       foldImage: ['https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1683694514/nathanWalkerPortfolio/Fold_rrmii2.png'],
       conditionsImage: ['https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1683694307/nathanWalkerPortfolio/conditions-treated_k9bnuw.png'],
+      // tools: [
+      //   'photoshop',
+      //   'figma'
+      // ],
     }
   }
 }
