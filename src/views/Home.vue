@@ -6,6 +6,7 @@
           route="Flyover" 
           image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680638406/nathanWalkerPortfolio/betterTogether_square_iim2f0.png'
           title='FLYOVER COUNSELING'
+          keywords="Descriptive Keywords"
           text ='Iterating from MVP to thriving practice.'
         ></HomeCard>
         <HomeCard
