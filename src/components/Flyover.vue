@@ -109,6 +109,31 @@
       caption=""
       columns="6"
     ></ImageBox>
+
+    <NoteCard
+      :cards="[
+        {
+          title: 'Strengths'
+,          text: 'As a user, I encounter a splash screen.'
+        },
+        {
+          title: 'Weaknesses',
+          text: 'As a user, I encounter overlay text on the splash screen.'
+        },
+      ]"
+    ></NoteCard>
+    <NoteCard
+      :cards="[
+        {
+          title: 'Opportunities'
+,          text: 'As a user, I encounter a splash screen.'
+        },
+        {
+          title: 'Threats',
+          text: 'As a user, I encounter overlay text on the splash screen.'
+        },
+      ]"
+    ></NoteCard>
  
     <!-- Identify the three pillars of work -->
     <TextBlock

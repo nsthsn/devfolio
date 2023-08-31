@@ -8,7 +8,7 @@
         <!-- Tool -->
         <v-col cols="12">
           <v-img
-            src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1683834730/nathanWalkerPortfolio/Icon_vefvqs.png"
+            src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1693427402/nathanWalkerPortfolio/Adobe_Photoshop_CC_icon.svg_n2denq.png"
           ></v-img>
         </v-col>
         <v-col cols="12">

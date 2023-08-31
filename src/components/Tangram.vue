@@ -4,31 +4,62 @@
       image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680035062/nathanWalkerPortfolio/betterTogether_ftnrpx.jpg'
       title="OMG Tangram"
       text="
-        A mobile tangram game.
+       I love tangram. It is perfect. It's elegance cannot be matched - there is nothing to add, nothing to subtract. OMG Tangram is my love letter to it.
+       <br><br>
+       The reviews are clear - my message gets through. People that love tangram love OMG Tangram. It is consistently the highest rated tangram during it's tenure on any app store.
+       <a href='https://play.google.com/store/apps/details?id=com.mooncalf.omgTangram&hl=en_US&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
       "
     ></StudyBanner>
     <TextBlock
-      title="Tangram"
-      subtitle="The first viral game"
+      title="a viral first"
       text="
-        Tangram went viral by boat and baggage train in the 1800s. It seems to have originated in China and spread quickly from there.
+        Tangram went global by boat and baggage train in the 1800s. It seems to have originated in China and spread quickly from there.
         By <insert date>, Tangram was everywhere. Tangram books were published in every language in every country.
+        <br><br>
+        Tangram remains in the worldwide consciousness. Whether you know the name or not, you will recognize the pieces. Perhaps with a smile. It is hard to not feel wonder when these 7 simple shapes form nearly any object.
+        <br><br>
+        My game design was simple - each completed puzzle unlocks a new object in an unfolding scene.
       "
     ></TextBlock>
-    PICTURE OF TANGRAMS
+    <ImageBox
+      :images=gameLoopImages
+      :columns="4"
+      caption="
+        Tangrams are forever. The player unlocks art by completing the puzzle.
+      "
+    ></ImageBox>
+    <ImageBox
+      :images=completePuzzleImages
+      :columns="6"
+      caption="
+        Each unlocked reward becomes part of a scene.
+      "
+    ></ImageBox>
     <TextBlock
-      title="OMG Tangram"
+      title="Who plays tangram anyways?"
+      subtitle="I am the User"
       text="
-        Tangram is my favorite game. It has an elegance that cannot be matched because it is the simplest thing possible. There is nothing to subtract - adding anything detracts. It is a dissection puzzle par none.
+        My mom gave me tangrams as a child. It turns out moms and dads are still giving their children tangrams. A surprise - it happened to me - is mom and dad start playing tangram too.
         <br><br>
-        OMG Tangram is a love letter. Juvenile at times, but the reviews are clear - the message gets through. People that love tangram love OMG tangram.
+        It is a very elegant dissection puzzle game. Worthy of it's capacity to win over modern gamers.
+      "
+    ></TextBlock>
+    <TextBlock
+      title="Establishing a Deadline"
+      text="
+        I set a hard deadline. I decided to enter Microsoft DreamBuildPlay, a promotional contest for their app store. I had experience with XNA, a native game framework for Window's Phone.
         <br><br>
-        OMG Tangram succeeded on many levels. The beta version achieved a top 16 finish in Microsofts Dream Build Play contest.
-        A South Korean cable show featured it in a segment. It is consistently the highest rated Tangram app on the App store.
-        As a demo, it converted 1099 leads to 1099 work consistently.
+
+      "
+    ></TextBlock>
+    <TextBlock
+      title="Every tutorial step needed to be improved."
+      text="
+        The beta's first time user funnel had an abyssmal success rate. 41%. Forty-one percent ... six in ten of my users were gone before we even got started.
         <br><br>
-        Despite the good news, there was a glaring problem. A single step in the first time user funnel had an unstable success rate.
-        For some populations - 50% of users failed. The problem would come and go as the audience composition constantly shifted. One week would yield thousands of Phillipines downloads - Turkey the next.
+        Those who stayed - played. A forty percent conversion rate was unacceptable. Despite all success - this was failure.
+        <br><br>
+        Talk about A/B testing as an ideal. Talk about working intuitively as a rewarding reality.
       "
     ></TextBlock>
     <TextBlock
@@ -37,46 +68,107 @@
         Introduce FTUE as a concept but let the following videos do most the talking.
       "
     ></TextBlock>
+    <NoteCard
+      :cards="[
+        {
+          title: 'Start Screen',
+          text: 'Tap to begin.'
+        },
+        {
+          title: 'Move a tangram',
+          text: 'Drag a puzzle piece.'
+        },
+        {
+          title: 'Turn a tangram',
+          text: 'Rotate and drag a puzzle piece.'
+        },
+        {
+          title: 'Flip a tangram',
+          text: 'Invert, rotate, and drag a puzzle piece.'
+        },
+        {
+          title: 'Solve a Puzzle',
+          text: 'Manipulate seven puzzle pieces.'
+        },
+      ]"
+    ></NoteCard>
     <TextBlock
-      title="The following is beta footage. Created in the XNA framework with a custom engine for DreamBuildPlay."
-    ></TextBlock>
-    <ImageBox
-      :images=mainMenuVideo
-      :columns="12"
-      caption='
-        Step one of the First Time User Experience. The must player must tap the main screen. 
-        This metric was usually met. An early source of 1-star ratings was a bug on the Galaxy 6. 
-        Bypassed by me and then fixed by them I had dozens on 1-stars. 
-        The loading screen would never display due to a graphics error. Rating was temporarily trashed.
-      '
-    ></ImageBox>
-
-    <ImageBox
-      :images=squareTutorialVideo
-      :columns="12"
-      caption='
-        The user has learned to manipulate puzzle pieces and put them in outlines. Now they put it altogether and solve an actual tangram.
-      '
-    ></ImageBox>
-
-    <TextBlock
-      title="Every tutorial step needed to be improved."
+      title="Iterative Improvement"
       text="
-        Talk about A/B testing as an ideal. Talk about working intuitively as a rewarding reality.
-      "
-    ></TextBlock>
-    <TextBlock
-      title="Moving from Tell to Show"
-      text="
-        The design meta shifted from tell towards SHOW. 
-      "
-    ></TextBlock>
-    <TextBlock
-      title="The flippin' problem"
-      text="
-        The rest of the funnel was looking perfect. Better than perfect. Perfect was a 95% pass rate - 5% error is acceptable. 100% in a day was not uncommon for most funnel steps.
+        I found problems, theorized solutions and slowly improved the FTUE funnel. The initial steps that didn't work focused on telling. The new high completion steps focus on tell.
         <br><br>
-        I still had a flipping problem. Double tap as a gesture was a disaster - the beta FTUE success rate was below 50%.
+        Show - don't tell. Show and tell if you must but as the following story demonstrates - don't count on it to help.
+      "
+    ></TextBlock>
+    <VideoBox
+      image-one='https://res.cloudinary.com/mooncalf/video/upload/f_auto/v1692815636/nathanWalkerPortfolio/tangram_beta_0_cxzxhe.mp4'
+      image-two='https://res.cloudinary.com/mooncalf/video/upload/f_auto/v1692817390/nathanWalkerPortfolio/demo_1_jjl2ng.mp4'
+      columns="6"
+      caption-one="
+        I liked a lot about this screen. Playtests revealed the tree elements could be distracting. Users would attempt to interact with the trees then want to go back.
+        Analytics reported a higher failure rate than I thought possible.
+      "
+      caption-two="
+        This simpler screen never fails. It holds to a new design paradigm - all tangrams for all art. I'd love to remove all text if I did it again.
+      "
+    ></VideoBox>
+    <VideoBox
+      image-one='https://res.cloudinary.com/mooncalf/video/upload/f_auto/v1692816525/nathanWalkerPortfolio/tangram_beta_1_pmufbd.mp4'
+      image-two='https://res.cloudinary.com/mooncalf/video/upload/f_auto/v1692991073/nathanWalkerPortfolio/drag_mzkuek.mp4'
+      columns="6"
+      caption-one="
+        Told.
+      "
+      caption-two="
+        Shown.
+      "
+    ></VideoBox>
+    <VideoBox
+      image-one='https://res.cloudinary.com/mooncalf/video/upload/f_auto/v1692991945/nathanWalkerPortfolio/rotate_beta_rh4g97.mp4'
+      image-two='https://res.cloudinary.com/mooncalf/video/upload/f_auto/v1692991411/nathanWalkerPortfolio/rotate_yd8zeq.mp4'
+      columns="6"
+      caption-one="
+        Complex telling! Complexity is the enemy.
+      "
+      caption-two="
+        Simplified showing. Teach one new thing.
+      "
+    ></VideoBox>
+    <VideoBox
+      image-one='https://res.cloudinary.com/mooncalf/video/upload/f_auto/v1692992458/nathanWalkerPortfolio/flip_beta_qjs05s.mp4'
+      image-two='https://res.cloudinary.com/mooncalf/video/upload/f_auto/v1692991501/nathanWalkerPortfolio/flip_bauaow.mp4'
+      columns="6"
+      caption-one="
+        Flipping had trouble in person playtesting. This abomination seemed to help. My presence inspired them to try harder to avoid the social shame of failure. 
+        <br><br>
+        Analytics revealed a huge problem.
+      "
+      caption-two="
+        Better performance. But it reeks. That is a design smell. Why did this step, and this step only, STILL need text?
+        <br><br>
+        The slower animation certainly helped and putting more polish into it would have been low cost.
+      "
+    ></VideoBox>
+    <TextBlock
+      title="There was a flippin' problem"
+      text="
+        The first time user funnel was looking pnearly erfect. Better than perfect. Perfect was a 95% pass rate - 5% error is acceptable. 100% in a day was not uncommon for most funnel steps.
+        <br><br>
+        But I still had a flipping problem. A literal flippin' problem. Double tap as a gesture was a disaster - the beta FTUE success rate had been below 50%. The most recent version could dip down to the 70s.
+        <br><br>
+        Iteration had not fixed it - it had slowed the leak but the leak was still there. Losing 30% of users was a hemmorhage.
+      "
+    ></TextBlock>
+    <TextBlock
+      title="Show mockups of flips that didn't work"
+      text="
+        Show what competition used.
+        <br><br>
+        Show translation problem.
+        <br><br>
+        Show slower animation. (didn't try)
+        <br><br>
+        Add extra piece. Reduces elegance.
       "
     ></TextBlock>
   </div>
@@ -89,7 +181,8 @@ import StudyBanner from '@/components/StudyBanner.vue';
 import TextBlock from '@/components/TextBlock.vue';
 // import PullQuote from '@/components/PullQuote.vue';
 import ImageBox from '@/components/ImageBox.vue';
-// import NoteCard from '@/components/NoteCard.vue';
+import VideoBox from '@/components/VideoBox.vue';
+import NoteCard from '@/components/NoteCard.vue';
 // import ToolBox from '@/components/ToolBox.vue';
 //import VideoPlayer from '@/components/VideoPlayer.vue';
 
@@ -100,14 +193,27 @@ export default {
     TextBlock,
     // PullQuote,
     ImageBox,
-    // NoteCard,
+    VideoBox,
+    NoteCard,
     // ToolBox,
     //VideoPlayer
   },
   data() {
     return {
-      mainMenuVideo : [
+      mainMenuVideos : [
         'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1684423898/nathanWalkerPortfolio/tangramloading_yzh8tn.gif'
+      ],
+      gameLoopImages: [
+        'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1693324396/nathanWalkerPortfolio/ss_1_q5iuhz.png',
+        'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1693324396/nathanWalkerPortfolio/ss_2_p7fheq.png',
+        'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1693324396/nathanWalkerPortfolio/ss_3_bdkkfr.png'
+      ],
+      mainMenuCaptions : [
+      'Step one of the First Time User Experience. The must player must tap the main screen. This metric was usually met. An early source of 1-star ratings was a bug on the Galaxy 6. Bypassed by me and then fixed by them I had dozens on 1-stars. The loading screen would never display due to a graphics error. Rating was temporarily trashed.'
+      ],
+      completePuzzleImages: [
+        'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1693325594/nathanWalkerPortfolio/SomethingLost_wzp9er.png',
+        'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1693325531/nathanWalkerPortfolio/egypt_izudko.png',
       ],
       squareTutorialVideo : [
         'https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1684424894/nathanWalkerPortfolio/squareTutorial_n9jptg.gif'

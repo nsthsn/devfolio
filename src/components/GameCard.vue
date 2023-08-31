@@ -5,24 +5,18 @@
         <v-row style="" class="align-center content-wrapper">
           <v-col cols="6" align-self="" class="">
             <!-- <div class="home-card-image-container"> -->
-              <v-row>
-                <v-col cols="12">
-                  <!-- <v-img 
-                    class="game-card-image"
-                    :src=imageOne
-                    :aspect-ratio="16/9"
-                  ></v-img> -->
-                  <div class="game-video-container">
-                    <video ref="videoOne" class="game-video" :src=imageOne autoplay muted loop>
-                    </video>
-                  </div>
-
-                  <div class="caption text-left">{{ captionOne }}</div>
-                </v-col>
-                <v-col cols="12">
-                  <video ref="videoTwo" class="game-video" :src=imageTwo autoplay muted loop>
-                    </video>
-                  <div class="caption text-left"> {{ captionTwo }}</div>
+            <v-row>
+              <v-col cols="12">
+                <div class="game-video-container">
+                  <video ref="videoOne" class="game-video" :src=imageOne autoplay muted loop>
+                  </video>
+                </div>
+                <div class="caption text-left">{{ captionOne }}</div>
+              </v-col>
+              <v-col cols="12">
+                <video ref="videoTwo" class="game-video" :src=imageTwo autoplay muted loop>
+                  </video>
+                <div class="caption text-left"> {{ captionTwo }}</div>
               </v-col>
             </v-row>
 
@@ -96,67 +90,8 @@ video {
   /* override other styles to make responsive */
   width: 100%    !important;
   height: auto   !important;
+  line-height: 0;
+  outline: none;
 }
-.game-video-container {
-    // width: 100%;
-    // padding-top: 56.25%;
-    // height: 0px;
-    // position: relative;
-    // line-height: 0;
-    // outline: none;
-  }
-  .game-video {
-    // width: 100%;
-    // height: auto;
-    // // height: 100%;
-    // // position: absolute;
-    // // top: 0;
-    // // left: 0;
-    // outline: none;
-    // line-height: 0;
-    // video:focus {outline:none;}
-  }
-  // .game-card-wrapper {
-  //   width: 100%;
-  //   display: inline-block;
-  //   position: relative;
-  // }
-  // .game-card-wrapper::after {
-  //   /* this method exploits padding-top being relative to the containing blocks width */
-  //   /* 16:9 ratio */
-  //   padding-top: 62%;
-  //   display: block;
-  //   content: '';
-  // }
-  // .game-card {
-  //   margin: 0 0 $m1 0;
-  //   outline: solid;
-  //   position: absolute;
-  //   top: 0;
-  //   bottom: 0;
-  //   right: 0;
-  //   left: 0;
-  //   /* fill parent */
-  //   background-color: white;
-  //   /* let's see it! */
-  //   color: rgba(0,0,0,86%);
-    
-  //   .content-wrapper {
-  //     height:100%; 
-  //     width:90%; 
-  //     margin:auto;
-  //   }
-  //   //height: 38vh;
-  //   .game-card-image-container {
-  //     align-content: right;
-  //   }
-  //   .game-card-image {
-  //     width:100%;
-      
-  //   }
-  //   .game-card-text {
-  //     text-align: left;
-  //     //width: 30%;
-  //   }
-  // }
+
 </style>

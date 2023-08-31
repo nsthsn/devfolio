@@ -2,7 +2,7 @@
   <v-row class="note-card-container pr-16 pl-16 text-left">
     <v-col
       v-for="card in cards"
-      :key="card"
+      :key="card.title"
       :cols=columns
     >
     <v-row class="note-card ma-2">
