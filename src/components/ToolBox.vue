@@ -1,5 +1,7 @@
 <template>
-  <v-row class="tool-box">
+  <div class="tool-box ">
+  <v-row class="content">
+    
     <v-col
       v-if="photoshop" 
       cols="2"
@@ -67,8 +69,9 @@
         </v-col>
       </v-row>
     </v-col>
-    
+  
   </v-row>
+</div>
 </template>
 
 <script>
@@ -104,5 +107,13 @@ export default {
   .note-card {
     background-color:yellow;
     box-shadow: 10px 10px lightblue;
+  }
+  .tool-box {
+    background-color:white;
+  }
+  .content {
+    padding-left:13%;
+    padding-right:13%;
+    background-color:white;
   }
 </style>

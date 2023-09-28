@@ -7,44 +7,38 @@
             To get from here to there the company needed a digital presence - the materials required to pull customers in as well as the tools the counselors needed to do their work.
       "
     ></StudyBanner>
-    <!-- <v-row>
-      <v-col cols=12>
-        <HomeCard
-          image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680035062/nathanWalkerPortfolio/betterTogether_ftnrpx.jpg'
-          title="OMG TANGRAM"
-          text="A leak in the conversion pipeline won't stay fixed."
-        ></HomeCard>
-      </v-col>
-    </v-row> -->
-    <!-- ESTABLISH THE PROBLEM -->
     <TextBlock
+      title="Context"
+      text="
+        The year was 2018 and we were starting an online counseling agency. For my wife and me, both of us having remote employment was a primary goal.
+        <br><br>
+        In 2018, before COVID, online counseling was a hard sell weighted against more conventional in-person therapy. Potential customers dismissed it out of hand.
+        We were starting from zero - no customers, no presence.
+        <br><br>
+        But we had time, we had planned for this - we had a runway.
+      "
+    ></TextBlock>
+    <!-- <TextBlock
       title="Origin Story"
       text="
         It was a 2016. I was code monkeying away in my pajamas - my wife was preparing for a 45 minute commute.
-        She lamented her choice of profession - mental health counseling. SHE wanted to work in pajamas.<br>
+        She lamented her choice of profession - mental health counseling. She also wanted to work in pajamas.<br>
         <br>
-        Well, why not? Why not work in pajamas?
+        Well, why not? Can you do online counseling in pajamas?
         <br><br>
-        There were some why nots. The biggest, however, was recently made irrelevant. The state of Kansas implemented parity laws for online counseling.
-        This meant insurance had to reimburse online counseling at the same rate as in person counseling.
+        No, you cannot. Pajama bottoms - yes. Pajama tops - no.
         <br><br>
-        Can you do online counseling in pajamas?
-        <br><br>
-        No, you cannot. Slippers yes. Barefoot yes. Pajama tops - no. Pajama bottoms yes.
-        <br><br>
-        Half-pajamas was the best we could do. Half-pajamas was halfway there. Halfway there was good enough.
+        Half-pajamas was the best we could do. Half-pajamas was halfway - halfway was good enough.
       "
-    ></TextBlock>
+    ></TextBlock> -->
     <PullQuote
       text='Do it. Then do it again.'
     ></PullQuote>
     <TextBlock
       title="My Role"
       text="
-        My product was digital Customer Experience - everything but the counseling.
-        Market research, marketing, design, and programming. And whatever else.
-        <br><br>
-        I measured and I made.
+        My product - everything but the counseling.
+        Market research, marketing, design, programming, and sales coaching. And whatever else.
       "
     />
     <!-- <ImageBox
@@ -57,23 +51,42 @@
     <!-- ESTABLISH THE PROCESS -->
 
     <!-- ESTABLISH SUCCESS METRICS -->
+    <!-- <TextBlock
+      title="Bootstrapping Success"
+      text="
+        The very first thing I did - was push for the counselor to go back to school. A local university had a robust community entrepreneurship program and we decided to utilize it.
+        We used the program to obtain bi-weekly feedback as our business plan progressed. Working through the coursework forced us to develop common business language. We also gained access to community mentors.
+        <br><br>
+        All o
+      "
+      
+    >
+    </TextBlock> -->
+    <TextBlock
+      title="My process"
+      text="
+        Educate, Execute, Evaluate. Repeat. Do it, do it again. Stop as soon as possible.
+        <br><br>
+        Simply - iterate. Fancier names include Agile, Kanban and Double Diamond.
+      "
+    ></TextBlock>
     <TextBlock
       title="Metrics That Matter"
       text='
-        Knowing where the finish line is is as important as knowing what the problem is.
+        To stop as soon as possible - you must know what it means to be done.
         I established two measurable goals - one quantitative, one qualitative.
-        Achieving these was the finish line. Without a measurable goal, we risk being busy and accomplishing nothing.
+        Achieving these was the finish line.
       '
     ></TextBlock>
     <NoteCard
       :cards="[
         {
-          title: 'Qualifiable  Major Goal',
-          text: 'Attract target demographic.'
+          title: 'Qualifiable Major Goal',
+          text: 'Attract target demographic. Are all clients a good fit?'
         },
         {
           title: 'Quantifiable Major Goal',
-          text: 'Sell all hours at target rate.'
+          text: 'Sell all hours at target rate. What is our minimum acceptable hourly rate? What is our actual hourly rate?'
         }
       ]"
     ></NoteCard>
@@ -81,35 +94,30 @@
       text='What I found - were unicorns.'
     ></PullQuote>
     <TextBlock
-      title="My Process"
+      title="Market Validation"
       text='
-        Educate, Execute, Evaluate. Repeat. Do it, then do it again.
+        I educated myself as most eventual customers users would - I googled "counselors near me". 
+        This as a user investigation naturally doubled as market research. Anyone I saw was a competitor!
         <br><br>
-        I educated myself as most eventual customers users would - by using an online search engine. 
-        This investigation naturally doubled as market research. Any agency I saw was a competitor.
-        I was not making a new market, I was entering an existing one. A client aquired by us is a client lost for someone else.
-        <br><br>
-        I knew what I had to accomplish. Other than that, I knew nothing.
-        I googled "mental health counseling near me".
-        I expected were local brick and mortar private practices, but what I found - were unicorns.
+        I expected local brick and mortar private practices, but what I found - were unicorns.
         And where there are unicorns there is highly optimized assets sparkling from polish by VC financed geniuses.
         <br><br>
-        Top results uncovered another important player in the space - directory services. The biggest of these was Psychology Today.
+        I also uncovered another major market player - directory services. The biggest of these was Psychology Today.
         Investigation revealed niche players as well.
         <br><br>
-
+        The presence of unicorns was enough for me to consider the market validated. But was their room for me?
       '
     ></TextBlock>
     <!-- ESTABLISH THE PROCESS -->
-
-
     <!-- Display the unicorns -->
     <ImageBox
       :images=unicornImages
       caption=""
       columns="6"
     ></ImageBox>
-
+    <TextBlock
+      title="Competitive Analysis"
+    ></TextBlock>
     <NoteCard
       :cards="[
         {
@@ -141,22 +149,19 @@
       text='
         THe competition took many forms.
         I found SaaS-style corporations, lifestyle businesses, and traditional agencies moving into the online space.
-        This was great. The market was real. Rather than exercise creativity, I could identifty and copy their successful assets.
-        <br><br>
-        I copied marketing and web presence. What they did - I did. But worse! I am not a venture capital funded company. I identified and copied from successful companies across the market.
-        I could trust their budgets and expertise to have found effective ad combinations.
-        The statements that worked told me what the customers I wanted were worried about.
+        This was great. The market was real and my competition was capturing clients. Rather than exercise creativity, I could identifty and copy their successful assets.
         <br><br>
         I could trust their web design. The elements they emphasized I should emphasize.
         I chose BetterHelp and TalkSpace as quality targets from the SaSS domain.
         As venture capital-backed companies, I had faith in their UX and marketing teams.
         <br><br>
-        Evaluating agency websites was more difficult. I could certainly be judgemental of their websites.
-        But I wanted to back them up with something more substantial than my own opinion.
-        I was able to make a quantifiable assessment by attempting to schedule - if a practice had immediate availability, they were new or something was wrong.
+        I would do what they did - but worse! I am not a venture capital funded team of geniuses. 
+        <br><br>
+        Evaluating agency websites was more difficult. Positive example was tough to identify - I had no access to lifestyle business data.
+        Instead I found negative examples by monitoring online groups - people who were struggling are very vocal in calls for help.
         <br><br>
         My evaluation yielded three commonalities.
-        These became the basis for my requirements.
+        These became my requirements.
       '
     ></TextBlock>
     <NoteCard
@@ -193,24 +198,22 @@
         text="
           With my requirements in place, I moved quickly to create the MVP.
           I spent very little time worrying about the content all of my time worrying about the form.
-          As an iterative designer, I had little expectation of hitting a home run, I just needed a starting point.
+          As an iterative creator, I had little expectation of hitting a home run, I just needed a starting point.
           <br><br>
-          I still had plenty of time to make mistakes. For example, for my image choice I focused on the keyword 'upward progress'.
+          I still had plenty of time to make mistakes. For example, for my aesthetic choice I focused on the keyword 'forward progress'.
           This was a misevaluation from my research. Later I determined the correct keyword was 'human connection'.
-          <br><br>
-          While the content all got replaced in short order - the technology stack had staying power. It remains in place to this day.
-          I still use the vue framework - I like it's focus on single file pages.
-          I publish from my main branch on github. 
-          Netlify detects changes and automatically publishes them.
-          My images are served from cloudinary in optimal formats.
-          I love these services!
         "
     ></TextBlock>
     <ImageBox
       :images=mvpImage
       columns="12"
       caption="
-        There is a lot wrong here
+        So much wrong here from a content standpoint. The content was replaced in short order but the tech stack remains intact to this day. And the one used for this website.
+        I still use the vue framework - I like it's focus on single file pages.
+        I publish from my main branch on Github.
+        Netlify detects changes and automatically publishes them.
+        My images are served from Cloudinary in optimal formats.
+        I love these services!
       "
     ></ImageBox>
     <TextBlock
@@ -218,29 +221,22 @@
       text="
         The website was built, it was time to find customers.
         This meant advertising.
-        I leaned heavily and effectively on my competition for this.
         While specific phrases are protected under copyright, altered phrases are not.
         <br><br>
         Using the webtool SpyFu and FaceBooks Business Manager, I looked at all ads run by my competitors.
         These allowed me to see the frequency of each ad as well as the duration of it's run.
         I assumed a high volume and long duration indicated success on that companies internal metrics.
         <br><br>
-        I identified performant ads and wrote down every line and copied every image.
-        Copy that showed up in multple ads got stars. Copy that was present between competitors got underlined.
-        Some copy was clearly irrelevant - the counselor had no interest in '24/7 availability' or 'Text your counselor day or night'.
-        <br><br>
-        I copied keywords liberally from my competitor's using SpyFu. These had no protection.
-        My most performant keyword, however, was a response to the research phase. While religious counseling was widespread, 'secular' as a keyword is almost non-existent.
-        <br><br>
         Using these ads as reference I brainstormed new copy and combed stock photography for ads.
-        I created a text-based campaign for google ads and a display campaign for Facebook.
+        I created a text-based campaign for google ads and a display campaign for Facebook. I copied keywords directly using SpyFu.
         <br><br>
       "
     ></TextBlock>
     <ImageBox
       :images=failedAdsImages
       :columns="4"
-      caption="These Facebook ads were total failures.
+      caption="
+        These Facebook ads were total failures.
         Was it the outbound nature of Facebook ads? 
         Or was it the cringe font choice and overlay design.
         I will never know. Other marketing channels performed so well it simply made sense to drop the lowest performer.
@@ -251,55 +247,51 @@
         title="Best Check Yourself"
         text="
           The stage was set. It was time to look for trouble.
-          I didn't have to look for long - the bounce rate was 96%.
-          Customer conversions were non-existent. Perfect! This was a hole I could dig myself out of.
           <br><br>
-          Towards this end, I gathered metrics from several sources.
+          Towards this end, I gathered metrics from several sources and found problems manifesting in all of them.
           I evaluated ad performance, directory performance, website performance, and most difficultly - the consultation.
-          <br><br>
-          Ad and directory performance had metrics built into the tool itself.
-          Directories must prove their efficacy. Proving their usefulness is part of the business model.
-          <br><br>
-          My written ads were responsive. I could assume that heavily shown phrases performed well and seldom shown phrases poorly.
-          Keyword performance feedback was also front and center. A daily task was seeing what phrases brought customers to the site and tuning keywords appropriately.
-          Price per click and price per conversion were also useful. An efficient ad can see orders of magnitude less cost for orders of magnitude better results.
-          <br><br>
-          To fine tune the website and the consultation, however, I would need to build my own measurements.
-          <br><br>
-          Default website metrics helped to evaluate ads and directories as well. 
-          I could segment behaviour by channel and see how users from that channel performed.
-          The consultation also provided a key piece of evaluation.
-          I had the counselors ask the customer, 'How did you find us?'.
-          <br><br>
-          These information sources let me fine tune the marketing portion of my product equation.
-          However, it was quite impossible to ever see the complete puzzle.
-          Customers often respond to market presence after being exposed several times.
-          Some customers engaged in non-trackable behaviour - for example, they hand dialed the number directly from the google search result.
-          The only metric this would engage is the ad display count metric. 
-          Other customers would contact us through a directory listing that they directly googled after being served and ad and perusing the website.
-          <br><br>
-          The initial message was clear though. I needed more page content, better design and a analytics strategy that would allow me to iterate effectively.
         "
     ></TextBlock>
+    <NoteCard
+      :cards="[
+        {
+          title: 'Directory Performance',
+          text: 'Poor directory performance indicated problems in the copy - it was not connecting with the customer.'
+        },
+        {
+          title: 'Bounce Rate',
+          text: 'A high bounce rate indicated that even the customers that were arriving were not finding what they expected. A low conversion rate on ads seconded this diagnosis. The wrong customers were arriving with the wrong expectations. '
+        },
+        {
+          title: 'Conversion Rate',
+          text: 'A low conversion rate during our free consultation was a problem in salesmanship.'
+        }
+      ]"
+    ></NoteCard>
     <TextBlock
-      title="Perfecting the Consultation"
+      title="Converting Cash Clients. Perfecting the Consultation"
       text="
-        Initial consultation conversions were terrible.
-        For any other industry, I would want to record the interview and dissect the video.
-        For counseling, this is an ethical no-no. Asking for permission could circumvent that was the wrong start to a therapeutic relationship.
+        Cash client consultation conversions were terrible. Cash clients are the best kind of clients.
+        In many other industries I could investigate by recording and watching the consultations. Not in counseling. Asking for permission to record was the wrong start to a therapeutic relationship.
         <br><br>
         To solve this I initiated a post-mortem immediately following every consultation. Immediately after the session - we would talk about it.
         I identified a pattern where the counselor started the consultation by attempting to justify the pain points were okay for the consumer.
-        For instance, attempting to prove the efficacy of online counseling versus in-person counseling or making sure the cost was okay.
+        For instance, attempting to prove the efficacy of online counseling versus in-person counseling or justifying the price.
         <br><br>
-        We iterated constantly. What worked was not bringing these subjects unless the customer did.
         We learned to not negotiate against ourselves, this meant saving hard conversations for last - or not at all.
-        One counselor started converting at 100% but others were still floundering. A second intervention was required.
+        One counselor started converting at 100% but others were still floundering. 
         <br><br>
+        A second intervention was required.
+      "
+    ></TextBlock>
+    <TextBlock
+      title="Spreading Expertise"
+      text="
         I held a training session where I had the counselors conduct a mock consultation with me as the client.
-        We recorded this then reviewed it together. Someone - not me - had an aha! moment.
-        The unsuccessful counselors were focused on clinical assessment. The successful counselor was focused on relationship building.
-        After this realization, all counselors convert at nearly 100%.
+        As the group watched we had an a-ha moment. The successful consultation was focused on relationship building, the unsuccessful ones were getting started on assessment.
+        <br><br>
+        We realized assessment shouldn't start until the first session.
+        After this, all counselors began converting at nearly 100%.
       "
     ></TextBlock>
     <ImageBox
@@ -319,9 +311,7 @@
         I assumed the art direction should imply progress. No. I had missed the competitor's overwhelming pattern.
         That pattern was - human connection. This mirrors the core of effective therapy - unconditional positive regard.
         <br><br>
-        So I built a small studio in my garage. I learned about portrait lighting and posing and took a million selfies.
-        Then I invited the counselors into my studio.
-        <br><br>
+        I copied the most common banner I saw on venture capital and lifestyle businesses alike - a portrait shot staring directly at the camera.
       "
     ></TextBlock>
 

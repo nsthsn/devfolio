@@ -1,5 +1,5 @@
 <template>
-  <v-row class="align-start content-wrapper">
+  <v-row class="align-start content-wrapper video-container pr-12 pl-12">
     <!-- <v-row class="align-center content-wrapper"> -->
       <v-col cols="6">
         <div class="game-video-container">
@@ -50,5 +50,8 @@ export default {
     /* override other styles to make responsive */
     width: 100%    !important;
     height: auto   !important;
+  }
+  .video-container {
+    background-color:white;
   }
 </style>

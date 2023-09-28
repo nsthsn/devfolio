@@ -16,9 +16,7 @@
         Tangram went global by boat and baggage train in the 1800s. It seems to have originated in China and spread quickly from there.
         By <insert date>, Tangram was everywhere. Tangram books were published in every language in every country.
         <br><br>
-        Tangram remains in the worldwide consciousness. Whether you know the name or not, you will recognize the pieces. Perhaps with a smile. It is hard to not feel wonder when these 7 simple shapes form nearly any object.
-        <br><br>
-        My game design was simple - each completed puzzle unlocks a new object in an unfolding scene.
+        Maybe you recognize the pieces. Perhaps with a smile. It is hard to not feel wonder when these 7 simple shapes form nearly any object.
       "
     ></TextBlock>
     <ImageBox
@@ -28,6 +26,10 @@
         Tangrams are forever. The player unlocks art by completing the puzzle.
       "
     ></ImageBox>
+    <TextBlock
+    text="My game design was simple - each completed puzzle unlocks a new object in an unfolding scene. Simple but heavy on asset creation and creativity."
+    >
+    </TextBlock>
     <ImageBox
       :images=completePuzzleImages
       :columns="6"
@@ -36,36 +38,35 @@
       "
     ></ImageBox>
     <TextBlock
+      text="Generating puzzles and art on theme was a large project. No examples could be found in the competition."
+    >
+    </TextBlock>
+    <TextBlock
       title="Who plays tangram anyways?"
       subtitle="I am the User"
       text="
-        My mom gave me tangrams as a child. It turns out moms and dads are still giving their children tangrams. A surprise - it happened to me - is mom and dad start playing tangram too.
+        My mom gave me tangrams as a child.  I remember exploring it very distinctly.
         <br><br>
-        It is a very elegant dissection puzzle game. Worthy of it's capacity to win over modern gamers.
+        It turns out moms and dads are still giving their children tangrams. A surprise - it happened to me (again!) - is mom and dad start playing tangram too.
+        <br><br>
+        It is a very elegant dissection puzzle game. Worthy of it's capacity to win over modern gamers. It will never be replaced. I will argue this - but not here.
+        <br><br>
+        Market and anecdotal research revealed I could expect a lot of pre-reading users. I could expect users of all ages and nationalities but a majority would be women.
       "
     ></TextBlock>
     <TextBlock
-      title="Establishing a Deadline"
+      title="Alpha Testing"
       text="
-        I set a hard deadline. I decided to enter Microsoft DreamBuildPlay, a promotional contest for their app store. I had experience with XNA, a native game framework for Window's Phone.
-        <br><br>
-
+        I was able to alpha test my game with hundreds of participants. At the time I was working on my MBA, engaged in various parenting activities, and found the best work environments in coffee shops.
+        I have user tested in all age ranges with a wide range of volunteers.
       "
     ></TextBlock>
     <TextBlock
-      title="Every tutorial step needed to be improved."
+      title="The One Metric That Mattered"
       text="
-        The beta's first time user funnel had an abyssmal success rate. 41%. Forty-one percent ... six in ten of my users were gone before we even got started.
+        First time user funnel completion was the one metric I cared about. Losing players early is a lose-lose. They don't even know if they like the game yet!
         <br><br>
-        Those who stayed - played. A forty percent conversion rate was unacceptable. Despite all success - this was failure.
-        <br><br>
-        Talk about A/B testing as an ideal. Talk about working intuitively as a rewarding reality.
-      "
-    ></TextBlock>
-    <TextBlock
-      title="Overview of FTUE (first-time-user-experience)"
-      text="
-        Introduce FTUE as a concept but let the following videos do most the talking.
+        I wanted players to experience the game before they decided to quit.
       "
     ></TextBlock>
     <NoteCard

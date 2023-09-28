@@ -135,3 +135,15 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="scss">
+@import "@/assets/styles/mooncalf.scss";
+  video {
+    /* override other styles to make responsive */
+    width: 100%    !important;
+    height: auto   !important;
+  }
+  .ludum-dare {
+    background-color:white;
+  }
+</style>

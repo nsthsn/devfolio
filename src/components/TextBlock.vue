@@ -1,9 +1,13 @@
 <template>
   <v-row class="text-block pr-12 pl-12">
-    <v-col cols="12" align="left" class="h3 title">
+    <!-- <v-col cols="1"></v-col> -->
+    <v-col cols="12" align="left" class="h3 uppercase text">
       {{ title }}
     </v-col>
-    <v-col cols="12" align="left" class="body-one text-block-text"><div v-html="text"></div></v-col>
+    <!-- <v-col cols="2"></v-col>
+    <v-col cols="1"></v-col> -->
+    <v-col cols="12" align="left" class="body-one text-block-text text"><div v-html="text"></div></v-col>
+    <!-- <v-col cols="2"></v-col> -->
   </v-row>
 </template>
 
@@ -24,14 +28,19 @@
 
 <style scoped lang="scss">
 @import "@/assets/styles/mooncalf.scss";
-  .title {
+  .uppercase {
     text-transform: uppercase;
   }
   .text-block {
     background-color: white;
-
+    
+  }
+  .text {
+    padding-left:19%;
+    padding-right:19%;
   }
   .text-block-text {
-    line-height: 1.5;
+    // line-height: 1.5;
+    width:61.6%;
   }
 </style>
