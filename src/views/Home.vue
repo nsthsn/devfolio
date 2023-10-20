@@ -6,20 +6,20 @@
           route="Flyover" 
           image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680638406/nathanWalkerPortfolio/betterTogether_square_iim2f0.png'
           title='FLYOVER COUNSELING'
-          keywords="Entrepreneurship"
+          :keywords=flyoverChips
           text ='A Minimum Viable Private Practice'
         ></HomeCard>
         <HomeCard
           route="Tangram" 
           image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680638625/nathanWalkerPortfolio/gameIcon_v18_512_zjtilp.png'
           title="OMG TANGRAM"
-          text="A leak in the conversion pipeline won't stay fixed."
+          text="A leak in the conversion funnel won't stay fixed."
         ></HomeCard>
         <HomeCard 
           route="IdentityAutomation" 
           image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680639720/nathanWalkerPortfolio/dceba86f-5d6c-426a-bbfb-4ca5e47736c7_opiq0w.png'
           title="IDENTITY AUTOMATION"
-          text="Analytics saves the day, User Personas pave the way."
+          text="Analytics saves the day."
         ></HomeCard>
         <HomeCard 
           route="LudumDare" 
@@ -40,6 +40,16 @@ export default {
   name: 'Home',
   components: {
     HomeCard
+  },
+  data() {
+    return {
+      flyoverChips: [
+        'Entrepreneurship',
+        'Product Management',
+        'UX',
+        'Design',
+      ],
+    }
   }
 }
 </script>

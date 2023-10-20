@@ -6,12 +6,12 @@
           <video :src=imageOne autoplay muted loop>
           </video>
         </div>
-        <div class="caption text-left" v-html="captionOne"></div>
+        <div v-if="captionOne" class="caption text-left" v-html="captionOne"></div>
       </v-col>
       <v-col cols="6">
         <video :src=imageTwo autoplay muted loop>
           </video>
-          <div class="caption text-left" v-html="captionTwo"></div>
+          <div v-if="captionTwo" class="caption text-left" v-html="captionTwo"></div>
         <!-- <div class="caption text-left"> {{ captionTwo }}</div> -->
       </v-col>
     <!-- </v-row> -->
@@ -52,6 +52,6 @@ export default {
     height: auto   !important;
   }
   .video-container {
-    background-color:white;
+    // background-color:white;
   }
 </style>

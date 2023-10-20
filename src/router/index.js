@@ -49,12 +49,12 @@ Vue.use(VueRouter)
 ]
 
 const router = new VueRouter({
-  //mode: 'history',
+  mode: 'history',
   base: process.env.BASE_URL,
   routes,
   scrollBehavior() {
     // always scroll to top
-    return { top: 0 }
+    return { x: 0, y: 0};
   },
 })
 

@@ -1,10 +1,9 @@
 <template>
   <div class="tool-box ">
-  <v-row class="content">
-    
+  <v-row class="content caption" align-content="bottom">
     <v-col
       v-if="photoshop" 
-      cols="2"
+      cols="1"
     >
       <v-row>
         <!-- Tool -->
@@ -21,7 +20,7 @@
   
     <v-col
       v-if="figma" 
-      cols="2"
+      cols="1"
     >
       <v-row>
         <!-- Tool -->
@@ -38,7 +37,7 @@
 
     <v-col
       v-if="vscode" 
-      cols="2"
+      cols="1"
     >
       <v-row>
         <!-- Tool -->
@@ -55,17 +54,68 @@
 
     <v-col
       v-if="vuejs" 
-      cols="2"
+      cols="1"
     >
       <v-row>
         <!-- Tool -->
         <v-col cols="12">
           <v-img
-            src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1683843475/nathanWalkerPortfolio/Vue.js_Logo_2.svg_yr4gny.png"
+            src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1697648880/nathanWalkerPortfolio/Vue.js_Logo_2.svg_gewydx.png"
           ></v-img>
         </v-col>
         <v-col cols="12">
           Vue.js
+        </v-col>
+      </v-row>
+    </v-col>
+
+    <v-col
+      v-if="analytics" 
+      cols="1"
+    >
+      <v-row>
+        <!-- Tool -->
+        <v-col cols="12">
+          <v-img
+            src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1697648937/nathanWalkerPortfolio/Google-Analytics-Logo_ufr6vq.png"
+          ></v-img>
+        </v-col>
+        <v-col cols="12">
+          Google Analytics
+        </v-col>
+      </v-row>
+    </v-col>
+
+    <v-col
+      v-if="tags"
+      cols="1"
+    >
+      <v-row>
+        <!-- Tool -->
+        <v-col cols="12">
+          <v-img
+            src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1697646208/nathanWalkerPortfolio/google-tag-manager-logo-0A964D3D77-seeklogo.com_smvxej.png"
+          ></v-img>
+        </v-col>
+        <v-col cols="12">
+          Tag Manager
+        </v-col>
+      </v-row>
+    </v-col>
+
+    <v-col
+      v-if="ads"
+      cols="1"
+    >
+      <v-row>
+        <!-- Tool -->
+        <v-col cols="12">
+          <v-img
+            src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1697649099/nathanWalkerPortfolio/google-ads-logo-B4A8680058-seeklogo.com_ubnnl3.png"
+          ></v-img>
+        </v-col>
+        <v-col cols="12">
+          Google Ads
         </v-col>
       </v-row>
     </v-col>
@@ -85,9 +135,9 @@ export default {
       vscode: this.tools.includes("vscode"),
       figma: this.tools.includes("figma"),
       vuejs: this.tools.includes("vuejs"),
-      // googleanalytics: this.tools.includes("googleanalytics"),
-      // simplepractice: this.tools.includes("simplepractice"),
-      // cloudinary: this.tools.includes("simplepractice"),
+      analytics: this.tools.includes("analytics"),
+      ads: this.tools.includes("ads"),
+      tags: this.tools.includes("tags"),
       logo : cloudinaryCore.url('https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680548615/nathanWalkerPortfolio/NN_bglix1.png'),
       toolList : {
         // construct tool list from tools - passed in names
@@ -102,18 +152,19 @@ export default {
 <style scoped lang="scss">
 @import "../assets/styles/mooncalf.scss";
   .note-card-container {
-    background-color:white;
+    // background-color:white;
   }
   .note-card {
     background-color:yellow;
     box-shadow: 10px 10px lightblue;
   }
   .tool-box {
-    background-color:white;
+    background-color:grey;
+    color: $highEmphasisLight;
   }
   .content {
     padding-left:13%;
     padding-right:13%;
-    background-color:white;
+    // background-color:white;
   }
 </style>

@@ -24,6 +24,13 @@ Vue.config.productionTip = false;
 
 document.title = 'Nathan Walker Portfolio';
 
+// const arouter = createRouter({
+//   scrollBehavior(to, from, savedPosition) {
+//     // always scroll to top
+//     return { top: 0 }
+//   },
+// });
+
 new Vue({
   vuetify,
   router,

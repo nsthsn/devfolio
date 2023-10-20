@@ -3,10 +3,18 @@
     <StudyBanner
       image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680035062/nathanWalkerPortfolio/betterTogether_ftnrpx.jpg'
       title="Flyover Counseling"
-      text="The goal was an online counseling agency. In 2018, Flyover was just getting started. The company had zero clients and zero footprint.
-            To get from here to there the company needed a digital presence - the materials required to pull customers in as well as the tools the counselors needed to do their work.
+      text="
+        Our objective : an online counseling agency.
+        <br><br>
+        In 2018, Flyover was just getting started. The company had zero clients and zero footprint.
+        To get from here to there the company needed a digital presence - the materials required to pull customers in as well as the tools the counselors needed to do their work.
       "
     ></StudyBanner>
+    <ToolBox
+      tools="['photoshop', 'figma', 'vscode', 'vuejs', 'ads', 'analytics', 'tags', 'optimize']"
+    ></ToolBox>
+    <ContentColumn>
+    <div style="padding-top:127px"></div>
     <TextBlock
       title="Context"
       text="
@@ -18,19 +26,6 @@
         But we had time, we had planned for this - we had a runway.
       "
     ></TextBlock>
-    <!-- <TextBlock
-      title="Origin Story"
-      text="
-        It was a 2016. I was code monkeying away in my pajamas - my wife was preparing for a 45 minute commute.
-        She lamented her choice of profession - mental health counseling. She also wanted to work in pajamas.<br>
-        <br>
-        Well, why not? Can you do online counseling in pajamas?
-        <br><br>
-        No, you cannot. Pajama bottoms - yes. Pajama tops - no.
-        <br><br>
-        Half-pajamas was the best we could do. Half-pajamas was halfway - halfway was good enough.
-      "
-    ></TextBlock> -->
     <PullQuote
       text='Do it. Then do it again.'
     ></PullQuote>
@@ -45,9 +40,7 @@
       caption="Tools Depended On"
       :tools=tools
     ></ImageBox> -->
-    <ToolBox
-      tools="['photoshop', 'figma', 'vscode', 'vuejs']"
-    ></ToolBox>
+
     <!-- ESTABLISH THE PROCESS -->
 
     <!-- ESTABLISH SUCCESS METRICS -->
@@ -64,25 +57,27 @@
     </TextBlock> -->
     <TextBlock
       title="My process"
+      subtitle="Some call it double diamond"
       text="
-        Educate, Execute, Evaluate. Repeat. Do it, do it again. Stop as soon as possible.
+        Educate, Execute, Evaluate. Repeat. Do it, do it again. Then stop as soon as possible.
         <br><br>
-        Simply - iterate. Fancier names include Agile, Kanban and Double Diamond.
+        Put simply - iterate. Fancier names include Agile, Kanban and Double Diamond. The essence is Agile.
       "
     ></TextBlock>
     <TextBlock
       title="Metrics That Matter"
+      subtitle="OKR"
       text='
-        To stop as soon as possible - you must know what it means to be done.
-        I established two measurable goals - one quantitative, one qualitative.
+        The objective was a full, scalable practice. To stop as soon as possible I needed to establish what it meant to be done.
+        I established two measurable goals - two quantitative, one qualitative.
         Achieving these was the finish line.
       '
     ></TextBlock>
     <NoteCard
       :cards="[
         {
-          title: 'Qualifiable Major Goal',
-          text: 'Attract target demographic. Are all clients a good fit?'
+          title: 'Qualifiable Major Goals',
+          text: 'Attract target demographic. Are all clients the counselors target demographic?<br><br>Support additional staff. Are we signing and sending checks for labor performed?'
         },
         {
           title: 'Quantifiable Major Goal',
@@ -117,24 +112,45 @@
     ></ImageBox>
     <TextBlock
       title="Competitive Analysis"
+      text=" I conducted a SWOT analysis to help clarify the situation."
     ></TextBlock>
     <NoteCard
+      title="SaaS Competition"
+      cardColumns="6"
       :cards="[
         {
           title: 'Strengths'
-,          text: 'As a user, I encounter a splash screen.'
+,          text: 'Venture Capital<br>Multi-Discipline Teams<br>Celebrity Advertisement'
         },
         {
           title: 'Weaknesses',
-          text: 'As a user, I encounter overlay text on the splash screen.'
+          text: 'Model undermines counseling relationship leading to poor outcomes<br>'
+        },        
+        {
+          title: 'Opportunities'
+,          text: 'Undercut traditional counseling<br>Develop new technology<br>24/7 availability'
+        },
+        {
+          title: 'Threats',
+          text: 'Ethical inability to control relationship. Savvy counselors use them as marketing channel.'
         },
       ]"
     ></NoteCard>
     <NoteCard
+      title="Agency Competition"
+      cardColumns="6"
       :cards="[
         {
+          title: 'Strengths'
+,          text: 'Established, expected model.<br>Physical location'
+        },
+        {
+          title: 'Weaknesses',
+          text: 'Overhead'
+        },        
+        {
           title: 'Opportunities'
-,          text: 'As a user, I encounter a splash screen.'
+,          text: 'Offer remote as addon.<br>'
         },
         {
           title: 'Threats',
@@ -142,13 +158,52 @@
         },
       ]"
     ></NoteCard>
+    <NoteCard
+      title="Our heroes - Flyover Counseling"
+      cardColumns="6"
+      :cards="[
+        {
+          title: 'Strengths'
+,          text: 'No weak links'
+        },
+        {
+          title: 'Weaknesses',
+          text: 'Small team'
+        },        
+        {
+          title: 'Opportunities'
+,          text: 'Copy Competitor Asssets<br>Use Competitor Platform'
+        },
+        {
+          title: 'Threats',
+          text: 'Insurance Dependence<br>'
+        },
+      ]"
+    ></NoteCard>
+    <TextBlock
+      title="Continuing Education"
+      text="
+        I had my co-founder participate in two educational ventures. Working for the competition and signing up for a free entrepreneur training program.
+        <br><br>
+        We applied for and were admitted into a startup incubator tangential to my previous MBA program. This gave us access to additional accountability and weekly feedback on our progress. Through the program we also obtained two mentors in the mental health field that had successful startup exits.
+        <br><br>
+        During my research, I saw the SaaS competition were looking for counselors. This provided opportunity for experience and experiment. I had the counselor signup.
+      "
+    ></TextBlock>
+    <TextBlock
+      title="One Down the rest to go"
+      subtitle="Lean"
+      text="
+        It wasn't what I envisioned when I set the goal but I had to admit we had achieved it. By selling one hour as a 1099 worker through our competitor's platform - Flyover had achieved it's first quantifiable goal. It was official - we were gonna have to pay taxes!
+      "
+    ></TextBlock>
  
     <!-- Identify the three pillars of work -->
     <TextBlock
       title="The Art of Prior Art"
       text='
         THe competition took many forms.
-        I found SaaS-style corporations, lifestyle businesses, and traditional agencies moving into the online space.
+        SaaS-style corporations, lifestyle businesses, and traditional agencies were all moving into the online space.
         This was great. The market was real and my competition was capturing clients. Rather than exercise creativity, I could identifty and copy their successful assets.
         <br><br>
         I could trust their web design. The elements they emphasized I should emphasize.
@@ -161,14 +216,14 @@
         Instead I found negative examples by monitoring online groups - people who were struggling are very vocal in calls for help.
         <br><br>
         My evaluation yielded three commonalities.
-        These became my requirements.
+        These informed my initial requirements.
       '
     ></TextBlock>
     <NoteCard
       :cards="[
         {
-          title: 'Landing Splash'
-,          text: 'As a user, I encounter a splash screen.'
+          title: 'Landing Splash',
+          text: 'As a user, I encounter a splash screen.'
         },
         {
           title: 'Splash Overlay',
@@ -181,34 +236,34 @@
       ]"
     ></NoteCard>
     <NoteCard
-        :cards="[
-          {
-            title: 'Requirements',
-            text: 
-            '1. Select and format splash image.<br>' +
-            '2. Write and layout overlay text.<br>' +
-            '3. Layout call-to-action button.<br>' +
-            '4. Establish editor to live toolchain.<br>' +
-            '5. Implement call-to-action. '
-          }
-        ]"
+      :cards="[
+        {
+          title: 'Requirements',
+          text: 
+          '1. Select and format splash image.<br>' +
+          '2. Write and layout overlay text.<br>' +
+          '3. Layout call-to-action button.<br>' +
+          '4. Establish editor to live toolchain.<br>' +
+          '5. Implement call-to-action. '
+        }
+      ]"
     ></NoteCard>
     <TextBlock
-        title="24 hours to launch"
-        text="
-          With my requirements in place, I moved quickly to create the MVP.
-          I spent very little time worrying about the content all of my time worrying about the form.
-          As an iterative creator, I had little expectation of hitting a home run, I just needed a starting point.
-          <br><br>
-          I still had plenty of time to make mistakes. For example, for my aesthetic choice I focused on the keyword 'forward progress'.
-          This was a misevaluation from my research. Later I determined the correct keyword was 'human connection'.
-        "
+      title="24 hours to launch"
+      text="
+        With my requirements in place, I moved quickly to create the MVP.
+        I spent very little time worrying about the content all of my time worrying about the form.
+        As an iterative creator, I had little expectation of hitting a home run, I just needed a starting point.
+        <br><br>
+        I still had plenty of time to make mistakes. For example, for my aesthetic choice I focused on the keyword 'forward progress'.
+        This was a misevaluation from my research. Later I determined the correct keyword was 'human connection'.
+      "
     ></TextBlock>
     <ImageBox
       :images=mvpImage
       columns="12"
       caption="
-        So much wrong here from a content standpoint. The content was replaced in short order but the tech stack remains intact to this day. And the one used for this website.
+        The content was replaced in short order but the tech stack remains intact to this day. And the one used for this website.
         I still use the vue framework - I like it's focus on single file pages.
         I publish from my main branch on Github.
         Netlify detects changes and automatically publishes them.
@@ -229,7 +284,14 @@
         <br><br>
         Using these ads as reference I brainstormed new copy and combed stock photography for ads.
         I created a text-based campaign for google ads and a display campaign for Facebook. I copied keywords directly using SpyFu.
+      "
+    ></TextBlock>
+    <TextBlock
+      title="Industry Specific Bullshit"
+      text="
+        Ads were running great - until they weren't running at all.
         <br><br>
+        Our counselors are veterans of dual diagnosis - co-occurring mental health and substance use disorders. 
       "
     ></TextBlock>
     <ImageBox
@@ -287,21 +349,13 @@
     <TextBlock
       title="Spreading Expertise"
       text="
-        I held a training session where I had the counselors conduct a mock consultation with me as the client.
-        As the group watched we had an a-ha moment. The successful consultation was focused on relationship building, the unsuccessful ones were getting started on assessment.
+        I had the counselors conduct a mock consultation with me as the client while the other counselors watched.
+        As I feigned a litany of weaknesses, I had an a-ha moment. The successful consultant was focused on relationship building, the others were getting started on assessment.
         <br><br>
         We realized assessment shouldn't start until the first session.
         After this, all counselors began converting at nearly 100%.
       "
     ></TextBlock>
-    <ImageBox
-      :images=figmaSketchImage
-      columns="12"
-      caption="
-        On solo projects, I use Figma to sketch.
-        This was my stopping point before I hopped into coding.
-      "
-    ></ImageBox>
     <TextBlock
       title="Moving away from minimum"
       subtitle="Graphic Design"
@@ -314,32 +368,39 @@
         I copied the most common banner I saw on venture capital and lifestyle businesses alike - a portrait shot staring directly at the camera.
       "
     ></TextBlock>
-
+    <ImageBox
+      :images=figmaSketchImage
+      columns="12"
+      caption="
+        On solo projects, I use Figma to sketch.
+        This was my stopping point before I hopped into coding.
+      "
+    ></ImageBox>
     <TextBlock
       title="Iteration"
       text="
         While building from my Figma sketch I deployed constantly. Every feature I felt was an improvement went live immediately.
         <br><br>
-        The bounce rate quickly fell very close to zero. I needed another metric. I needed metrics I could A/B test with.
-        Conversion events such as email clicked, phone clicked, and schedule clicked were obvious candidates but fell short of complete measurement.
+        The bounce rate quickly fell very close to zero but client contacts were not noticeably improving. I needed another metric. I needed metrics I could A/B test with.
+        <br><br>
+        I created events such as email clicked, phone clicked, and schedule clicked were obvious candidates but fell short of complete measurement.
         Many clients would simply dial the number, type or copy pasta the email. I needed to know more.
         <br><br>
         I implement a coarse grained event to measure page scroll at 25, 50, 75, and 100 percent.
         Consumption of the page scroll would also serve as a conversion type event.
-        <br><br>
-        I added 
       "
     ></TextBlock>
     <TextBlock
-      title="A/B No Go"
+      title="One feature to rule them all"
       text="
-          Early in this project I used Google tags with Google Optimize to optimize assets. Our volume was too low even early on.
-
+        I observed very few customers triggering the 25% event. They were staying long enough to not count as a bounce but not long enough to know what we were about.
+        <br><br>
+        I needed customers to go past the fold. I turned to design to solve this problem. I put an arrow at the bottom of the page that broke my margins and I animated it. 
+        This sufficed. Suddenly, most users triggered up to 50% - and over 25% ingested the entire page.
+        <br><br>
+        Later in development curiousity led me to an even simpler design solution - I made the fold show very less than my margins width on the bottom. 
+        This design tension was enough to achieve the same outcome.
       "
-    ></TextBlock>
-    <TextBlock
-      title="Sticking the landing"
-      text="In this section talk about A/B testing using Google Optimize."
     ></TextBlock>
     <ImageBox
       :images=splashProgressImages
@@ -349,37 +410,49 @@
         The theme of 'human connection' is maintained through all.
         Each iteration performed better than the last.
       "
-      ></ImageBox>
-      <TextBlock
-        title="The End Result"
-      ></TextBlock>
-      <ImageBox
-        :images=splashImage
-        caption="
-          The top-bar contains everything a returning or direct customer needs. The splash evokes human connection between the duo framed in the composition by nature and architecture.
-          A slogan and an invitation to a new customer to schedule their free consult. Included again is the number and email address - all the resources the new client need.
-          The same thing restated twice - even the buttons do exactly the same thing.
-        "
-      ></ImageBox>
-      <ImageBox
-        :images=foldImage
-        caption="
-          The fold drops all of our keywords. Some are marketing, some are industry lingo. Educated customers - and most are - know exactly who we are.
-          <br><br>
-          I gently indicate to them that the service is online only. An early time waster was customers that wanted in person only.
-          Constantly repeating some version of 'online only' in this and later copy deterrs most of these customers.
-        "
-      ></ImageBox>
-      <ImageBox
-        :images=conditionsImage
-        caption="
-          The fold drops all of our keywords. Some are marketing, some are industry lingo. Educated customers - and most are - know exactly who we are.
-          <br><br>
-            Hello customer! Let us make absolutely sure you are in the right place. These are the types of issues you might talk about.
-            A unicorn will have pages and pages of this stuff for SEO porpoises.
-        "
-      ></ImageBox>
+    ></ImageBox>
+    <TextBlock
+      title="A/B No Go"
+      text="
+        Early in this project I used Google tags with Google Optimize to optimize assets. I created diagnosis specific ads and A/B tested them with diagnosis specific copy. My volume was too low to obtain conclusive results. 
+        Furthermore, my objective of filling counselor hours was being achieved. It is hard to imagine that a more personal approach would not be more efficient - but it was uncalled for. The objective had been achieved.
+      "
+    ></TextBlock>
+    <TextBlock
+      title="The End Result"
+      subtitle="Resisting perfection"
+      text="
+        There are many places to improve but the asset does it's job and it does it well. Without a new objective, I have no reason to update anything.
+      "
+    ></TextBlock>
+    <ImageBox
+      :images=splashImage
+      caption="
+        The top-bar contains everything a returning or direct customer needs. The splash evokes human connection between the duo framed in the composition by nature and architecture.
+        A slogan and an invitation to a new customer to schedule their free consult. Included again is the number and email address - all the resources the new client need.
+        The same thing restated twice - even the buttons do exactly the same thing.
+      "
+    ></ImageBox>
+    <ImageBox
+      :images=foldImage
+      caption="
+        The fold drops all of our keywords. Some are marketing, some are industry lingo. Educated customers - and most are - should now know exactly who we are.
+        <br><br>
+        I gently indicate to them that the service is online only. An early time waster was customers that wanted in person only.
+        Constantly repeating some version of 'online only' in this and later copy deterrs most of these customers.
+      "
+    ></ImageBox>
+    <ImageBox
+      :images=conditionsImage
+      caption="
+        The fold drops all of our keywords. Some are marketing, some are industry lingo. Educated customers - and most are - know exactly who we are.
+        <br><br>
+        Hello customer! Let us make absolutely sure you are in the right place. These are the types of issues you might talk about.
+        A unicorn will have pages and pages of this stuff for SEO porpoises.
+      "
+    ></ImageBox>
     <!-- How to copy Marketing -->
+  </ContentColumn>
   </div>
 </template>
 
@@ -391,6 +464,7 @@ import ImageBox from '@/components/ImageBox.vue';
 import NoteCard from '@/components/NoteCard.vue';
 import ToolBox from '@/components/ToolBox.vue';
 import StudyBanner from '@/components/StudyBanner.vue';
+import ContentColumn from '@/components/ContentColumn.vue';
 
 export default {
   name: "Flyover",
@@ -401,7 +475,8 @@ export default {
     ImageBox,
     NoteCard,
     ToolBox,
-    StudyBanner
+    StudyBanner,
+    ContentColumn
   },
   data() {
     return {
@@ -452,8 +527,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.flyover {
-  background-color:white;
-}
-  
+  @import "@/assets/styles/mooncalf.scss";
+  .flyover {
+    padding-left:12px;
+    padding-right:12px;
+  }
+
 </style>

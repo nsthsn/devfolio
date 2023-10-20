@@ -23,7 +23,7 @@ export default {
 @import "@/assets/styles/mooncalf.scss";
   .pull-quote {
     font-family: $serifFont;
-    background-color: white;
+    // background-color: white;
     color: red;
 
     hr {

@@ -13,12 +13,18 @@ $primaryFont : '';
 $secondaryFont : 'Lato';
 $secondaryFontBlack : 'Lato Black';
 
-$headerFont : '';
+$headerFont : 'Ubuntu';
 $bodyFont : "'Source Sans Pro', sans-serif";
 $captionFont : "Anonymous Pro";
 $serifFont : 'PT Serif';
 
 $backgroundColor: #abb8c3;
+
+$highEmphasisDark: rgb(0,0,0,.87);
+$mediumEmphasisDark: rgb(0,0,0,.60);
+
+$highEmphasisLight: rgb(255,255,255,.87);
+$mediumEmphasisLight: rgb(255,255,255,.60);
 
 body {
     background-color: $backgroundColor;
@@ -26,14 +32,29 @@ body {
 
 .header-one {
   font-size: 4.236rem;
+  font-family: $headerFont;
 }
 
 .header-two {
   font-size: 2.618rem;
+  font-family: $headerFont;
+}
+
+.header-three {
+  font-size: 2rem;
+  font-family: $headerFont;
+}
+
+.header-four {
+  font-size: 1.236rem;
 }
 
 .body-one {
   font-size: 2rem;
+}
+
+.body-two {
+  font-size: 1.236rem;
 }
 
 .caption {
@@ -138,6 +159,14 @@ body {
 a, u {
   text-decoration: none;
 }
+
+.study-body {
+  .study-body:first-child {
+    margin-top: $m1;
+  }
+}
+
+
 
 // .xs-display, .sm-display {
 //     .h4 {

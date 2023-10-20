@@ -1,8 +1,11 @@
 <template>
   <v-row class="text-block pr-12 pl-12">
     <!-- <v-col cols="1"></v-col> -->
-    <v-col cols="12" align="left" class="h3 uppercase text">
+    <v-col cols="12" align="left" class="header-two uppercase text">
       {{ title }}
+    </v-col>
+    <v-col cols="12" align="left" class="header-four uppercase text subtitle">
+      {{ subtitle }}
     </v-col>
     <!-- <v-col cols="2"></v-col>
     <v-col cols="1"></v-col> -->
@@ -32,12 +35,17 @@
     text-transform: uppercase;
   }
   .text-block {
-    background-color: white;
+    // background-color: white;
     
   }
   .text {
     padding-left:19%;
     padding-right:19%;
+  }
+  .subtitle {
+    margin-top:-20px;
+    color: $mediumEmphasisDark;
+    font-weight: bold;
   }
   .text-block-text {
     // line-height: 1.5;

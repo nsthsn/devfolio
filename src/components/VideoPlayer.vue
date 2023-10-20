@@ -68,6 +68,6 @@ export default {
 <style scoped lang="scss">
 @import "@/assets/styles/mooncalf.scss";
   .video-player {
-    background-color:white;
+    // background-color:white;
   }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <v-row class="study-banner pt-14 pb-7">
+  <v-row class="study-banner  ml-0 mr-0">
     <v-col cols="3" class="pa-0">
       <v-img 
         class="banner-image"
@@ -38,14 +38,14 @@
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/styles/mooncalf.scss";
+  @import "@/assets/styles/mooncalf.scss";
 
   .study-banner {
     background-color: $backgroundColor;
     
     .text-container{
       padding-left: $m1;
-      color: white;
+      color: $highEmphasisLight;
       background-color: rgb(59, 58, 116);
     }
     .banner-image {

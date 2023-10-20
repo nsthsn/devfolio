@@ -1,5 +1,5 @@
 <template>
-  <v-row class="image-box pr-16 pl-16">
+  <v-row justify="center" class="image-box pr-16 pl-16">
     <v-col class="images"
       v-for="image in images"
       :key="image"
@@ -9,7 +9,7 @@
         :src=image
       ></v-img>
     </v-col>
-    <v-row class="image-caption caption text-left pr-4 pl-4">
+    <v-row v-if="caption" class="image-caption caption text-left pr-4 pl-4">
       <v-col cols="12">
         {{ caption }}
       </v-col>
@@ -18,15 +18,10 @@
 </template>
 
 <script>
-// import cloudinary from 'cloudinary-core';
-// const cloudinaryCore = new cloudinary.Cloudinary({cloud_name:'mooncalf'});
 
 export default {
   created() {
-    // console.log(this.images[0]);
-    // this.images.forEach((element,index) => {
-    //   this[index] = cloudinaryCore.url(element);
-    // }, this.images);
+
   },
   name: "ImageBox",
   props: ['images', 'caption', 'columns', 'outline'],
@@ -44,8 +39,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/styles/mooncalf.scss";
+  @import "@/assets/styles/mooncalf.scss";
   .image-box {
-    background-color:white;
+    width: 84.2%;
+    margin: auto;
   }
 </style>

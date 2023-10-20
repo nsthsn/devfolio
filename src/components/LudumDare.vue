@@ -1,18 +1,16 @@
 <template>
   <div class="ludum-dare">
     <StudyBanner
-      image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680035062/nathanWalkerPortfolio/betterTogether_ftnrpx.jpg'
+      image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1697826373/nathanWalkerPortfolio/communityIcon_4by5_xkos2t.png'
       title="Ludum Dare"
       text="
-      Ludum Dare is the world's largest game jam. Designers are presented with a theme at 8pm Friday. Delivery is 72 hours later. A full game must be designed then developed from scratch.
-      The teams then play and rate each others games. Winners are assigned overall and for a number of categories such as Theme, Graphics, and Fun.
-      <br><br>
-      I built a team under the Mooncalf Games brand. I recruited artists, composers, and programmers to jam with Mooncalf. Mooncalf games has competed in 9 Ludum Dare events.
-      <br><br>
-      Game Jams allow you to experience the entire product pipeline - from concept to delivery in a concrete amount of time.
+        I built a team to compete in Ludum Dare - the largest game hack-a-thon. I recruited artists, composers, and programmers to jam with me. I completed 9 Ludum Dare events. My best are shared below.
+        <br><br>
+        Game Jams allow you to experience the entire product pipeline - from concept to delivery on a tight deadline. On completion, games are juried by your peers to provide feedback.
       "
     ></StudyBanner>
-    <v-row>
+
+    <ContentColumn>
       <!-- <v-col cols="12"> -->
         <TextBlock
           title="Day One : Analog"
@@ -42,7 +40,7 @@
             We leaned into the theme by imagining a modern mobile game except written for an Etch-A-Sketch. Retro if not ancient technology by modern standards.
             <br><br>
             Our first game design failed - we made it - it sucked. A late jam pivot led to pure awesomeness.
-            Despite a glaring late game bug, most players complete the game.
+            Despite a glaring late game bug, most players play for 45 minutes.
             <br><br>
           '
           playURL="https://www.newgrounds.com/portal/view/887023"
@@ -50,7 +48,15 @@
         ></GameCard>
       </v-col>
       <TextBlock
-      title="Day Two : Proof of Concept"
+        title="Day Two : Reality vs Design"
+        subtitle="Proof of Concept"
+        text="
+          On Day 2, we start as early as possible with the goal of everyone starting well rested - we had a long day ahead of us. We have one goal - implement and validate any tech required to implement our gameplay. I make the meals - keeping the team fed and working keeps the team on task. For my team, home cooked meals was novel and welcome.
+          <br><br>
+          Starting at 8am and ending after midnight is the norm. After dinner, we evaluate reality vs design. This is almost always a pivot. Unknown unknowns always surface in implementing new tech. And we are always implementing new (to us) tech - learning was one of team values.
+          <br><br>
+          We had two end conditions - too exhausted to continue or the tech was ready for our Day 3 focus.
+        "
       ></TextBlock>
       <v-col cols=12>
         <GameCard 
@@ -67,13 +73,17 @@
         ></GameCard>
         </v-col>
         <TextBlock
-          title="Day Three : Loopers"
+          title="Day Three : 30 seconds of fun"
+          subtitle="Core Game Loop"
+          text="
+            Sleep often becomes scarce at this point. After (hopefully) arriving at a point with no unknowns, the work that is known is still ambitious.
+          "
         ></TextBlock>
         <v-col cols=12>
           <GameCard 
             image-one='https://res.cloudinary.com/mooncalf/video/upload/f_auto/v1689191016/nathanWalkerPortfolio/spider_video_one_ibddzq.mp4'
             image-two="https://res.cloudinary.com/mooncalf/video/upload/f_auto/v1689191016/nathanWalkerPortfolio/spider_video_two_mbgebp.mp4"
-            caption-one='We had no artist - so I was the artist. I settled on a retro theme. I made vector art and let a shader do the pixel-arting.'
+            caption-one='We had no artist - so I was the artist. I settled on a retro theme. I made vector art and wrote a shader to do the pixel-arting.'
             caption-two='
               Level design is often the very last thing to get done - fastly and furiously. I love the ideas we found but there is a ton of low hanging fruit.
               It is easy to fall in love with jam games!
@@ -96,6 +106,10 @@
         </v-col>
         <TextBlock
           title="Day Four : Content"
+          subtitle=""
+          text="
+
+          "
         ></TextBlock>
         <!-- <v-col cols=12>
         <GameCard 
@@ -113,7 +127,7 @@
           '
         ></GameCard>
       </v-col> -->
-    </v-row>
+    </ContentColumn>
   </div>
 </template>
 
@@ -122,13 +136,15 @@
 import GameCard from '@/components/GameCard.vue'
 import StudyBanner from '@/components/StudyBanner.vue'
 import TextBlock from '@/components/TextBlock.vue'
+import ContentColumn from '@/components/ContentColumn.vue'
 
 export default {
   name: 'Home',
   components: {
     GameCard,
     StudyBanner,
-    TextBlock
+    TextBlock,
+    ContentColumn
   },
   mounted() {
     window.scrollTo(0, 0);
@@ -144,6 +160,6 @@ export default {
     height: auto   !important;
   }
   .ludum-dare {
-    background-color:white;
+    // background-color:white;
   }
 </style>

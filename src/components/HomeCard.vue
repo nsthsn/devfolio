@@ -12,13 +12,19 @@
                 ></v-img>
             <!-- </div> -->
           </v-col>
-          <v-col cols="9" >
+          <!-- <v-col cols="1"></v-col> -->
+          <v-col cols="8" >
             <v-row class="home-card-text">
               <v-col cols="12" class="header-one font-weight-black">
                 {{ title }}
               </v-col>
               <v-col cols="12">
-                {{ keywords }}
+                <v-chip
+                  class="ma-2"
+                  v-for="keyword in keywords"
+                  :key="keyword"
+                > {{ keyword }} </v-chip>
+                <!-- {{ keywords }} -->
               </v-col>
               <v-col cols="12">
                 {{ text }}
