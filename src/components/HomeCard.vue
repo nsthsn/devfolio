@@ -13,9 +13,9 @@
             <!-- </div> -->
           </v-col>
           <!-- <v-col cols="1"></v-col> -->
-          <v-col cols="8" >
+          <v-col style="padding-left: 51px;" cols="9">
             <v-row class="home-card-text">
-              <v-col cols="12" class="header-one font-weight-black">
+              <v-col cols="12" align-self="start" class="header-one font-weight-black">
                 {{ title }}
               </v-col>
               <v-col cols="12">

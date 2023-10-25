@@ -7,7 +7,7 @@
         :aspect-ratio="4/5"
       ></v-img>
     </v-col>
-    <v-col cols="9" class="text-container">
+    <v-col cols="9" class="text-container ">
       <v-row >
         <v-col cols="12" align="left" class="h2">
           {{ title }}
@@ -44,12 +44,18 @@
     background-color: $backgroundColor;
     
     .text-container{
-      padding-left: $m1;
+      padding-left: $m2;
+      padding-right: $m3;
       color: $highEmphasisLight;
-      background-color: rgb(59, 58, 116);
+      // background-color: rgb(26, 30, 45);
+      background-color: $blue00;
     }
     .banner-image {
 
+
+    }
+    .get-it {
+        height:100px;
     }
   }
 </style>

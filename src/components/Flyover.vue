@@ -10,9 +10,6 @@
         To get from here to there the company needed a digital presence - the materials required to pull customers in as well as the tools the counselors needed to do their work.
       "
     ></StudyBanner>
-    <ToolBox
-      tools="['photoshop', 'figma', 'vscode', 'vuejs', 'ads', 'analytics', 'tags', 'optimize']"
-    ></ToolBox>
     <ContentColumn>
     <div style="padding-top:127px"></div>
     <TextBlock
@@ -32,10 +29,15 @@
     <TextBlock
       title="My Role"
       text="
-        My product - everything but the counseling.
-        Market research, marketing, design, programming, and sales coaching. And whatever else.
+        I initiated the project and created the business plan before implementing it.
+        <br><br>
+        I led the design and implementation of our web presence and customer acquistion funnel.
+        I coordinate with the counselors to remove all blockers so they can focus solely on counseling.
       "
     />
+    <ToolBox
+      tools="['photoshop', 'figma', 'vscode', 'vuejs', 'ads', 'analytics', 'tags', 'optimize']"
+    ></ToolBox>
     <!-- <ImageBox
       caption="Tools Depended On"
       :tools=tools
@@ -112,7 +114,7 @@
     ></ImageBox>
     <TextBlock
       title="Competitive Analysis"
-      text=" I conducted a SWOT analysis to help clarify the situation."
+      text="I conducted a SWOT analysis to help clarify the situation for myself, my partner, and my mentors."
     ></TextBlock>
     <NoteCard
       title="SaaS Competition"
@@ -120,33 +122,33 @@
       :cards="[
         {
           title: 'Strengths'
-,          text: 'Venture Capital<br>Multi-Discipline Teams<br>Celebrity Advertisement'
+,          text: '<ul><li>Venture Capital<li>Multi-Discipline Teams<li>Celebrity Advertisement<li>Advertising Budget</ul>'
         },
         {
           title: 'Weaknesses',
-          text: 'Model undermines counseling relationship leading to poor outcomes<br>'
+          text: 'Model undermines counseling relationship leading to poor outcomes<br>Exploited Workers offer poor service.'
         },        
         {
           title: 'Opportunities'
-,          text: 'Undercut traditional counseling<br>Develop new technology<br>24/7 availability'
+,          text: 'Undercut traditional counseling<br>Develop new technology<br>24/7 availability<br>Exploit workers'
         },
         {
           title: 'Threats',
-          text: 'Ethical inability to control relationship. Savvy counselors use them as marketing channel.'
+          text: 'Ethical inability to control relationship. Savvy counselors use them as marketing channel.<br>Poachable work force'
         },
       ]"
     ></NoteCard>
     <NoteCard
-      title="Agency Competition"
+      title="Traditional Agency"
       cardColumns="6"
       :cards="[
         {
           title: 'Strengths'
-,          text: 'Established, expected model.<br>Physical location'
+,          text: 'Established, expected model.<br>Physical location.'
         },
         {
           title: 'Weaknesses',
-          text: 'Overhead'
+          text: 'Overhead<br>Georgraphically bound'
         },        
         {
           title: 'Opportunities'
@@ -154,7 +156,7 @@
         },
         {
           title: 'Threats',
-          text: 'As a user, I encounter overlay text on the splash screen.'
+          text: 'Remote offers no commute for clients<br>Remote offers time flexibility for clients<br>Poachable Staff'
         },
       ]"
     ></NoteCard>
@@ -164,24 +166,25 @@
       :cards="[
         {
           title: 'Strengths'
-,          text: 'No weak links'
+,          text: '<ul><li>No weak links<li>Peanuts for overhead</ul>'
         },
         {
           title: 'Weaknesses',
-          text: 'Small team'
+          text: '<ul><li>Small team<li>Bootstrap funding</ul>'
         },        
         {
           title: 'Opportunities'
-,          text: 'Copy Competitor Asssets<br>Use Competitor Platform'
+,          text: 'Copy Competitor Asssets<br>Use Competitor Platform<br>Poach Competitor Workforce<br>International Clients'
         },
         {
           title: 'Threats',
-          text: 'Insurance Dependence<br>'
+          text: 'Insurance Dependence<br>Established agencies going remote<br>Venture Capital Marketing Reach'
         },
       ]"
     ></NoteCard>
     <TextBlock
       title="Continuing Education"
+      subtitle="Accountability"
       text="
         I had my co-founder participate in two educational ventures. Working for the competition and signing up for a free entrepreneur training program.
         <br><br>
@@ -191,18 +194,22 @@
       "
     ></TextBlock>
     <TextBlock
-      title="One Down the rest to go"
-      subtitle="Lean"
+      title="One Down Infinity to go"
+      subtitle="Running Lean"
       text="
-        It wasn't what I envisioned when I set the goal but I had to admit we had achieved it. By selling one hour as a 1099 worker through our competitor's platform - Flyover had achieved it's first quantifiable goal. It was official - we were gonna have to pay taxes!
+        We had reached our quantifiable minor goal. By selling one hour as a 1099 worker through our competitor's platform - Flyover had achieved it's first quantifiable goal. 
+        Furthermore - we had reached it by developing nothing. 
+        <br><br>
+        This was a huge success of my favorite type. I completely subverted my expectation on how I would achieve our minor quantifiable. 
+        I established a new minor quantifiable goal - convert a client via our web presence.
       "
     ></TextBlock>
  
     <!-- Identify the three pillars of work -->
     <TextBlock
       title="The Art of Prior Art"
+      subtitle="Asset generation"
       text='
-        THe competition took many forms.
         SaaS-style corporations, lifestyle businesses, and traditional agencies were all moving into the online space.
         This was great. The market was real and my competition was capturing clients. Rather than exercise creativity, I could identifty and copy their successful assets.
         <br><br>
@@ -250,6 +257,7 @@
     ></NoteCard>
     <TextBlock
       title="24 hours to launch"
+      subtitle="Lean MVP"
       text="
         With my requirements in place, I moved quickly to create the MVP.
         I spent very little time worrying about the content all of my time worrying about the form.
@@ -273,6 +281,7 @@
     ></ImageBox>
     <TextBlock
       title="Artificial Interest"
+      subtitle="Marketing"
       text="
         The website was built, it was time to find customers.
         This meant advertising.
@@ -307,6 +316,7 @@
     <!-- Previous two sections are about copying -->
     <TextBlock
         title="Best Check Yourself"
+        subtitle="Analytics"
         text="
           The stage was set. It was time to look for trouble.
           <br><br>
@@ -331,10 +341,21 @@
       ]"
     ></NoteCard>
     <TextBlock
-      title="Converting Cash Clients. Perfecting the Consultation"
+      title="Fixing Directory Performance"
+      subtitle="Writing Love Letters"
       text="
-        Cash client consultation conversions were terrible. Cash clients are the best kind of clients.
-        In many other industries I could investigate by recording and watching the consultations. Not in counseling. Asking for permission to record was the wrong start to a therapeutic relationship.
+        I needed copy that would connect with clients. Specifically with the clients the counselors wanted.
+        <br><br>
+        I 
+      "
+    >
+    </TextBlock>
+    <TextBlock
+      title="Perfecting the Consultation"
+      subtitle="Mock Interviews"
+      text="
+        Cash clients are the best kind of clients and cash consultation conversions were terrible.
+        We decided recording consultations was a no-go. Asking for permission to record was the wrong start to a therapeutic relationship.
         <br><br>
         To solve this I initiated a post-mortem immediately following every consultation. Immediately after the session - we would talk about it.
         I identified a pattern where the counselor started the consultation by attempting to justify the pain points were okay for the consumer.

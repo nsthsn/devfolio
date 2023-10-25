@@ -41,7 +41,6 @@
             <br><br>
             Our first game design failed - we made it - it sucked. A late jam pivot led to pure awesomeness.
             Despite a glaring late game bug, most players play for 45 minutes.
-            <br><br>
           '
           playURL="https://www.newgrounds.com/portal/view/887023"
           watchURL="https://www.youtube.com/watch?v=kkOlDKzD1Xw?&t=07m58s"
@@ -54,6 +53,9 @@
           On Day 2, we start as early as possible with the goal of everyone starting well rested - we had a long day ahead of us. We have one goal - implement and validate any tech required to implement our gameplay. I make the meals - keeping the team fed and working keeps the team on task. For my team, home cooked meals was novel and welcome.
           <br><br>
           Starting at 8am and ending after midnight is the norm. After dinner, we evaluate reality vs design. This is almost always a pivot. Unknown unknowns always surface in implementing new tech. And we are always implementing new (to us) tech - learning was one of team values.
+          <br><br>
+          Development is often multi-track. On Kvetch-a-Sketch, one developer worked on using input to dynamically create line like physics objects while another worked on turning line physics objects into pixels with a shader.
+          Meanwhile, myself and the artist worked on the UI design and rendering. We generate placeholder graphics for the programmers as needed.
           <br><br>
           We had two end conditions - too exhausted to continue or the tech was ready for our Day 3 focus.
         "
@@ -76,7 +78,11 @@
           title="Day Three : 30 seconds of fun"
           subtitle="Core Game Loop"
           text="
-            Sleep often becomes scarce at this point. After (hopefully) arriving at a point with no unknowns, the work that is known is still ambitious.
+            After (hopefully) arriving at a point with no unknowns, the work that is known is still ambitious. Day 3 is all about putting the systems we develop on Day 2 together to make our core game loop.
+            <br><br>
+            The art team continues polishing, we start on animation, and with our aesthetic in place we begin on soundtrack and sound fx. Work begins on replacing placeholder art with final assets.
+            <br><br>
+            We end Day 3 with a whiteboard. I put every remaining task the team can think of on a whiteboard.
           "
         ></TextBlock>
         <v-col cols=12>
@@ -106,27 +112,19 @@
         </v-col>
         <TextBlock
           title="Day Four : Content"
-          subtitle=""
+          subtitle="Agile AF"
           text="
-
+            Day Four is hectic. The game must launch at 8pm. Starting at 8am we do four 3-hour micro sprints. We choose items off the whiteboard and knock them out as quickly as possibly. Items fall off through completion or last minute pivots. So many pivots.
+            I start adding sound fx and soundtracks into the game while building animation hooks.
+            <br><br>
+            Every 3-hours we do a walking standup, then we cross things out and add any bugs we've found. We pivot like mad men.
+            <br><br>
+            At 6pm, I start working on our platform builds. Our targets are always web, OSX, and Windows. Inevitably there are platform specific problems. 
+            I prioritize Web if possible. The final step of Ludum Dare is 2 weeks of judging and players prefer a web build.
+            <br><br>
+            At 8pm, exhausted, we launch!
           "
         ></TextBlock>
-        <!-- <v-col cols=12>
-        <GameCard 
-          image-one='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680638406/nathanWalkerPortfolio/betterTogether_square_iim2f0.png'
-          caption-one=''
-          title='Trial 21'
-          theme='Transformation'
-          team='Andy Gainer (code)'
-          text ='
-            For this theme we made a puzzle platformer where the player changes forms in real time to solve platforming puzzles. As gameplay progresses, more abilities are unlocked.
-            <br><br>
-            A low turnout for this jam put me as the sole artist and Andy as the main coder. Not the best execution but the puzzles work for a few minutes of gameplay. 
-            <br><br>
-            
-          '
-        ></GameCard>
-      </v-col> -->
     </ContentColumn>
   </div>
 </template>

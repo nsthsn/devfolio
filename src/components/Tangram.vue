@@ -7,9 +7,10 @@
        I love tangram. It is perfect. It's elegance cannot be matched - there is nothing to add, nothing to subtract. OMG Tangram is my love letter to it.
        <br><br>
        The reviews are clear - my message gets through. People that love tangram love OMG Tangram. It is consistently the highest rated tangram during it's tenure on any app store.
-       <a href='https://play.google.com/store/apps/details?id=com.mooncalf.omgTangram&hl=en_US&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class='get-it' alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
       "
-    ></StudyBanner>
+    >
+      <a class='get-it' href='https://play.google.com/store/apps/details?id=com.mooncalf.omgTangram&hl=en_US&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class='get-it' alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+    </StudyBanner>
     <ContentColumn>
       <TextBlock
         title="a viral first"

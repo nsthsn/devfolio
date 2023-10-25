@@ -14,29 +14,35 @@ $secondaryFont : 'Lato';
 $secondaryFontBlack : 'Lato Black';
 
 $headerFont : 'Ubuntu';
-$bodyFont : "'Source Sans Pro', sans-serif";
+$bodyFont : 'Source Sans Pro', sans-serif;
 $captionFont : "Anonymous Pro";
 $serifFont : 'PT Serif';
 
 $backgroundColor: #abb8c3;
 
+// font colors
 $highEmphasisDark: rgb(0,0,0,.87);
 $mediumEmphasisDark: rgb(0,0,0,.60);
 
 $highEmphasisLight: rgb(255,255,255,.87);
 $mediumEmphasisLight: rgb(255,255,255,.60);
 
+// background colors
+$blue00: #1B1E2D;
+$blue01: #282F52;
+$blue02: #767B94;
+
 body {
     background-color: $backgroundColor;
 }
 
 .header-one {
-  font-size: 4.236rem;
+  font-size: 3.927rem;
   font-family: $headerFont;
 }
 
 .header-two {
-  font-size: 2.618rem;
+  font-size: 2.427rem;
   font-family: $headerFont;
 }
 
@@ -50,11 +56,17 @@ body {
 }
 
 .body-one {
-  font-size: 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+  line-height:2rem;
+  font-weight: normal;
+  letter-spacing: 0.25;
+  text-align: left;
 }
 
 .body-two {
-  font-size: 1.236rem;
+  font-size: 1.25rem;
+  font-family: $bodyFont;
 }
 
 .caption {
@@ -114,12 +126,7 @@ body {
 }
 .body-one {
     //font-family: 'Lato';
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.5rem;
-    line-height:2.25rem;
-    font-weight: normal;
-    letter-spacing: 0.25;
-    text-align: left;
+
 }
 .body-2 {
     font-family: 'Lato';
@@ -165,7 +172,10 @@ a, u {
     margin-top: $m1;
   }
 }
-
+.get-it {
+  justify-content: flex-end;
+  height:100px;
+}
 
 
 // .xs-display, .sm-display {

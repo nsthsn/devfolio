@@ -79,12 +79,17 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/styles/mooncalf.scss";
+.game-card-wrapper {
+  width : 84.2%;
+  margin: auto;
+}
 .game-card {
-  background-color: white;
+  //background-color: white;
   padding-top: $m2;
   padding-right: $m2;
   padding-bottom: $m2;
   padding-left: $m2;
+
 }
 video {
   /* override other styles to make responsive */

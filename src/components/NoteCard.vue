@@ -1,5 +1,5 @@
 <template>
-  <div class="note-card-content">
+  <div class="note-card-content pt-8 pb-8">
     <v-row class="note-card-container pr-16 pl-16 text-left header-two text-center" justify="center">
       <v-col v-if="title" cols="12">{{ title }}</v-col>
       <v-col
@@ -7,12 +7,12 @@
         :key="card.title"
         :cols=columns
       >
-        <v-row class="note-card ma-2 text-left" justify="center">
+        <v-row class="note-card ma-3 text-left" justify="center">
           <v-col class="header-three" v-if="card.title" cols=12>
             {{ card.title }}
           </v-col>
-          <v-col v-if="card.text" cols=12>
-            <div class="body-two" v-html="card.text"></div>
+          <v-col class="body-two pt-0" v-if="card.text" cols=12>
+            <div v-html="card.text"></div>
           </v-col>
         </v-row>
       </v-col>
@@ -39,15 +39,21 @@ export default {
 
   }
   .note-card-container {
-    // background-color:white;
-    // width: 84.2%;
+    color: $highEmphasisLight;
+    //width: 100%;
+    margin: auto;
+    width: 84.2%;
   }
   .note-card-content {
-    width: 84.2%;
+    //width: 84.2%;
     margin: auto;
+    background-color: $blue01;
   }
   .note-card {
-    background-color:yellow;
-    box-shadow: 10px 10px lightblue;
+    //background-color:yellow;
+    //box-shadow: 10px 10px lightblue;
+  }
+  ul, li {
+    font-family: $bodyFont;
   }
 </style>

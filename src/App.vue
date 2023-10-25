@@ -47,7 +47,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: #abb8c3;
+  //background-color: #abb8c3;
+  background-color: #767B94;
   font-size: 24px;
 }
 

@@ -56,8 +56,7 @@
         The interview process had revealed that no one was truly sure. Our bottom line wasn't directly affected by our users - they were locked in.
         The general concensus was it didn't matter - the users that mattered were the ones with whom sales had a relationship.
         <br><br>
-        My first act as an employee of IA - quite obstinately insisting that analytics were absolutely necessary.  
-        <br><br>
+        My first act as an employee of IA - quite obstinately insisting that analytics were absolutely necessary.
       "
       ></TextBlock>
       <TextBlock
@@ -69,6 +68,7 @@
       "
       ></TextBlock>
       <NoteCard
+        cardColumns="6"
         :cards="[
           {
             title: 'End User',
@@ -84,20 +84,21 @@
           },
           {
             title: 'Stakeholders',
-            text: 'We had C-Suite and they had taken Venture Capital money. Performance for equity was in play. Milestones set in ink before the drop-dead date revealed itself.'
+            text: 'We had a C-Suite and they had taken Venture Capital money. Performance for equity was in play. <br><br> Milestones set in ink before the drop-dead date had to be taken into consideration.'
           }
         ]"
       ></NoteCard>
       <TextBlock
         title="Early wins"
+        subtitle="Analytics"
         text="
-          Revealed internal users were not really using the alpha.
+          Revealed internal users were not really using the alpha. Revealing I could tell - and within the company could personally identify them - rectified the problem immediately. This led to an essential increase in bug reports and feedback. I was not a Pokemon trainer, without help I could not catch them all.
           <br>
-          Revealed browser and OS usage. No customer was using internet explorer. We could safely deprioritize bugs identified by QA.
+          Revealed browser and OS usage. No customer was using internet explorer. We safely deprioritized bugs identified by QA. We maintained QA on IE and put issues into a special bucket in case we obtained an IE7 customer.
           <br>
-          Revealed some large clients were not using the product AT ALL. Support reached out and their product was brought online.
+          Revealed some large clients were not using the product AT ALL. Support reached out, issues were identified and entire accounts were saved.
           <br>
-          Revealed features were only being used by their internal champions. We could safely deprioritize bugs reported - by their internal champions.
+          Revealed features were only being used internally. We could safely deprioritze new development. I took that time to recruit internal testers and focused on pre-development UX activities to improve my co-workers workdays.
         "
       >
       </TextBlock>
@@ -142,18 +143,19 @@
       title="A sharp knife"
       subtitle=""
       text="
-        We had over twice as much work as we could possibly finish.
+        We had over twice as much work as we could possibly finish. We needed more people but we believed in the Mythical Man Month. We'd added two developers in the past year and directly measured dips in velocity.
+        If we doubled our body count - we would have thrice as much work than we could possibly finish.
         <br><br>
-        The company made an open call for solutions - on the surface the problem seemed intractable.
+        Leadership made an open call for solutions - on the surface the problem seemed intractable.
       "
       ></TextBlock>
       <TextBlock
         title="Time to kill a baby"
-        subtitle=""
+        subtitle="Saying No"
         text="
           I now had a years worth of data and the data showed a way.
           <br><br>
-          Keeping our obligations to customers in mind, I broke the product into quality tiers.
+          Keeping our obligations to customers in mind, I broke the product into what was owed to each.
           <br><br>
           We had a legal obligation for accessibility to our end users. To our manager users, we owed continuance of any tools they relied on. While not a legal issue, it was in our best interest to not force them towards another tool.
           <br><br>
@@ -161,25 +163,48 @@
           <br><br>
           To our internal and consultant users - we owed nothing but paychecks.
           <br><br>
-          On the surface, this meant we had to complete each and every feature. But as it turned out - not each and every feature was being used equally - or at all.
-          With smart prioritization our risk could be mitigated.
+          To our stakeholders we owed obedience but also reality. We had to say, 'No'. I opened hard conversations, I had to sacrifice popularity for the product.
+          <br><br>
+          With this amount of obligation it was impossible to reach our deadline without some sort of risk.
+          But with prioritization - this risk could be mitigated.
           <br><br>
           To do this - I also had to consider user behaviour.
         "
       >
       </TextBlock>
+      <NoteCard
+        cardColumns="4"
+          :cards="[
+            {
+              title: 'High Priority, High Quality',
+              text: 'Used software to access and manage digital assets. This could be an Instagram account or a Word Document. Credentials were obfuscated from the user - all they had to know was their RapidIdentity login. <br><br> Because we sold into government, we often had a legal obligation to accessibility.'
+            },
+            {
+              title: 'High Priority, Low Quality',
+              text: 'This user created and managed the entitlement properties managed by the managers.'
+            },
+            {
+              title: 'High Priority, Medium Quality',
+              text: 'This included our Customer Service as well as outside consultants. These users were the first one on the ground for installations and the last line of defense when things went wrong. <br><br> What we owed this user was on a case-by-case basis.'
+            },
+            {
+              title: 'Low Priority, High Quality',
+              text: 'We had a C-Suite and they had taken Venture Capital money. Performance for equity was in play. <br><br> Milestones set in ink before the drop-dead date had to be taken into consideration.'
+            }
+          ]"
+      ></NoteCard>
       <TextBlock
         title="This is the way"
         subtitle="Backlog Grooming"
         text="
-          Our product had 8 modules, one with a pure user focus, six with various audit related functionality, and one massive configuration module to rule them all.
-          At the top level I created two buckets. A bucket of must completes by deadline and a bucket of could be completed after the deadline.
+          Our product had 8 massive modules, one with a pure user focus, six with various audit related functionality, and one massive configuration module to rule them all.
+          The backlog could be arranged along two measurable axis : the user for that feature with consideration for actual user pathways.
           <br><br>
-          Assets on the end user pathways was a must complete. Additionally, these assets must pass accessibility. Developers and QA worked together to make this possible.
+          Assets on the end user pathways was a must complete at high quality. Additionally, these assets must pass accessibility. Developers and QA worked together to make this possible.
           <br><br>
-          Assets on the manager pathways was a must complete.
+          Assets on the non-configuration IT pathways was a must complete at high quality. Configuration pathways were a must complete at low quality.
           <br><br>
-          Assets on IT pathways during the school year were a must complete. However, anything from a configuration phase could be deprioritized with hooks put in for alerts. IT users was comfortable contacting support and we could be proactive identifying attempts.
+          Assets on IT pathways during the school year were a must complete at medium quality. However, anything from a configuration phase could be deprioritized with hooks put in for alerts. IT users was comfortable contacting support and we could be proactive identifying attempts.
           <br><br>
           Assets on internal users could be completely deprioritized. Flash was dead but internally we could conduct workarounds our clients could not.
         "

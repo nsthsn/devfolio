@@ -1,127 +1,132 @@
 <template>
-  <div class="tool-box ">
-  <v-row class="content caption" align-content="bottom">
-    <v-col
-      v-if="photoshop" 
-      cols="1"
-    >
-      <v-row>
-        <!-- Tool -->
-        <v-col cols="12">
-          <v-img
-            src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1693427402/nathanWalkerPortfolio/Adobe_Photoshop_CC_icon.svg_n2denq.png"
-          ></v-img>
-        </v-col>
-        <v-col cols="12">
-          Photoshop
-        </v-col>
-      </v-row>
-    </v-col>
-  
-    <v-col
-      v-if="figma" 
-      cols="1"
-    >
-      <v-row>
-        <!-- Tool -->
-        <v-col cols="12">
-          <v-img
-            src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1683834730/nathanWalkerPortfolio/Icon_vefvqs.png"
-          ></v-img>
-        </v-col>
-        <v-col cols="12">
-          Figma
-        </v-col>
-      </v-row>
-    </v-col>
+  <div class="tool-box">
+    <!-- <div class="content"> -->
+    <!-- <v-row class="content" justify="center">
+      <v-col class="text-left" cols="12">My Role</v-col>
+      <v-col cols="12"></v-col>
+    </v-row> -->
+    <!-- </div> -->
+    <v-row class="content caption" justify="start" align-content="bottom">
+      <v-col
+        v-if="photoshop" 
+        cols="1"
+      >
+        <v-row>
+          <!-- Tool -->
+          <v-col cols="12">
+            <v-img
+              src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1693427402/nathanWalkerPortfolio/Adobe_Photoshop_CC_icon.svg_n2denq.png"
+            ></v-img>
+          </v-col>
+          <v-col cols="12">
+            Photoshop
+          </v-col>
+        </v-row>
+      </v-col>
+    
+      <v-col
+        v-if="figma" 
+        cols="1"
+      >
+        <v-row>
+          <!-- Tool -->
+          <v-col cols="12">
+            <v-img
+              src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1683834730/nathanWalkerPortfolio/Icon_vefvqs.png"
+            ></v-img>
+          </v-col>
+          <v-col cols="12">
+            Figma
+          </v-col>
+        </v-row>
+      </v-col>
 
-    <v-col
-      v-if="vscode" 
-      cols="1"
-    >
-      <v-row>
-        <!-- Tool -->
-        <v-col cols="12">
-          <v-img
-            src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1683834476/nathanWalkerPortfolio/Visual_Studio_Code_1.35_icon.svg_g9n66r.png"
-          ></v-img>
-        </v-col>
-        <v-col cols="12">
-          VS Code
-        </v-col>
-      </v-row>
-    </v-col>
+      <v-col
+        v-if="vscode" 
+        cols="1"
+      >
+        <v-row>
+          <!-- Tool -->
+          <v-col cols="12">
+            <v-img
+              src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1683834476/nathanWalkerPortfolio/Visual_Studio_Code_1.35_icon.svg_g9n66r.png"
+            ></v-img>
+          </v-col>
+          <v-col cols="12">
+            VS Code
+          </v-col>
+        </v-row>
+      </v-col>
 
-    <v-col
-      v-if="vuejs" 
-      cols="1"
-    >
-      <v-row>
-        <!-- Tool -->
-        <v-col cols="12">
-          <v-img
-            src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1697648880/nathanWalkerPortfolio/Vue.js_Logo_2.svg_gewydx.png"
-          ></v-img>
-        </v-col>
-        <v-col cols="12">
-          Vue.js
-        </v-col>
-      </v-row>
-    </v-col>
+      <v-col
+        v-if="vuejs" 
+        cols="1"
+      >
+        <v-row>
+          <!-- Tool -->
+          <v-col cols="12">
+            <v-img
+              src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1697648880/nathanWalkerPortfolio/Vue.js_Logo_2.svg_gewydx.png"
+            ></v-img>
+          </v-col>
+          <v-col cols="12">
+            Vue.js
+          </v-col>
+        </v-row>
+      </v-col>
 
-    <v-col
-      v-if="analytics" 
-      cols="1"
-    >
-      <v-row>
-        <!-- Tool -->
-        <v-col cols="12">
-          <v-img
-            src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1697648937/nathanWalkerPortfolio/Google-Analytics-Logo_ufr6vq.png"
-          ></v-img>
-        </v-col>
-        <v-col cols="12">
-          Google Analytics
-        </v-col>
-      </v-row>
-    </v-col>
+      <v-col
+        v-if="analytics" 
+        cols="1"
+      >
+        <v-row>
+          <!-- Tool -->
+          <v-col cols="12">
+            <v-img
+              src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1697648937/nathanWalkerPortfolio/Google-Analytics-Logo_ufr6vq.png"
+            ></v-img>
+          </v-col>
+          <v-col cols="12">
+            Google Analytics
+          </v-col>
+        </v-row>
+      </v-col>
 
-    <v-col
-      v-if="tags"
-      cols="1"
-    >
-      <v-row>
-        <!-- Tool -->
-        <v-col cols="12">
-          <v-img
-            src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1697646208/nathanWalkerPortfolio/google-tag-manager-logo-0A964D3D77-seeklogo.com_smvxej.png"
-          ></v-img>
-        </v-col>
-        <v-col cols="12">
-          Tag Manager
-        </v-col>
-      </v-row>
-    </v-col>
+      <v-col
+        v-if="tags"
+        cols="1"
+      >
+        <v-row>
+          <!-- Tool -->
+          <v-col cols="12">
+            <v-img
+              src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1697646208/nathanWalkerPortfolio/google-tag-manager-logo-0A964D3D77-seeklogo.com_smvxej.png"
+            ></v-img>
+          </v-col>
+          <v-col cols="12">
+            Tag Manager
+          </v-col>
+        </v-row>
+      </v-col>
 
-    <v-col
-      v-if="ads"
-      cols="1"
-    >
-      <v-row>
-        <!-- Tool -->
-        <v-col cols="12">
-          <v-img
-            src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1697649099/nathanWalkerPortfolio/google-ads-logo-B4A8680058-seeklogo.com_ubnnl3.png"
-          ></v-img>
-        </v-col>
-        <v-col cols="12">
-          Google Ads
-        </v-col>
-      </v-row>
-    </v-col>
-  
-  </v-row>
-</div>
+      <v-col
+        v-if="ads"
+        cols="1"
+      >
+        <v-row>
+          <!-- Tool -->
+          <v-col cols="12">
+            <v-img
+              src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1697649099/nathanWalkerPortfolio/google-ads-logo-B4A8680058-seeklogo.com_ubnnl3.png"
+            ></v-img>
+          </v-col>
+          <v-col cols="12">
+            Google Ads
+          </v-col>
+        </v-row>
+      </v-col>
+    </v-row>
+  </div>
 </template>
 
 <script>
@@ -159,12 +164,16 @@ export default {
     box-shadow: 10px 10px lightblue;
   }
   .tool-box {
-    background-color:grey;
+    background-color: $blue01;
     color: $highEmphasisLight;
+    padding-top: $m1;
+    //margin-bottom: $m3;
   }
   .content {
-    padding-left:13%;
-    padding-right:13%;
+    width: 84.2%;
+    margin:auto;
+    // padding-left:13%;
+    // padding-right:13%;
     // background-color:white;
   }
 </style>
