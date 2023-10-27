@@ -13,6 +13,39 @@
     </StudyBanner>
     <ContentColumn>
       <TextBlock
+        title="Context"
+        text="
+          I was beginning an MBA program. I decided to supplement my education by starting a business. Supplementing book learning with project learning is very effective.
+          <br><br>
+          I decided to use what I was learning and identify then target an underserved market rather than attempt to dazzle the market with a purely original concept. I established my search criteria - then I scoured the app store top charts.
+        "
+      >
+      </TextBlock>
+      <TextBlock
+        title="My Role"
+        text="
+          I did everything for this project. Which meant my role was learning. I had to learn user testing, digital art, analytics, marketing, and refresh my calculus.
+        "
+      ></TextBlock>
+      <NoteCard
+        title="Search Criteria"
+        :cards="[
+          {
+            title: 'High Downloads',
+            text: ''
+          },
+          {
+            title: 'Low Quality',
+            text: 'I was a solo developer. I needed competition I could confidently crush technically and artistically. I hypothesized quality could carry me up App Store rankings.'
+          },
+          ,
+          {
+            title: 'High Revenue',
+            text: ''
+          },
+        ]"
+      ></NoteCard>
+      <TextBlock
         title="a viral first"
         text="
           Tangram went global by boat and baggage train in the 1800s. It seems to have originated in China and spread quickly from there.
@@ -47,22 +80,54 @@
         title="Who plays tangram anyways?"
         subtitle="I am the User"
         text="
-          My mom gave me tangrams as a child.  I remember exploring it very distinctly.
+          My mom gave me tangrams as a child. Analysis of App store download counts and reviews revealed moms and dads are still giving their children tangrams. 
+          A surprise to me - moms and dads end up playing it too!
           <br><br>
-          It turns out moms and dads are still giving their children tangrams. A surprise - it happened to me (again!) - is mom and dad start playing tangram too.
-          <br><br>
-          It is a very elegant dissection puzzle game. Worthy of it's capacity to win over modern gamers. It will never be replaced. I will argue this - but not here.
+          It is a very elegant dissection puzzle game. Worthy of it's capacity to win over modern gamers. It will never be replaced. I can argue this - but won't here.
           <br><br>
           Market and anecdotal research revealed I could expect a lot of pre-reading users. I could expect users of all ages and nationalities but a majority would be women.
         "
       ></TextBlock>
+      <NoteCard
+        title="Market Research"
+        :cards="[
+          {
+            title: 'App Stores',
+            text: 'Attract target demographic. Are all clients the counselors target demographic?'
+          },
+          {
+            title: 'In person',
+            text: 'Sell all hours at target rate. What is our minimum acceptable hourly rate? What is our actual hourly rate?'
+          },
+          ,
+          {
+            title: 'Industry Research',
+            text: 'Sell an hour of counseling.'
+          },
+        ]"
+      ></NoteCard>
       <TextBlock
-        title="Alpha Testing"
+        title="Early Mistakes"
         text="
-          I was able to alpha test my game with over a hundred in-person users. At the time I was working on my MBA, volunteering at a home school co-op, and frequenting coffee shops.
-          I user tested in all age ranges. 
+          I had built User Personas but I never built Buyer Personas. This locked my mindset into an ad-driven revenue. In retrospect, this is was my greatest failure on the project.
         "
       ></TextBlock>
+      <TextBlock
+        title="Alpha Testing"
+        subtitle="Pre-Release"
+        text="
+          I was able to alpha test my game with over a hundred in-person users. I was working on my MBA, volunteering at a home school co-op, and frequenting coffee shops.
+          This gave me access to users of all ages.
+        "
+      ></TextBlock>
+      <TextBlock
+        title="Beta Release"
+        subtitle="Accountability"
+        text="
+          I like to enter contests in any discipline I encounter. I decided to enter Microsoft's Next App Star contest.
+        "
+      >
+      </TextBlock>
       <TextBlock
         title="The One Metric That Mattered"
         subtitle="Analytics"

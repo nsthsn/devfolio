@@ -7,6 +7,7 @@
     </v-row> -->
     <!-- </div> -->
     <v-row class="content caption" justify="start" align-content="bottom">
+      <!-- <v-col cols="12 header-two text-left"> Tools</v-col> -->
       <v-col
         v-if="photoshop" 
         cols="1"
@@ -167,13 +168,11 @@ export default {
     background-color: $blue01;
     color: $highEmphasisLight;
     padding-top: $m1;
+    //margin: auto;
     //margin-bottom: $m3;
   }
   .content {
     width: 84.2%;
     margin:auto;
-    // padding-left:13%;
-    // padding-right:13%;
-    // background-color:white;
   }
 </style>

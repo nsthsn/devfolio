@@ -1,14 +1,14 @@
 <template>
-  <div class="note-card-content pt-8 pb-8">
+  <div class="note-card-content margined-element" v-bind:class="{ 'contrast-color' : this.contrast}">
     <v-row class="note-card-container pr-16 pl-16 text-left header-two text-center" justify="center">
-      <v-col v-if="title" cols="12">{{ title }}</v-col>
+      <v-col v-if="title" class="uppercase" cols="12">{{ title }}</v-col>
       <v-col
         v-for="card in cards"
         :key="card.title"
         :cols=columns
       >
         <v-row class="note-card ma-3 text-left" justify="center">
-          <v-col class="header-three" v-if="card.title" cols=12>
+          <v-col class="header-three " v-if="card.title" cols=12>
             {{ card.title }}
           </v-col>
           <v-col class="body-two pt-0" v-if="card.text" cols=12>
@@ -29,7 +29,7 @@ export default {
     }
   },
   name: 'NoteCard',
-  props: ["cards", "title", "cardColumns"],
+  props: ["cards", "title", "cardColumns", "contrast"],
 }
 </script>
 
@@ -55,5 +55,8 @@ export default {
   }
   ul, li {
     font-family: $bodyFont;
+  }
+  .contrast-color {
+    background-color: $orange01;
   }
 </style>

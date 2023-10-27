@@ -31,6 +31,10 @@ $mediumEmphasisLight: rgb(255,255,255,.60);
 $blue00: #1B1E2D;
 $blue01: #282F52;
 $blue02: #767B94;
+$blue03: #DDE2E9;
+
+$orange00: #2E291C;
+$orange01: #524728;
 
 body {
     background-color: $backgroundColor;
@@ -149,6 +153,11 @@ body {
 .no-padding {
     padding:0;
 }
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 .medium-emphasis {
     opacity: 0.6;
 }
@@ -172,9 +181,15 @@ a, u {
     margin-top: $m1;
   }
 }
+
 .get-it {
   justify-content: flex-end;
   height:100px;
+}
+
+.margined-element {
+  padding-top: $m3;
+  padding-bottom: $m3;
 }
 
 

@@ -9,23 +9,23 @@
           :keywords=flyoverChips
           text ='A Minimum Viable Private Practice'
         ></HomeCard>
-        <HomeCard
-          route="Tangram" 
-          image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680638625/nathanWalkerPortfolio/gameIcon_v18_512_zjtilp.png'
-          title="OMG TANGRAM"
-          text="A leak in the conversion funnel won't stay fixed."
-        ></HomeCard>
         <HomeCard 
           route="IdentityAutomation" 
           image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680639720/nathanWalkerPortfolio/dceba86f-5d6c-426a-bbfb-4ca5e47736c7_opiq0w.png'
           title="IDENTITY AUTOMATION"
-          text="Analytics saves the day."
+          text="Product Management saves the day."
         ></HomeCard>
         <HomeCard 
           route="LudumDare" 
           image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680638157/nathanWalkerPortfolio/communityIcon_wnbpyy6bixk31_rkqput.png'
           title="LUDUM DARE"
           text="Three-day product cycles for fun and no profit."
+        ></HomeCard>
+        <HomeCard
+          route="Tangram" 
+          image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680638625/nathanWalkerPortfolio/gameIcon_v18_512_zjtilp.png'
+          title="OMG TANGRAM"
+          text="A leak in the conversion funnel won't stay fixed."
         ></HomeCard>
       </v-col>
     </v-row>

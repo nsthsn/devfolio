@@ -19,7 +19,6 @@
         <br><br>
         The company was growing. Revenue was up dramatically. A company had recently been acquired whose technology would dramatically enhance our market reach.
         Things needed done and more contributors were required. An infusion from Venture Capital made this all possible.
-        <br><br>
       "
       ></TextBlock>
       <TextBlock
@@ -83,9 +82,13 @@
             text: 'This included our Customer Service as well as outside consultants. These users were the first one on the ground for installations and the last line of defense when things went wrong. <br><br> What we owed this user was on a case-by-case basis.'
           },
           {
+            title: 'Sales Department',
+            text: 'We were a B2B company, if sales had to make a promise to get a contract they did. If sales made a promise we had to make it happen. Company growth was still a top priority.'
+          },
+          {
             title: 'Stakeholders',
-            text: 'We had a C-Suite and they had taken Venture Capital money. Performance for equity was in play. <br><br> Milestones set in ink before the drop-dead date had to be taken into consideration.'
-          }
+            text: 'We had a C-Suite and they had taken Venture Capital money. Performance for equity was in play. Milestones set in ink before the drop-dead date had to be taken into consideration.'
+          },
         ]"
       ></NoteCard>
       <TextBlock
@@ -136,6 +139,9 @@
       text="
         We had over twice as much work as we could possibly finish. We had one year to finish - and over two years worth of work.
         <br><br>
+        This problem was exacerbated because the company was B2B. New, highest priority features were being added. As a B2B company, sales were made on promises for features implemented on timelines.
+        Like most companies, trading risk for reward was part of the package. At any point in time, we could be tasked with a new top priority feature.
+        <br><br>
         The company made an open call for solutions - on the surface the problem seemed intractable.
       "
       ></TextBlock>
@@ -180,16 +186,16 @@
               text: 'Used software to access and manage digital assets. This could be an Instagram account or a Word Document. Credentials were obfuscated from the user - all they had to know was their RapidIdentity login. <br><br> Because we sold into government, we often had a legal obligation to accessibility.'
             },
             {
-              title: 'High Priority, Low Quality',
-              text: 'This user created and managed the entitlement properties managed by the managers.'
+              title: 'High Priority, Medium Quality',
+              text: 'These stories needed to be completed but any bugs could be safely'
             },
             {
-              title: 'High Priority, Medium Quality',
-              text: 'This included our Customer Service as well as outside consultants. These users were the first one on the ground for installations and the last line of defense when things went wrong. <br><br> What we owed this user was on a case-by-case basis.'
+              title: 'High Priority, Low Quality',
+              text: 'These stories needed to be completed but the UX and design did not need to be in compliance. Accessibility issues could be considered bugs. Bugs could be fixed after the deadline.'
             },
             {
               title: 'Low Priority, High Quality',
-              text: 'We had a C-Suite and they had taken Venture Capital money. Performance for equity was in play. <br><br> Milestones set in ink before the drop-dead date had to be taken into consideration.'
+              text: 'These stories did not need completed before the deadline but needed to be high quality when they were.'
             }
           ]"
       ></NoteCard>
@@ -210,6 +216,19 @@
         "
       >
       </TextBlock>
+      <TextBlock
+        title="Dont throw good development after bad"
+        subtitle="Feature Creep"
+        text="
+          Segmenting and analyzing user pathways presented us with a massive win. Our biggest most complex module, a module we had developed training for, training that ran with a full roster
+        "
+      ></TextBlock>
+      <TextBlock
+        title="Dividing the pie"
+        text="
+          Everything was prioritized but even what remained to be done was still around twice what was accomplishable. We needed
+        "
+      ></TextBlock>
     </ContentColumn>
   </div>
 </template>

@@ -1,17 +1,19 @@
 <template>
   <div class="flyover">
     <StudyBanner
-      image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680035062/nathanWalkerPortfolio/betterTogether_ftnrpx.jpg'
+      image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1698436259/nathanWalkerPortfolio/betterTogether_ftnrpx_nwhtwu.jpg'
       title="Flyover Counseling"
       text="
-        Our objective : an online counseling agency.
+        In 2018, Flyover was just getting started. The company had zero clients, zero footprint and there was entrenched pessimism towards online modalities.
         <br><br>
-        In 2018, Flyover was just getting started. The company had zero clients and zero footprint.
         To get from here to there the company needed a digital presence - the materials required to pull customers in as well as the tools the counselors needed to do their work.
       "
     ></StudyBanner>
+    <ToolBox
+      tools="['photoshop', 'figma', 'vscode', 'vuejs', 'ads', 'analytics', 'tags', 'optimize']"
+    ></ToolBox>
     <ContentColumn>
-    <div style="padding-top:127px"></div>
+      <!-- <div style="padding-top:127px"></div> -->
     <TextBlock
       title="Context"
       text="
@@ -23,21 +25,19 @@
         But we had time, we had planned for this - we had a runway.
       "
     ></TextBlock>
-    <PullQuote
+    <!-- <PullQuote
       text='Do it. Then do it again.'
-    ></PullQuote>
+    ></PullQuote> -->
     <TextBlock
       title="My Role"
+      contrast="true"
       text="
         I initiated the project and created the business plan before implementing it.
         <br><br>
         I led the design and implementation of our web presence and customer acquistion funnel.
-        I coordinate with the counselors to remove all blockers so they can focus solely on counseling.
+        I remove everyone's blockers so they can focus solely on their tasks.
       "
     />
-    <ToolBox
-      tools="['photoshop', 'figma', 'vscode', 'vuejs', 'ads', 'analytics', 'tags', 'optimize']"
-    ></ToolBox>
     <!-- <ImageBox
       caption="Tools Depended On"
       :tools=tools
@@ -57,7 +57,7 @@
       
     >
     </TextBlock> -->
-    <TextBlock
+    <!-- <TextBlock
       title="My process"
       subtitle="Some call it double diamond"
       text="
@@ -65,30 +65,40 @@
         <br><br>
         Put simply - iterate. Fancier names include Agile, Kanban and Double Diamond. The essence is Agile.
       "
-    ></TextBlock>
+    ></TextBlock> -->
     <TextBlock
       title="Metrics That Matter"
       subtitle="OKR"
       text='
         The objective was a full, scalable practice. To stop as soon as possible I needed to establish what it meant to be done.
-        I established two measurable goals - two quantitative, one qualitative.
-        Achieving these was the finish line.
+        I established two measurable goals - one quantitative, one qualitative. I also established a quantitative and qualitative minor goal. 
+        Major goals are the finish line, minor goals are the next step.
       '
     ></TextBlock>
     <NoteCard
       :cards="[
         {
-          title: 'Qualifiable Major Goals',
-          text: 'Attract target demographic. Are all clients the counselors target demographic?<br><br>Support additional staff. Are we signing and sending checks for labor performed?'
+          title: 'Qualifiable Major Goal',
+          text: 'Attract target demographic. Are all clients the counselors target demographic?'
         },
         {
           title: 'Quantifiable Major Goal',
           text: 'Sell all hours at target rate. What is our minimum acceptable hourly rate? What is our actual hourly rate?'
-        }
+        },
+        ,
+        {
+          title: 'Quantifiable Next Goal',
+          text: 'Sell an hour of counseling.'
+        },
+        ,
+        {
+          title: 'Qualifiable Next Goal',
+          text: 'Obtain one customer from target demographic.'
+        },
       ]"
     ></NoteCard>
     <PullQuote
-      text='What I found - were unicorns.'
+      text='What I found - was unicorns.'
     ></PullQuote>
     <TextBlock
       title="Market Validation"
@@ -126,7 +136,7 @@
         },
         {
           title: 'Weaknesses',
-          text: 'Model undermines counseling relationship leading to poor outcomes<br>Exploited Workers offer poor service.'
+          text: 'Model undermines counseling relationship leading to poor outcomes<br>Exploited Workers offer poor service.<br>Attract bad clients'
         },        
         {
           title: 'Opportunities'
@@ -141,10 +151,11 @@
     <NoteCard
       title="Traditional Agency"
       cardColumns="6"
+      contrast="true"
       :cards="[
         {
           title: 'Strengths'
-,          text: 'Established, expected model.<br>Physical location.'
+,          text: 'Established, expected model<br>Physical location.'
         },
         {
           title: 'Weaknesses',
@@ -152,7 +163,7 @@
         },        
         {
           title: 'Opportunities'
-,          text: 'Offer remote as addon.<br>'
+,          text: 'Offer remote as addon<br>'
         },
         {
           title: 'Threats',
@@ -184,23 +195,28 @@
     ></NoteCard>
     <TextBlock
       title="Continuing Education"
-      subtitle="Accountability"
+      subtitle="Accountability / Experimentation"
       text="
         I had my co-founder participate in two educational ventures. Working for the competition and signing up for a free entrepreneur training program.
         <br><br>
         We applied for and were admitted into a startup incubator tangential to my previous MBA program. This gave us access to additional accountability and weekly feedback on our progress. Through the program we also obtained two mentors in the mental health field that had successful startup exits.
         <br><br>
-        During my research, I saw the SaaS competition were looking for counselors. This provided opportunity for experience and experiment. I had the counselor signup.
+        During my research, I saw the SaaS competition were looking for counselors. This provided opportunity for experience and experiment. I had the counselor signup and start accepting clients. 
+        This allowed the counselor to make two very important determinations. They were able to assuage doubts about online modalities. If they had determined online wasn't good enough - we would abort the business plan. 
+        If they had determined online just wasn't for them - we would abort. Additionally, this would allow them to polish their own presentation and skillset in this new venue on someone elses marketing spend.
+        <br><br>
+        I built studio lighting and a background to heighten the counseling experience.
       "
     ></TextBlock>
     <TextBlock
       title="One Down Infinity to go"
       subtitle="Running Lean"
+      contrast="true"
       text="
-        We had reached our quantifiable minor goal. By selling one hour as a 1099 worker through our competitor's platform - Flyover had achieved it's first quantifiable goal. 
-        Furthermore - we had reached it by developing nothing. 
+        By selling one hour as a 1099 worker through our competitor's platform - Flyover had achieved it's first quantifiable goal. 
+        Furthermore - we had reached it by developing nothing and paying nothing. Even better - we were reimbursed for our experiment. Get fat running lean!
         <br><br>
-        This was a huge success of my favorite type. I completely subverted my expectation on how I would achieve our minor quantifiable. 
+        This was a huge success of my favorite type. I completely subverted my own expectation on how I would achieve our minor quantifiable. 
         I established a new minor quantifiable goal - convert a client via our web presence.
       "
     ></TextBlock>
@@ -296,11 +312,15 @@
       "
     ></TextBlock>
     <TextBlock
-      title="Industry Specific Bullshit"
+      title="Overcoming Bureacracy"
+      subtitle="Monitoring kpis"
       text="
-        Ads were running great - until they weren't running at all.
+        Ads were running great - until they weren't running at all. We were in violation ... of something. A frustration of using the Silicon Valley behemoths is a lack of communication or clarification.
         <br><br>
-        Our counselors are veterans of dual diagnosis - co-occurring mental health and substance use disorders. 
+        Our counselors are veterans of dual diagnosis - co-occurring mental health and substance use disorders. Predatory marketers were making a lot of money selling solutions to addicts that were not evidence based. 
+        Major advertisers had moved to certification for addiction counseling and were using machine learning to identify offenders.
+        <br><br>
+        We had been identified as such an offender. Words such 
       "
     ></TextBlock>
     <ImageBox
@@ -325,155 +345,193 @@
         "
     ></TextBlock>
     <NoteCard
+      title="Poor Directory Performance"
       :cards="[
         {
-          title: 'Directory Performance',
-          text: 'Poor directory performance indicated problems in the copy - it was not connecting with the customer.'
+          title: 'Hypothesis',
+          text: 'Poor directory performance indicated problems in the copy - it was not connecting with the target customer.'
         },
         {
-          title: 'Bounce Rate',
-          text: 'A high bounce rate indicated that even the customers that were arriving were not finding what they expected. A low conversion rate on ads seconded this diagnosis. The wrong customers were arriving with the wrong expectations. '
+          title: 'Action',
+          text: 'I had counselors write a love letter to their favorite client.<br><br> I then rewrote it as copy describing the ideal client and the counselors style.'
         },
         {
-          title: 'Conversion Rate',
-          text: 'A low conversion rate during our free consultation was a problem in salesmanship.'
+          title: 'Result (FIND A NUMBER!!!)',
+          text: 'Ideal clients began reaching out. Post-consultation interviews revealed I needed to tone it back a little.<br><br> Second and third iterations dialed it in.'
+        }
+      ]"
+    ></NoteCard>
+    <NoteCard
+      title="High Bounce Rate"
+      contrast="true"
+      :cards="[
+        {
+          title: 'Hypothesis',
+          text: 'Poor directory performance indicated problems in the copy - it was not connecting with the target customer.'
+        },
+        {
+          title: 'Action',
+          text: 'I had counselors write a love letter to their favorite client.<br><br> I then rewrote it as copy describing the ideal client and the counselors style.'
+        },
+        {
+          title: 'Result (FIND A NUMBER!!!)',
+          text: 'Ideal clients began reaching out. Post-consultation interviews revealed I needed to tone it back a little.<br><br> Second and third iterations dialed it in.'
+        }
+      ]"
+    ></NoteCard>
+
+    <NoteCard
+      title="Low Cash Consultation Conversion"
+      contrast="true"
+      :cards="[
+        {
+          title: 'Hypothesis',
+          text: 'I initiated consultation post-mortems and conducted mock consultations.'
+        },
+        {
+          title: 'Action',
+          text: 'I had the counselors avoid hard topics until the customer initiated. I had the counselors avoid any diagnostic and focus on relationships.'
+        },
+        {
+          title: 'Result (FIND A NUMBER!!!)',
+          text: 'Conversions increased dramatically. Conversions went from 0% to nearly 100%. '
         }
       ]"
     ></NoteCard>
     <TextBlock
       title="Fixing Directory Performance"
-      subtitle="Writing Love Letters"
-      text="
-        I needed copy that would connect with clients. Specifically with the clients the counselors wanted.
-        <br><br>
-        I 
-      "
-    >
-    </TextBlock>
-    <TextBlock
-      title="Perfecting the Consultation"
-      subtitle="Mock Interviews"
-      text="
-        Cash clients are the best kind of clients and cash consultation conversions were terrible.
-        We decided recording consultations was a no-go. Asking for permission to record was the wrong start to a therapeutic relationship.
-        <br><br>
-        To solve this I initiated a post-mortem immediately following every consultation. Immediately after the session - we would talk about it.
-        I identified a pattern where the counselor started the consultation by attempting to justify the pain points were okay for the consumer.
-        For instance, attempting to prove the efficacy of online counseling versus in-person counseling or justifying the price.
-        <br><br>
-        We learned to not negotiate against ourselves, this meant saving hard conversations for last - or not at all.
-        One counselor started converting at 100% but others were still floundering. 
-        <br><br>
-        A second intervention was required.
-      "
-    ></TextBlock>
-    <TextBlock
-      title="Spreading Expertise"
-      text="
-        I had the counselors conduct a mock consultation with me as the client while the other counselors watched.
-        As I feigned a litany of weaknesses, I had an a-ha moment. The successful consultant was focused on relationship building, the others were getting started on assessment.
-        <br><br>
-        We realized assessment shouldn't start until the first session.
-        After this, all counselors began converting at nearly 100%.
-      "
-    ></TextBlock>
-    <TextBlock
-      title="Moving away from minimum"
-      subtitle="Graphic Design"
-      text="
-        I was dissapointed my MVP's success was so lacklustre. I had made a mistake.
-        The mistake was carrying an assumption into the project and never challenging it.
-        I assumed the art direction should imply progress. No. I had missed the competitor's overwhelming pattern.
-        That pattern was - human connection. This mirrors the core of effective therapy - unconditional positive regard.
-        <br><br>
-        I copied the most common banner I saw on venture capital and lifestyle businesses alike - a portrait shot staring directly at the camera.
-      "
-    ></TextBlock>
-    <ImageBox
-      :images=figmaSketchImage
-      columns="12"
-      caption="
-        On solo projects, I use Figma to sketch.
-        This was my stopping point before I hopped into coding.
-      "
-    ></ImageBox>
-    <TextBlock
-      title="Iteration"
-      text="
-        While building from my Figma sketch I deployed constantly. Every feature I felt was an improvement went live immediately.
-        <br><br>
-        The bounce rate quickly fell very close to zero but client contacts were not noticeably improving. I needed another metric. I needed metrics I could A/B test with.
-        <br><br>
-        I created events such as email clicked, phone clicked, and schedule clicked were obvious candidates but fell short of complete measurement.
-        Many clients would simply dial the number, type or copy pasta the email. I needed to know more.
-        <br><br>
-        I implement a coarse grained event to measure page scroll at 25, 50, 75, and 100 percent.
-        Consumption of the page scroll would also serve as a conversion type event.
-      "
-    ></TextBlock>
-    <TextBlock
-      title="One feature to rule them all"
-      text="
-        I observed very few customers triggering the 25% event. They were staying long enough to not count as a bounce but not long enough to know what we were about.
-        <br><br>
-        I needed customers to go past the fold. I turned to design to solve this problem. I put an arrow at the bottom of the page that broke my margins and I animated it. 
-        This sufficed. Suddenly, most users triggered up to 50% - and over 25% ingested the entire page.
-        <br><br>
-        Later in development curiousity led me to an even simpler design solution - I made the fold show very less than my margins width on the bottom. 
-        This design tension was enough to achieve the same outcome.
-      "
-    ></TextBlock>
-    <ImageBox
-      :images=splashProgressImages
-      columns="4"
-      caption="
-        Iterations on Splash pages as it moved from a solo-practice to a multi-counselor practice.
-        The theme of 'human connection' is maintained through all.
-        Each iteration performed better than the last.
-      "
-    ></ImageBox>
-    <TextBlock
-      title="A/B No Go"
-      text="
-        Early in this project I used Google tags with Google Optimize to optimize assets. I created diagnosis specific ads and A/B tested them with diagnosis specific copy. My volume was too low to obtain conclusive results. 
-        Furthermore, my objective of filling counselor hours was being achieved. It is hard to imagine that a more personal approach would not be more efficient - but it was uncalled for. The objective had been achieved.
-      "
-    ></TextBlock>
-    <TextBlock
-      title="The End Result"
-      subtitle="Resisting perfection"
-      text="
-        There are many places to improve but the asset does it's job and it does it well. Without a new objective, I have no reason to update anything.
-      "
-    ></TextBlock>
-    <ImageBox
-      :images=splashImage
-      caption="
-        The top-bar contains everything a returning or direct customer needs. The splash evokes human connection between the duo framed in the composition by nature and architecture.
-        A slogan and an invitation to a new customer to schedule their free consult. Included again is the number and email address - all the resources the new client need.
-        The same thing restated twice - even the buttons do exactly the same thing.
-      "
-    ></ImageBox>
-    <ImageBox
-      :images=foldImage
-      caption="
-        The fold drops all of our keywords. Some are marketing, some are industry lingo. Educated customers - and most are - should now know exactly who we are.
-        <br><br>
-        I gently indicate to them that the service is online only. An early time waster was customers that wanted in person only.
-        Constantly repeating some version of 'online only' in this and later copy deterrs most of these customers.
-      "
-    ></ImageBox>
-    <ImageBox
-      :images=conditionsImage
-      caption="
-        The fold drops all of our keywords. Some are marketing, some are industry lingo. Educated customers - and most are - know exactly who we are.
-        <br><br>
-        Hello customer! Let us make absolutely sure you are in the right place. These are the types of issues you might talk about.
-        A unicorn will have pages and pages of this stuff for SEO porpoises.
-      "
-    ></ImageBox>
-    <!-- How to copy Marketing -->
-  </ContentColumn>
+        subtitle="Writing Love Letters"
+        text="
+          I needed copy that would connect with clients. Specifically with the clients the counselors wanted.
+          <br><br>
+          I 
+        "
+      >
+      </TextBlock>
+      <TextBlock
+        title="Perfecting the Consultation"
+        subtitle="Mock Interviews"
+        text="
+          Cash clients are the best kind of clients and cash consultation conversions were terrible.
+          We decided recording consultations was a no-go. Asking for permission to record was the wrong start to a therapeutic relationship.
+          <br><br>
+          To solve this I initiated a post-mortem immediately following every consultation. Immediately after the session - we would talk about it.
+          I identified a pattern where the counselor started the consultation by attempting to justify the pain points were okay for the consumer.
+          For instance, attempting to prove the efficacy of online counseling versus in-person counseling or justifying the price.
+          <br><br>
+          We learned to not negotiate against ourselves, this meant saving hard conversations for last - or not at all.
+          One counselor started converting at 100% but others were still floundering. 
+          <br><br>
+          A second intervention was required.
+        "
+      ></TextBlock>
+      <TextBlock
+        title="Spreading Expertise"
+        text="
+          I had the counselors conduct a mock consultation with me as the client while the other counselors watched.
+          As I feigned a litany of weaknesses, I had an a-ha moment. The successful consultant was focused on relationship building, the others were getting started on assessment.
+          <br><br>
+          We realized assessment shouldn't start until the first session.
+          After this, all counselors began converting at nearly 100%.
+        "
+      ></TextBlock>
+      <TextBlock
+        title="Moving away from minimum"
+        subtitle="Graphic Design"
+        text="
+          I was dissapointed my MVP's success was so lacklustre. I had made a mistake.
+          The mistake was carrying an assumption into the project and never challenging it.
+          I assumed the art direction should imply progress. No. I had missed the competitor's overwhelming pattern.
+          That pattern was - human connection. This mirrors the core of effective therapy - unconditional positive regard.
+          <br><br>
+          I copied the most common banner I saw on venture capital and lifestyle businesses alike - a portrait shot staring directly at the camera.
+        "
+      ></TextBlock>
+      <ImageBox
+        :images=figmaSketchImage
+        columns="12"
+        caption="
+          On solo projects, I use Figma to sketch.
+          This was my stopping point before I hopped into coding.
+        "
+      ></ImageBox>
+      <TextBlock
+        title="Iteration"
+        text="
+          While building from my Figma sketch I deployed constantly. Every feature I felt was an improvement went live immediately.
+          <br><br>
+          The bounce rate quickly fell very close to zero but client contacts were not noticeably improving. I needed another metric. I needed metrics I could A/B test with.
+          <br><br>
+          I created events such as email clicked, phone clicked, and schedule clicked were obvious candidates but fell short of complete measurement.
+          Many clients would simply dial the number, type or copy pasta the email. I needed to know more.
+          <br><br>
+          I implement a coarse grained event to measure page scroll at 25, 50, 75, and 100 percent.
+          Consumption of the page scroll would also serve as a conversion type event.
+        "
+      ></TextBlock>
+      <TextBlock
+        title="One feature to rule them all"
+        text="
+          I observed very few customers triggering the 25% event. They were staying long enough to not count as a bounce but not long enough to know what we were about.
+          <br><br>
+          I needed customers to go past the fold. I turned to design to solve this problem. I put an arrow at the bottom of the page that broke my margins and I animated it. 
+          This sufficed. Suddenly, most users triggered up to 50% - and over 25% ingested the entire page.
+          <br><br>
+          Later in development curiousity led me to an even simpler design solution - I made the fold show very less than my margins width on the bottom. 
+          This design tension was enough to achieve the same outcome.
+        "
+      ></TextBlock>
+      <ImageBox
+        :images=splashProgressImages
+        columns="4"
+        caption="
+          Iterations on Splash pages as it moved from a solo-practice to a multi-counselor practice.
+          The theme of 'human connection' is maintained through all.
+          Each iteration performed better than the last.
+        "
+      ></ImageBox>
+      <TextBlock
+        title="A/B No Go"
+        text="
+          Early in this project I used Google tags with Google Optimize to optimize assets. I created diagnosis specific ads and A/B tested them with diagnosis specific copy. My volume was too low to obtain conclusive results. 
+          Furthermore, my objective of filling counselor hours was being achieved. It is hard to imagine that a more personal approach would not be more efficient - but it was uncalled for. The objective had been achieved.
+        "
+      ></TextBlock>
+      <TextBlock
+        title="The End Result"
+        subtitle="Resisting perfection"
+        text="
+          There are many places to improve but the asset does it's job and it does it well. Without a new objective, I have no reason to update anything.
+        "
+      ></TextBlock>
+      <ImageBox
+        :images=splashImage
+        caption="
+          The top-bar contains everything a returning or direct customer needs. The splash evokes human connection between the duo framed in the composition by nature and architecture.
+          A slogan and an invitation to a new customer to schedule their free consult. Included again is the number and email address - all the resources the new client need.
+          The same thing restated twice - even the buttons do exactly the same thing.
+        "
+      ></ImageBox>
+      <ImageBox
+        :images=foldImage
+        caption="
+          The fold drops all of our keywords. Some are marketing, some are industry lingo. Educated customers - and most are - should now know exactly who we are.
+          <br><br>
+          I gently indicate to them that the service is online only. An early time waster was customers that wanted in person only.
+          Constantly repeating some version of 'online only' in this and later copy deterrs most of these customers.
+        "
+      ></ImageBox>
+      <ImageBox
+        :images=conditionsImage
+        caption="
+          The fold drops all of our keywords. Some are marketing, some are industry lingo. Educated customers - and most are - know exactly who we are.
+          <br><br>
+          Hello customer! Let us make absolutely sure you are in the right place. These are the types of issues you might talk about.
+          A unicorn will have pages and pages of this stuff for SEO porpoises.
+        "
+      ></ImageBox>
+      <!-- How to copy Marketing -->
+    </ContentColumn>
   </div>
 </template>
 
