@@ -69,6 +69,7 @@ export default {
   .home-card {
     margin: 0 0 $m1 0;
     outline: solid;
+    outline-color: $orange01;
     position: absolute;
     top: 0;
     bottom: 0;

@@ -155,6 +155,7 @@
         Leadership made an open call for solutions - on the surface the problem seemed intractable.
       "
       ></TextBlock>
+      INSERT FEATURE AUDIT TABLE FROM PM BOOK HERE
       <TextBlock
         title="Time to kill a baby"
         subtitle="Saying No"

@@ -9,6 +9,23 @@
     <v-row class="content caption" justify="start" align-content="bottom">
       <!-- <v-col cols="12 header-two text-left"> Tools</v-col> -->
       <v-col
+        v-if="unity" 
+        cols="1"
+      >
+        <v-row>
+          <!-- Tool -->
+          <v-col cols="12">
+            <v-img
+              src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1698719899/nathanWalkerPortfolio/unity_logo_easmot.png"
+            ></v-img>
+          </v-col>
+          <v-col cols="12">
+            Unity
+          </v-col>
+        </v-row>
+      </v-col>
+    
+      <v-col
         v-if="photoshop" 
         cols="1"
       >
@@ -21,6 +38,23 @@
           </v-col>
           <v-col cols="12">
             Photoshop
+          </v-col>
+        </v-row>
+      </v-col>
+
+      <v-col
+        v-if="illustrator" 
+        cols="1"
+      >
+        <v-row>
+          <!-- Tool -->
+          <v-col cols="12">
+            <v-img
+              src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1698719869/nathanWalkerPortfolio/Adobe_Illustrator_CC_icon.svg_vvxwbs.png"
+            ></v-img>
+          </v-col>
+          <v-col cols="12">
+            Illustrator
           </v-col>
         </v-row>
       </v-col>
@@ -144,6 +178,8 @@ export default {
       analytics: this.tools.includes("analytics"),
       ads: this.tools.includes("ads"),
       tags: this.tools.includes("tags"),
+      unity : this.tools.includes("unity"),
+      illustrator : this.tools.includes("illustrator"),
       logo : cloudinaryCore.url('https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680548615/nathanWalkerPortfolio/NN_bglix1.png'),
       toolList : {
         // construct tool list from tools - passed in names

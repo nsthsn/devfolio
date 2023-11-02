@@ -101,22 +101,17 @@
       text='What I found - was unicorns.'
     ></PullQuote>
     <TextBlock
-      title="Market Validation"
+      title="Googley Eyes"
+      subtitle="Market Research"
       text='
         I educated myself as most eventual customers users would - I googled "counselors near me". 
-        This as a user investigation naturally doubled as market research. Anyone I saw was a competitor!
-        <br><br>
         I expected local brick and mortar private practices, but what I found - were unicorns.
-        And where there are unicorns there is highly optimized assets sparkling from polish by VC financed geniuses.
         <br><br>
-        I also uncovered another major market player - directory services. The biggest of these was Psychology Today.
-        Investigation revealed niche players as well.
+        I discovered another major market player - directory services. The market was inundated with established directories and many up and comers.
         <br><br>
         The presence of unicorns was enough for me to consider the market validated. But was their room for me?
       '
     ></TextBlock>
-    <!-- ESTABLISH THE PROCESS -->
-    <!-- Display the unicorns -->
     <ImageBox
       :images=unicornImages
       caption=""
@@ -124,7 +119,10 @@
     ></ImageBox>
     <TextBlock
       title="Competitive Analysis"
-      text="I conducted a SWOT analysis to help clarify the situation for myself, my partner, and my mentors."
+      text="
+        I conducted a SWOT analysis to help clarify the situation for myself.
+        I continued this as a living document as the project gained momentum and we obtained mentors and peers.
+      "
     ></TextBlock>
     <NoteCard
       title="SaaS Competition"
@@ -136,15 +134,15 @@
         },
         {
           title: 'Weaknesses',
-          text: 'Model undermines counseling relationship leading to poor outcomes<br>Exploited Workers offer poor service.<br>Attract bad clients'
+          text: '<ul><li>Model undermines counseling relationship leading to poor outcomes<li>Exploited Workers offer poor service.<br>Attract bad clients</ul>'
         },        
         {
           title: 'Opportunities'
-,          text: 'Undercut traditional counseling<br>Develop new technology<br>24/7 availability<br>Exploit workers'
+,          text: '<ul><li>Undercut traditional counseling<li>Develop new technology<li>24/7 availability<br>Exploit workers</ul>'
         },
         {
           title: 'Threats',
-          text: 'Ethical inability to control relationship. Savvy counselors use them as marketing channel.<br>Poachable work force'
+          text: '<ul><li>Ethical inability to control relationship. Savvy counselors use them as marketing channel.<li>Poachable work force</ul>'
         },
       ]"
     ></NoteCard>
@@ -155,19 +153,19 @@
       :cards="[
         {
           title: 'Strengths'
-,          text: 'Established, expected model<br>Physical location.'
+,          text: '<ul><li>Established, expected model<li>Physical location.</ul>'
         },
         {
           title: 'Weaknesses',
-          text: 'Overhead<br>Georgraphically bound'
+          text: '<ul><li>Overhead<li>Geographically bound</ul>'
         },        
         {
           title: 'Opportunities'
-,          text: 'Offer remote as addon<br>'
+,          text: '<ul><li>Offer remote as addon</ul>'
         },
         {
           title: 'Threats',
-          text: 'Remote offers no commute for clients<br>Remote offers time flexibility for clients<br>Poachable Staff'
+          text: '<ul><li>Remote offers no commute for clients<li>Remote offers time flexibility for clients<li>Poachable Staff</ul>'
         },
       ]"
     ></NoteCard>
@@ -181,15 +179,15 @@
         },
         {
           title: 'Weaknesses',
-          text: '<ul><li>Small team<li>Bootstrap funding</ul>'
+          text: '<ul><li>Small team == no redundancy<li>Bootstrap funding</ul>'
         },        
         {
           title: 'Opportunities'
-,          text: 'Copy Competitor Asssets<br>Use Competitor Platform<br>Poach Competitor Workforce<br>International Clients'
+,          text: '<ul><li>Copy Competitor Asssets<li>Use Competitor Platform<li>Poach Competitor Workforce<li>International Clients</ul>'
         },
         {
           title: 'Threats',
-          text: 'Insurance Dependence<br>Established agencies going remote<br>Venture Capital Marketing Reach'
+          text: '<ul><li>Insurance Dependence<li>Established agencies going remote<li>Venture Capital Marketing Reach</ul>'
         },
       ]"
     ></NoteCard>
@@ -208,15 +206,18 @@
         I built studio lighting and a background to heighten the counseling experience.
       "
     ></TextBlock>
+    <PullQuote
+      text='Getting fat running Lean!'
+    ></PullQuote>
     <TextBlock
       title="One Down Infinity to go"
       subtitle="Running Lean"
       contrast="true"
       text="
         By selling one hour as a 1099 worker through our competitor's platform - Flyover had achieved it's first quantifiable goal. 
-        Furthermore - we had reached it by developing nothing and paying nothing. Even better - we were reimbursed for our experiment. Get fat running lean!
+        Furthermore - we had reached it by developing nothing and paying nothing. Even better - we were reimbursed for our experiment. We were getting fat running Lean! 
         <br><br>
-        This was a huge success of my favorite type. I completely subverted my own expectation on how I would achieve our minor quantifiable. 
+        This was a huge success of my favorite type. I completely subverted my own expectation on how I would achieve our goals. 
         I established a new minor quantifiable goal - convert a client via our web presence.
       "
     ></TextBlock>
@@ -227,48 +228,46 @@
       subtitle="Asset generation"
       text='
         SaaS-style corporations, lifestyle businesses, and traditional agencies were all moving into the online space.
-        This was great. The market was real and my competition was capturing clients. Rather than exercise creativity, I could identifty and copy their successful assets.
+        The market was real and my competition was capturing clients. 
         <br><br>
-        I could trust their web design. The elements they emphasized I should emphasize.
+        This was great - rather than exercise creativity, I would copy them while respecting protected IP.
+        <br><br>
         I chose BetterHelp and TalkSpace as quality targets from the SaSS domain.
-        As venture capital-backed companies, I had faith in their UX and marketing teams.
-        <br><br>
         I would do what they did - but worse! I am not a venture capital funded team of geniuses. 
         <br><br>
-        Evaluating agency websites was more difficult. Positive example was tough to identify - I had no access to lifestyle business data.
+        Evaluating agency websites was more difficult. Positive examples were tough to identify - I had no access to lifestyle business data.
         Instead I found negative examples by monitoring online groups - people who were struggling are very vocal in calls for help.
         <br><br>
-        My evaluation yielded three commonalities.
-        These informed my initial requirements.
+        My evaluation yielded commonalities.
+        I broke these down into stories and then broke the stories into requirements.
+        When I finished my quantitative requirements, my qualitative stories should reflect the user experience.
       '
     ></TextBlock>
     <NoteCard
+      cardColumns="6"
       :cards="[
         {
-          title: 'Landing Splash',
-          text: 'As a user, I encounter a splash screen.'
+          title: 'Landing Story',
+          text: 'As a user, I encounter a splash screen. The splash should evoke human connection.'
         },
         {
-          title: 'Splash Overlay',
-          text: 'As a user, I encounter overlay text on the splash screen.'
+          title: 'Splash Story',
+          text: 'As a user, I encounter overlay text on the splash screen. The text calls attention a benefit of counseling.'
         },
         {
-          title: 'Call To Action',
-          text: 'As a user, I can schedule a session by pressing a button.'
+          title: 'Action Story ',
+          text: 'As a user, I can schedule a session by pressing a button. The button is highlighted by the composition to pull the eye.'
         },
-      ]"
-    ></NoteCard>
-    <NoteCard
-      :cards="[
         {
-          title: 'Requirements',
+          title: 'Story Requirements',
           text: 
-          '1. Select and format splash image.<br>' +
-          '2. Write and layout overlay text.<br>' +
-          '3. Layout call-to-action button.<br>' +
-          '4. Establish editor to live toolchain.<br>' +
-          '5. Implement call-to-action. '
+          '<ol><li> Select and format splash image.' +
+          '<li> Write and layout overlay text.' +
+          '<li> Layout call-to-action button.' +
+          '<li> Establish editor to live toolchain.' +
+          '<li> Implement call-to-action.</ol>'
         }
+
       ]"
     ></NoteCard>
     <TextBlock
@@ -279,8 +278,7 @@
         I spent very little time worrying about the content all of my time worrying about the form.
         As an iterative creator, I had little expectation of hitting a home run, I just needed a starting point.
         <br><br>
-        I still had plenty of time to make mistakes. For example, for my aesthetic choice I focused on the keyword 'forward progress'.
-        This was a misevaluation from my research. Later I determined the correct keyword was 'human connection'.
+        After launch, I was able to validate usability by asking existing customers to book their next appointment through the interface.
       "
     ></TextBlock>
     <ImageBox
@@ -299,6 +297,7 @@
       title="Artificial Interest"
       subtitle="Marketing"
       text="
+        <br><br>
         The website was built, it was time to find customers.
         This meant advertising.
         While specific phrases are protected under copyright, altered phrases are not.
@@ -315,12 +314,12 @@
       title="Overcoming Bureacracy"
       subtitle="Monitoring kpis"
       text="
-        Ads were running great - until they weren't running at all. We were in violation ... of something. A frustration of using the Silicon Valley behemoths is a lack of communication or clarification.
+        Ads were running great - until they weren't running at all. We were in violation of new ad policies.
         <br><br>
         Our counselors are veterans of dual diagnosis - co-occurring mental health and substance use disorders. Predatory marketers were making a lot of money selling solutions to addicts that were not evidence based. 
         Major advertisers had moved to certification for addiction counseling and were using machine learning to identify offenders.
         <br><br>
-        We had been identified as such an offender. Words such 
+        We had been identified as such an offender. But why? Unfortunately, this policy is enforced by machine learning - no one knows why! This is an interesting problem with our new AI assistance. 
       "
     ></TextBlock>
     <ImageBox
@@ -340,8 +339,8 @@
         text="
           The stage was set. It was time to look for trouble.
           <br><br>
-          Towards this end, I gathered metrics from several sources and found problems manifesting in all of them.
-          I evaluated ad performance, directory performance, website performance, and most difficultly - the consultation.
+          I evaluated metrics measuring ad performance, directory performance, website performance, and most difficultly - the consultation.
+          Quite fortunately, there were problems everywhere.
         "
     ></TextBlock>
     <NoteCard
@@ -367,15 +366,15 @@
       :cards="[
         {
           title: 'Hypothesis',
-          text: 'Poor directory performance indicated problems in the copy - it was not connecting with the target customer.'
+          text: 'A high bounce rate indicated customers either the wrong customers were arriving or the right customers were arriving with the wrong expectations.'
         },
         {
           title: 'Action',
-          text: 'I had counselors write a love letter to their favorite client.<br><br> I then rewrote it as copy describing the ideal client and the counselors style.'
+          text: 'I hypothesized this was a problem with my marketing. I theorized the expectation generated by my ads was not preparing customers for my content.'
         },
         {
-          title: 'Result (FIND A NUMBER!!!)',
-          text: 'Ideal clients began reaching out. Post-consultation interviews revealed I needed to tone it back a little.<br><br> Second and third iterations dialed it in.'
+          title: 'Result',
+          text: ''
         }
       ]"
     ></NoteCard>
@@ -393,20 +392,29 @@
           text: 'I had the counselors avoid hard topics until the customer initiated. I had the counselors avoid any diagnostic and focus on relationships.'
         },
         {
-          title: 'Result (FIND A NUMBER!!!)',
-          text: 'Conversions increased dramatically. Conversions went from 0% to nearly 100%. '
+          title: 'Result',
+          text: 'Cash Conversions went from nearly 0% to nearly 100%. Insurance conversions also improved.'
         }
       ]"
     ></NoteCard>
     <TextBlock
+      title="New metrics"
+      subtitle="Tuning"
+      text="
+        With the bounce rate improving, I had high confidence my inbound customers were at least interested. 
+        <br><br>
+        I wanted to make sure customers were consuming the rest of my content.
+      "
+    ></TextBlock>
+    <TextBlock
       title="Fixing Directory Performance"
-        subtitle="Writing Love Letters"
-        text="
-          I needed copy that would connect with clients. Specifically with the clients the counselors wanted.
-          <br><br>
-          I 
-        "
-      >
+      subtitle="Writing Love Letters"
+      text="
+        I needed copy that would connect with clients. Specifically with the clients the counselors wanted.
+        <br><br>
+        I 
+      "
+    >
       </TextBlock>
       <TextBlock
         title="Perfecting the Consultation"
@@ -426,7 +434,7 @@
         "
       ></TextBlock>
       <TextBlock
-        title="Spreading Expertise"
+        title="Fixing bounce rate"
         text="
           I had the counselors conduct a mock consultation with me as the client while the other counselors watched.
           As I feigned a litany of weaknesses, I had an a-ha moment. The successful consultant was focused on relationship building, the others were getting started on assessment.
