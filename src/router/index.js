@@ -48,7 +48,10 @@ Vue.use(VueRouter)
   },
   {
     path:'/*',
-    component: 404
+    name : '404',
+    component: {
+      template: '<p> Page Not Found </p>'
+    }
   },
 ]
 
