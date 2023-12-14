@@ -36,10 +36,40 @@ $blue03: #DDE2E9;
 $orange00: #2E291C;
 $orange01: #524728;
 $orange02: #D98E4A;
+$orange03: #F4DDD0;
 
 $red00: #D9344D;
+// $red01: rgba($red00, .8);
 
 $yellow00: #D9B034;
+
+$green00: rgba(#41733F, .8);
+
+.success-color {
+  background-color: $green00;
+  // color: $orange03;
+  .subtitle-color {
+    color: rgba(244,221,208, 0.6);
+  }
+  .text {
+    color: rgba(244,221,208, 0.8);
+  }
+}
+
+.mistake-color {
+  background-color: rgba($red00, .9);
+  // color: $orange03;
+  .subtitle-color {
+    color: rgba($yellow00, 0.6);
+  }
+  .text, caption {
+    color: rgba($yellow00, 0.8);
+  }
+  .title-color {
+    color: rgba($yellow00, 0.8);
+  }
+
+}
 
 body {
     background-color: $backgroundColor;
@@ -196,6 +226,22 @@ a, u {
   padding-top: $m3;
   padding-bottom: $m3;
 }
+
+.subtitle {
+  margin-top:-20px;
+  color: $mediumEmphasisDark;
+  font-weight: bold;
+}
+
+.contrast-lining {
+  box-shadow: -2px 0px 0px 0px $orange01, 2px 0px 0px 0px $orange01;
+}
+
+// .mistake-color {
+//   background-color: $red00;
+//   color: $yellow00;
+// }
+
 
 
 // .xs-display, .sm-display {

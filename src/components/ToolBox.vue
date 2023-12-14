@@ -1,11 +1,5 @@
 <template>
-  <div class="tool-box">
-    <!-- <div class="content"> -->
-    <!-- <v-row class="content" justify="center">
-      <v-col class="text-left" cols="12">My Role</v-col>
-      <v-col cols="12"></v-col>
-    </v-row> -->
-    <!-- </div> -->
+  <div class="tool-box contrast-lining">
     <v-row class="content caption" justify="start" align-content="bottom">
       <!-- <v-col cols="12 header-two text-left"> Tools</v-col> -->
       <v-col
@@ -160,6 +154,41 @@
           </v-col>
         </v-row>
       </v-col>
+
+      <v-col
+        v-if="jira"
+        cols="1"
+      >
+        <v-row>
+          <!-- Tool -->
+          <v-col cols="12">
+            <v-img
+              src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1699467366/nathanWalkerPortfolio/Jira-Icon-Website_swr3ya.png"
+            ></v-img>
+          </v-col>
+          <v-col cols="12">
+            Jira
+          </v-col>
+        </v-row>
+      </v-col>
+
+      <v-col
+        v-if="github"
+        cols="1"
+      >
+        <v-row>
+          <!-- Tool -->
+          <v-col cols="12">
+            <v-img
+              src="https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1700003904/nathanWalkerPortfolio/25231_jl6gfc.png"
+            ></v-img>
+          </v-col>
+          <v-col cols="12">
+            Github
+          </v-col>
+        </v-row>
+      </v-col>
+
     </v-row>
   </div>
 </template>
@@ -180,6 +209,8 @@ export default {
       tags: this.tools.includes("tags"),
       unity : this.tools.includes("unity"),
       illustrator : this.tools.includes("illustrator"),
+      jira : this.tools.includes("jira"),
+      github : this.tools.includes("github"),
       logo : cloudinaryCore.url('https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1680548615/nathanWalkerPortfolio/NN_bglix1.png'),
       toolList : {
         // construct tool list from tools - passed in names

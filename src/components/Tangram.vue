@@ -4,9 +4,11 @@
       image='https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1697826221/nathanWalkerPortfolio/gameIcon_4by5_vpfoj6.png'
       title="OMG Tangram"
       text="
-        I love tangram. It is perfect. It's elegance cannot be matched - there is nothing to add, nothing to subtract. OMG Tangram is my love letter to it.
+        I love tangram and OMG Tangram is my love letter to it.
         <br><br>
-        OMG Tangram was a finalist in Microsoft's App Star 2013. It was featured on the Korean Cable TV show HungryApp.<br><br> It is consistently the highest rated tangram during it's tenure on any app store.
+        It was a finalist in Microsoft's App Star 2013. It was featured on the Korean Cable TV show HungryApp.
+        <br><br>
+        It is consistently the highest rated tangram during it's tenure on any app store.
       "
     >
       <a class='get-it' href='https://play.google.com/store/apps/details?id=com.mooncalf.omgTangram&hl=en_US&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class='get-it' alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
@@ -18,9 +20,9 @@
       <TextBlock
         title="Context"
         text="
-          I was beginning work on my MBA. I decided to supplement my education by starting a business. A blend of book and hands on learning cannot be matched for efficacy.
+          I had an entrepreneurial itch and I was dying to scratch it. I also knew - when it came to business - I knew nothing.
           <br><br>
-          I was inclined towards independent game development - like many of my programming peers an interest in video games was what pulled me into learning to programming.
+          I decided to begin two synergistic projects - I would obtain an MBA and start an independent game studio.
         "
       >
       </TextBlock>
@@ -28,9 +30,26 @@
         title="My Role"
         contrast=true
         text="
-          I did everything for this project. My role was learning followed by execution.
+          My role was learning followed by execution. I did everything for this project.
           <br><br>
-          I cut my teeth on user testing, digital art, analytics, agile development, marketing, and refreshed myself on a wee bit calculus sprinkled with linear algebra. 
+          I cut my teeth on user testing, digital art, analytics, agile development, marketing, design patterns and refreshed myself on a wee bit of calculus sprinkled with linear algebra. 
+        "
+      ></TextBlock>
+      ADD PICTURE OF USER STORY AND ITERATIONS FROM NOTEBOOK?
+      <TextBlock
+        title="Establishing Process"
+        subtitle="Agile"
+        text="
+          I started this project by establishing an Agile process that would carry me from the beginning to the end.
+          I created an iterative process with 2-week Sprints.
+          <br><br>
+          To begin, I wrote a story about the experience a user would have with my product at the end of the Sprint.
+          I broke this down into requirements.
+          <br><br>
+          At the end of every cycle - I did a post-mortem. I asked myself, 'Are the requirements fulfilled? Did I succeed? Why or why not?'.
+          I reviewed the twelve agile tenets and asked myself, 'Am I being Agile? How can I be more Agile?'.
+          <br><br>
+          I decided on any alterations. Then I wrote the next Sprint's story.
         "
       ></TextBlock>
       <TextBlock
@@ -43,9 +62,10 @@
           I decided to do the same.
         "
       ></TextBlock>
+      CREATE TANGRAM SHARK ART WITH RED BACKGROUND
       <NoteCard
-        title="Seeing red"
-        subtitle=""
+        title="Finding Blue in a Red Ocean"
+        subtitle="Opportunity Criteria"
         :cards="[
           {
             title: 'High Downloads',
@@ -53,7 +73,7 @@
           },
           {
             title: 'Low Quality',
-            text: 'I was a solo developer. I needed competition I could confidently crush technically and artistically. <br><br> My hypothesis : quality could carry me up App Store rankings.'
+            text: 'I was a solo developer. I needed competition I could confidently crush technically and artistically.'
           },
           {
             title: 'Actual Revenue',
@@ -61,6 +81,18 @@
           },
         ]"
       ></NoteCard>
+      <PullQuote
+        text="Spoiler: I was wrong."
+      ></PullQuote>
+      <TextBlock
+        title="Naivete Scene"
+        subtitle="Opportunity Hypothesis"
+        text="
+          My hypothesis : Quality would carry me up the App Store rankings to capture the market.
+          <br><br>
+          Spoiler : I was wrong.
+        "
+      ></TextBlock>
       <TextBlock
         title="The search for inspirado"
         subtitle="Market research"
@@ -103,16 +135,6 @@
         "
       >
       </TextBlock>
-      <TextBlock
-        title="The friends I made"
-        subtitle="Establishing Accountability"
-        text="
-          Independent development is prone to tunnel vision. I established stakeholders (wrong word) in my MBA program by making every school project about my entrepreneurial project. As faculty and students became aware, they became interested. 
-          Ten years later, random encounters still generate interest in how the project went.
-          <br><br>
-          I joined game development meetups, entrepreneurial meetups, and user experience meetups. This provided me with another cohort of people who cared and with expertises different than mine.
-        "
-      ></TextBlock>
       <ImageBox
         :images=completePuzzleImages
         :columns="6"
@@ -125,8 +147,8 @@
         subtitle="Market Research"
         :cards="[
           {
-            title: 'Store Reviews',
-            text: 'I learned users were often parents but just as often adults. Men and women were well represented.<br><br>Tangram was popular in the US but seemed more popular internationally.'
+            title: 'Store Reviews and Rankings',
+            text: 'I learned users ranged from children to adults. Often adults were parents seeking games for their children. Men and women were well represented.<br><br>Tangram was popular in the US but more popular internationally.'
           },
           {
             title: 'Primary Research',
@@ -174,10 +196,11 @@
       <TextBlock
         title="Mistakes were made"
         subtitle="Leading the User"
+        mistake="true"
         text="
-          As in person tester, one must practice their poker fast. I learned this later.
+          For in-person testing, one must practice their poker face. I learned this later.
           <br><br>
-          During my alpha testing, I was creating outside interaction loops with body language while the user tested for me. These outside interaction loops made me blind to issues I would face later.
+          During alpha testing, I created outside interaction loops with my body language. These outside interaction loops led the user and made me blind to issues I would face later.
         "
       ></TextBlock>
 
@@ -193,10 +216,19 @@
         "
       >
       </TextBlock>
-
       <TextBlock
-        title=""
+        title="A kick in the teeth"
         subtitle="Analytics"
+        text="
+          The first version of OMG tracked one custom analytic - puzzle completions.
+        "
+      ></TextBlock>
+      <TextBlock
+        title="Mistakes were made"
+        subtitle="Learning through failure"
+        text="
+          I chose the wrong technology. I bet on the wrong horse. With all the data in front of me - and a goal of cross-platform domination - I had picked 
+        "
       ></TextBlock>
 
       <TextBlock
@@ -292,7 +324,7 @@
       <TextBlock
         title="There was a flippin' problem"
         text="
-          The first time user funnel was looking pnearly erfect. Better than perfect. Perfect was a 95% pass rate - 5% error is acceptable. 100% in a day was not uncommon for most funnel steps.
+          The first time user funnel was looking nearly perfect. Better than perfect. Perfect was a 95% pass rate - 5% error is acceptable. 100% in a day was not uncommon for most funnel steps.
           <br><br>
           But I still had a flipping problem. A literal flippin' problem. Double tap as a gesture was a disaster - the beta FTUE success rate had been below 50%. The most recent version could dip down to the 70s.
           <br><br>
@@ -311,6 +343,18 @@
           Add extra piece. Reduces elegance.
         "
       ></TextBlock>
+      <TextBlock
+        title="Death of a Dream"
+        subtitle="Invalidating Hypotheses"
+        text="
+          I had hypothesized that quality would lead me to the top of the charts. While I had steadily climbed, my growth had stagnated. Even then - my belief had not.
+          <br><br>
+          Then one day, suddenly, worldwide, there was a new number one tangram app. Within a week it had garnered 1000 unanimous 5-star reviews. This is not actually possible. 
+          This was paid for by a marketing firm. Over time, it's real rating would reveal itself, but it's market position remains secure.
+          <br><br>
+          I had to face it - my hypothesis was incorrect. To achieve my goal in a mature marketplace - I needed mature marketing. A level of marketing beyond my skill and means. It was time to stop.
+        "
+      ></TextBlock>
     </ContentColumn>
   </div>
 </template>
@@ -325,14 +369,14 @@ import ImageBox from '@/components/ImageBox.vue';
 import VideoBox from '@/components/VideoBox.vue';
 import NoteCard from '@/components/NoteCard.vue';
 import ContentColumn from '@/components/ContentColumn.vue';
-//import VideoPlayer from '@/components/VideoPlayer.vue';
+import PullQuote from '@/components/PullQuote.vue';
 
 export default {
   name: "Tangram",
   components : {
     StudyBanner,
     TextBlock,
-    // PullQuote,
+    PullQuote,
     ImageBox,
     VideoBox,
     NoteCard,

@@ -70,6 +70,7 @@ export default {
     margin: 0 0 $m1 0;
     outline: solid;
     outline-color: $orange01;
+    outline-width:2px; 
     position: absolute;
     top: 0;
     bottom: 0;

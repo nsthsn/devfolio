@@ -1,5 +1,5 @@
 <template>
-  <v-row class="study-banner  ml-0 mr-0">
+  <v-row class="study-banner  contrast-lining ml-0 mr-0">
     <v-col cols="3" class="pa-0">
       <v-img 
         class="banner-image"

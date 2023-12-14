@@ -8,7 +8,7 @@
       "
     ></StudyBanner>
     <ToolBox
-      tools="['photoshop', 'figma', 'vscode', 'vuejs']"
+      tools="['photoshop', 'figma', 'vscode', 'vuejs', 'analytics', 'jira']"
     ></ToolBox>
     <ContentColumn>
       <TextBlock
@@ -23,26 +23,38 @@
       ></TextBlock>
       <TextBlock
       title="Drop Dead Line"
+      subtitle="Objective"
       text="
         Identity Automation had resources but they also had an imperative : if their product did not work in a web browser the day Flash was disabled - they had no customers and were in breach of innumerable contracts.
         If we didn't make the deadline - the business would suffer. And that suffering would most likely be fatal.
       "
       ></TextBlock>
       <TextBlock
+        title=""
+        subtitle="Key Results"
+        text="
+          All product features available in new codebase.
+          No lost customers.
+          Integrate acquisition features.
+          Consistent UI design.
+        "
+      />
+      <TextBlock
       title="The Product"
+      subtitle="And the Kitchen Sink"
       text="
-        Identity Automation was in the identity management business. Our focus was controlling access to digital resources. For our customers, this was often legally required. Additionally, any access of changes often needed to be auditable.
+        Identity Automation was in the identity management business. Our focus was controlling and auditing access to digital resources. A resource could be an Instagram account or a Word Document.
         <br><br>
-        RapidIdentity was a hodge podge of functionality. The companies standard strategy was to sell something, build it, then sell it again. This resulted in a total of 8 modules - each of which was often sold as a product unto itself.
+        RapidIdentity was a hodge podge of functionality designed by accretion by programmers. The companies standard strategy was to sell something, build it, then sell it again. 
       "
       ></TextBlock>
       <TextBlock
       title="My Role"
       text="
-        I was hired as a Senior Software Engineer. My primary task was rewriting the companies primary web service.
-        Simultaneously, I supported bug and feature requests in the old product. My newly formed team of 5 was tasked with the entire front-end rewrite.
+        I was hired as a Senior Software Engineer. My primary task was rewriting the companies core product.
+        Simultaneously, I supported bug and feature requests in the old product.
         <br><br>
-        My responsibilities rapidly grew until I was hosting weekly meetings with the company leadership. This story is indicative of why.
+        I coordinated with the backend team, QA, and sales on a daily basis. Later in my tenure, I led a weekly meeting with the CTO, Director of Engineering, Engineering Managers and two Product Managers.
       "
       ></TextBlock>
 
@@ -70,37 +82,40 @@
         cardColumns="6"
         :cards="[
           {
-            title: 'End User',
+            title: 'Leaf User',
             text: 'Used software to access and manage digital assets. This could be an Instagram account or a Word Document. Credentials were obfuscated from the user - all they had to know was their RapidIdentity login. <br><br> Because we sold into government, we often had a legal obligation to accessibility.'
           },
           {
-            title: 'IT User',
+            title: 'Node User',
             text: 'This user created and managed the entitlement properties managed by the managers.'
           },
           {
-            title: 'Internal Users',
+            title: 'Elevated Users',
             text: 'This included our Customer Service as well as outside consultants. These users were the first one on the ground for installations and the last line of defense when things went wrong. <br><br> What we owed this user was on a case-by-case basis.'
           },
           {
-            title: 'Sales Department',
-            text: 'We were a B2B company, if sales had to make a promise to get a contract they did. If sales made a promise we had to make it happen. Company growth was still a top priority.'
+            title: 'Internal User',
+            text: 'IT, Customer Service, QA, or a consultant. We were a B2B company, if sales had to make a promise to get a contract they did. If sales made a promise we had to make it happen. Company growth was still a top priority.'
           },
           {
             title: 'Stakeholders',
-            text: 'We had a C-Suite and they had taken Venture Capital money. Performance for equity was in play. Milestones set in ink before the drop-dead date had to be taken into consideration.'
+            text: 'We had a C-Suite and they had taken Venture Capital money. Salesman had made promises and needed performance for a payday. Performance for equity was in play. Milestones set in ink before the drop-dead date had to be taken into consideration.'
           },
         ]"
       ></NoteCard>
+      <PullQuote
+        text="I was not a Pokemon trainer"
+      ></PullQuote>
       <TextBlock
         title="Early wins"
         subtitle="Analytics"
         text="
-          Revealed internal users were not really using the alpha. Revealing I could tell - and within the company could personally identify them - rectified the problem immediately. This led to an essential increase in bug reports and feedback. I was not a Pokemon trainer, without help I could not catch them all.
-          <br>
+          Revealed internal users were not really using the alpha. Letting staff know I knew rectified the problem immediately. This led to an essential increase in bug reports and feedback. I was not a Pokemon trainer, without help I could not catch them all.
+          <br><br>
           Revealed browser and OS usage. No customer was using internet explorer. We safely deprioritized bugs identified by QA. We maintained QA on IE and put issues into a special bucket in case we obtained an IE7 customer.
-          <br>
-          Revealed some large clients were not using the product AT ALL. Support reached out, issues were identified and entire accounts were saved.
-          <br>
+          <br><br>
+          Revealed some clients were not using the product AT ALL. Support reached out, issues were identified and entire accounts were saved.
+          <br><br>
           Revealed features were only being used internally. We could safely deprioritze new development. I took that time to recruit internal testers and focused on pre-development UX activities to improve my co-workers workdays.
         "
       >
@@ -109,8 +124,10 @@
         title="Tracking failure"
         subtitle="Cohort Analysis"
         text="
-          As our rewrite gained capabilities we began to prompt end users to try our beta product with a prominent button that allowed them to return to the old product. Users that participated in the beta became part of a tracked cohort, users that then reverted became part of another one.
-          Whatever action they took upon reversion was of supreme interest - a safe assumption was that the new interface had failed them in some way.
+          As our rewrite gained capabilities we began to prompt end users to try our beta product with a prominent button that allowed them to return to the old product. 
+          Users that participated in the beta became part of a tracked cohort, users that then reverted became part of another one.
+          <br><br>
+          Whatever action users took upon reversion was of supreme interest - a safe assumption was that the new interface had failed them in some way.
         "
       ></TextBlock>
       <TextBlock
@@ -145,6 +162,11 @@
         The company made an open call for solutions - on the surface the problem seemed intractable.
       "
       ></TextBlock>
+      <ImageBox
+        :images=conditionsImage
+        caption="
+        "
+      ></ImageBox>
       <TextBlock
       title="A sharp knife"
       subtitle=""
@@ -156,6 +178,11 @@
       "
       ></TextBlock>
       INSERT FEATURE AUDIT TABLE FROM PM BOOK HERE
+      <table style="width: 100%;">
+        <tr>lalala</tr>
+        <tr></tr>
+        <tr></tr>
+      </table>
       <TextBlock
         title="Time to kill a baby"
         subtitle="Saying No"
@@ -240,20 +267,24 @@ import TextBlock from '@/components/TextBlock.vue';
 import ToolBox from '@/components/ToolBox.vue';
 import NoteCard from '@/components/NoteCard.vue';
 import ContentColumn from '@/components/ContentColumn.vue';
+import PullQuote from '@/components/PullQuote.vue';
+import ImageBox from '@/components/ImageBox.vue';
 
 export default {
   name: "IdentityAutomation",
   data() {
     return {
+      conditionsImage: ['https://res.cloudinary.com/mooncalf/image/upload/f_auto/v1683694307/nathanWalkerPortfolio/conditions-treated_k9bnuw.png'],
     }
   },
   components : {
     StudyBanner,
     TextBlock,
-    // PullQuote,
+    PullQuote,
     ContentColumn,
     NoteCard,
     ToolBox,
+    ImageBox
   },
 }
 </script>
