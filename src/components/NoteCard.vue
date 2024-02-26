@@ -50,8 +50,8 @@ export default {
     background-color: $blue01;
   }
   .note-card {
-    //background-color:yellow;
-    //box-shadow: 10px 10px lightblue;
+    background-color:$yellow00;
+    box-shadow: 10px 10px #A3862A;
   }
   ul, li {
     font-family: $bodyFont;

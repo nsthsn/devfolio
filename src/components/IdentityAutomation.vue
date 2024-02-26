@@ -8,7 +8,7 @@
       "
     ></StudyBanner>
     <ToolBox
-      tools="['photoshop', 'figma', 'vscode', 'vuejs', 'analytics', 'jira']"
+      tools="['photoshop', 'figma', 'vscode', 'ember', 'analytics', 'jira']"
     ></ToolBox>
     <ContentColumn>
       <TextBlock
