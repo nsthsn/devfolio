@@ -20,7 +20,7 @@
       text="
         Remote employment was a squad goal. For my squad, this meant starting an online counseling agency - my wife was a mental health therapist. Even now, acceptable online counselor jobs remain in short supply.
         <br><br>
-        Insurance reciprocity laws had just reached Kansas. This meant insurance companies had to reimburse telehealth at the same rate as in person treatment. Teletherapy was cash only.
+        Insurance reciprocity laws had just reached Kansas. This meant insurance companies had to reimburse telehealth at the same rate as in person treatment.
         <br><br>
         Before COVID, teletherapy could be a hard sale. Potential customers dismissed it out of hand.
         We were starting from zero - no customers, no presence.
@@ -54,8 +54,6 @@
       title="Metrics That Mattered"
       subtitle="Mission Key Results"
       text="
-        I didn't know much but I did know how to tell when we were done.
-        <br><br>
         Quantitatively, I was done when all desired hours were sold to clients within our target demographic.
         <br><br>
         Qualitatively, I was done when the counselors say, 'Best job ever!'
@@ -226,7 +224,7 @@
         },        
         {
           title: 'Opportunities'
-,          text: '<ul><li>Copy Strategy<li>Use Competitor Platform<li>Poach Competitor Workforce<li>International Clients</ul>'
+,          text: '<ul><li>Copy Strategy<li>Paid Learning Available<li>International Clients</ul>'
         },
         {
           title: 'Threats',
@@ -414,22 +412,6 @@
     <TextBlock
         title=""
         subtitle="Beta Objective Complete"
-    />
-
-    <TextBlock
-        title=""
-        subtitle="Gamma Objective"
-        text="
-          Every thing was in place and customer's were arriving.
-        "
-    />
-
-    <TextBlock
-        title=""
-        subtitle="Gamma Key Result"
-        text="
-          Our objective would be achieved in 
-        "
     />
 
     <TextBlock
